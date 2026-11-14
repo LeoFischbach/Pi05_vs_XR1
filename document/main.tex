@@ -43,7 +43,7 @@ $\pi_0$ addresses the remaining gap between language-token prediction and contin
 \papertodo{Explain shortly what $\pi_0.5$ has contributed and whats new with it compared to former VLAs}
 
 \subsection{Xiaomi Robotics 1}
-\papertodo{Explain shortly what XR1 has contributed and whats new with it compared to former VLAs, especially whats different from $pi_0.5$}
+Where $\pi_{0.5}$ is combining heterogeneous data and semantic prediction to improve generalisation in new homes \cite{black2025pi05}, Xiaomi-Robotics-1 (XR-1) is focused on scaling up the robot experience that's available for pretraining. It's trained on over 100k hours of real world manipulation trajectories collected via UMI devices. An automated pipeline is used to label trajectory segments with descriptions of what the scene has changed to, so that the model can learn from that data without having to have manually written instructions for every single segment. There's a second training stage which uses cross-embodiment robot data to adapt those capabilities to robot hardware and to imperative language instructions. The architecture is a pretrained Qwen3-VL backbone paired with a smaller action generator which produces continuous action chunks via flow matching \cite{team2026xiaomi}. In the authors' evaluation of four new tasks with very limited fine tuning data, XR-1 achieved a higher average success than $\pi_{0.5}$. That comparison does show task adaptation, it just doesn't tell us how either model responds to controlled visual disturbance.
 
 \subsection{Robustness and Distribution Shifts}
 \papertodo{IMPORTANT: Explain why a high success rate under ideal conditions is not 100\% meaningful under chaging conditions}
