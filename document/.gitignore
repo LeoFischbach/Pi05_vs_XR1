@@ -1,0 +1,14 @@
+.DS_Store
+out/
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# The original downloaded template is kept locally as a reference.
+cvpr/
