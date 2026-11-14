@@ -22,11 +22,18 @@ Universit\`a Bocconi}
 \linenumbers
 
 \begin{abstract}
-\papertodo{TEST TEST TEST Summarize the problem, approach, main results, and conclusion.}
+\papertodo{Summarize the problem, approach, main results, and conclusion.}
 \end{abstract}
 
 \section{Introduction}
-\papertodo{Introduce the computer vision problem, its motivation, and the project contributions.}
+Large Language Models (LLMs) have proven the potential of combining deep learning architectures with vast amounts of data to learn generalizable capabilities across diverse tasks. Based on this fast progress, Vision-Language Models (VLMs) have extended LLMs by adding visual information, which enables multimodal understanding and reasoning. More recently, this paradigm has been extended even further to so-called Vision-Language-Action (VLA) models, which integrate visual observations and natural-language with robot state information to predict actions for robotic manipulation. Metaphorically speaking, this should add the "brain" of LLMs to robots. Hence VLAs offer a promising alternative over traditional, deterministic robotic systems that rely on separate perception, planning, and control components.
+
+Despite their, in theory, impressive capabilities, adapting robotic foundation models to new tasks and robotic hardware remains a challenge. Recent models use different architectures and action-generation mechanisms, and existing evaluations often differ in their robotic platforms, training datasets, and experimental conditions. These differences make direct comparisons difficult (next to the fact that many of the publications are conducted by the developers of the models, potentially suffering evaluation bias). Furthermore, real-world applicability depends not only on task success rates but also on computational requirements, fine-tuning duration, and inference efficiency. This motivates a controlled comparison of robotic foundation models under consistent experimental conditions.
+
+In this paper, we investigate the fine-tuning efficiency and real-world manipulation performance of two VLAs: $\pi$0.5, using a PaliGemma VLM backbone trained on various robotic and vision-language data, and the more recent Xiaomi-Robotics-1 (XR-1), which uses a Qwen3 backbone with a focus on large-scale pretraining data. Both models are finetuned to a two-arm manipulation task of taking a component from a box, handing it over to the other arm, and placing it into a designated tray. Using a common dataset of human demonstrations and corrective interventions, we evaluate both models on a physical robotic platform and conduct robustness studies to assess and compare their performance under varying task conditions.
+
+We make three main contributions: (1) a controlled comparison of two robotic foundation models with different architectures and pretraining strategies on a shared real-world task; (2) an empirical analysis of their fine-tuning efficiency, including training duration and computational effort; and (3) a real-world comparison of task success rates, inference latency(????), and manipulation robustness. With this, we aim to provide insights into the trade-offs between computational efficiency and task performance, supporting more informed model selection for practical robotic applications.
+
 
 \section{Related Work}
 
