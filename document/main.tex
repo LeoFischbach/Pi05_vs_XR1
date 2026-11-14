@@ -29,12 +29,17 @@ Universit\`a Bocconi}
 \papertodo{Introduce the computer vision problem, its motivation, and the project contributions.}
 
 \section{Related Work}
-\papertodo{Discuss the most relevant prior methods and explain how this project relates to them. Add citations.}
 
 \subsection{Vision-Language-Action Models}
-\papertodo{Short explanation of how models translate images and language instruction into roboter actions. RT-2 and Open-VLA as start, then $\pi_0$ as the introduction of Movement-Action exper with flow matching.}
+The development of VLA models can be understood as a progression from the limitations of earlier work on the interface between reasoning and control. SayCan used a large language model (LLM) to select semantically appropriate steps for a long-horizon instruction and learned affordance values to prefer steps that the robot was capable of executing \cite{ahn2022saycan}. It did this to ground the plan in the robot's actual capabilities, but each step was still drawn from a fixed library of pretrained skills. The LLM itself only saw textual context and not the current camera image. Information about the scene was only ever available to the planner via the affordance scores. Code as Policies moved beyond selecting named skills: the LLM wrote executable robot-control programs that linked perception to actions \cite{liang2023code}. These programs could react to observations, but their capabilities still depended on the perception and control APIs available.
 
-\subsection{$\pi_0.5$}
+RT-1 dealt with the control side of the divide. Rather than having a separate policy for each skill, it learned a single transformer policy from large scale robot demonstrations which mapped camera images and language instructions to robot actions \cite{brohan2023rt1}. It could be used as the executor in a SayCan style system to improve the execution of the planned steps. It didn't give the high level language planner any access to the images and its generalisation to new instructions was still going to be constrained by the concepts and motions present in the robot data it had seen. PaLM-E addressed the planner's visual grounding problem by inserting the image and sensor embeddings into the language model alongside the text, enabling it to generate plans conditioned on the observed scene \cite{driess2023palme}. For robotic planning this still resulted in a sequence of language level decisions which would then need a separate controller to turn into motor commands.
+
+RT-2 brought the two roles together into a single model: a pre-trained vision language model was co-finetuned on web-scale vision language tasks and robot trajectories, with the discrete robot actions being represented as output tokens \cite{zitkovich2023rt2}. The resulting VLA could leverage the visual and linguistic knowledge it had acquired from the web when choosing actions, which in turn led to better generalisation to novel objects, scenes and instructions than RT-1. It's worth noting that the web pretraining didn't actually produce any new physical motions (RT-2 still just used the skills that were present in the robot trajectories). The large backbone of the model also meant that inference cost was a concern for higher frequency control. OpenVLA made the tokenised VLA approach available to the wider community and usable across a range of robot datasets, whilst still maintaining the discrete action representation \cite{kim2025openvla}.
+
+$\pi_0$ addresses the remaining gap between language-token prediction and continuous control of the actuators \cite{black2024pi0}. The PaliGemma based vision-language backbone takes in the image tokens and the language instruction, while a smaller action expert takes in the current robot state and a chunk of noisy future actions. The two sets of transformer weights exchange information via shared attention, giving the action expert access to the visual and semantic context through the Keys and Values attention matrices without having to go through a natural language plan. Rather than predicting discrete action tokens, the expert uses conditional flow matching to iteratively transform noise into continuous actions. This is analogous in its noise-to-data generation process to the early diffusion models used for images by Sohl-Dickstein et al. \cite{sohl2015deep}, although the training objective differs. This combines the pretrained visual reasoning with a control representation that is appropriate for high frequency manipulation, with the question of robustness under changing visual conditions still open.
+
+\subsection{$\pi_{0.5}$}
 \papertodo{Explain shortly what $\pi_0.5$ has contributed and whats new with it compared to former VLAs}
 
 \subsection{Xiaomi Robotics 1}
@@ -58,10 +63,9 @@ Universit\`a Bocconi}
 \section{Conclusion}
 \papertodo{Summarize the findings, limitations, and possible future work.}
 
-% Enable the bibliography after adding references and citations:
-% {\small
-% \bibliographystyle{ieeenat_fullname}
-% \bibliography{references}
-% }
+{\small
+\bibliographystyle{ieeenat_fullname}
+\bibliography{references}
+}
 
 \end{document}
