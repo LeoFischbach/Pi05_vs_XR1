@@ -67,7 +67,7 @@ Although there's been prior work looking at VLA robustness and efficient adaptat
 
 We fine-tuned $\pi_{0.5}$ using the LeRobot implementation, initialized from the publicly available \texttt{lerobot/pi05\_base} checkpoint. The policy receives three camera observations, the original task instruction, and the current robot state. Its flow-matching action expert predicts chunks of 50 continuous actions, each containing joint-position offsets and gripper commands. Unlike the hierarchical procedure described in the original $\pi_{0.5}$ framework, our implementation does not generate intermediate semantic subtasks. Instead, action generation is conditioned directly on the task instruction and current observations, since the subtask feature is especially relevant for long-horizon tasks. 
 
-TRAINING DETAILS HERE: BATCH SIZE; TRAINING STEPS; GPU HOURS ETC. Training was performed on NVIDIA A100 80\,GB GPUs, using one GPU initially and four GPUs for the remaining stages.
+We fine-tuned the $\pi_{0.5}$ policy in a single run. Training used the complete 633-episode dataset, with corrective trajectories upweighted by a factor of 2.622 during sampling. We fine-tuned all model parameters using AdamW, an effective batch size of 64, and BF16 mixed precision. The learning rate followed a cosine schedule from $2\times10^{-5}$ to $5\times10^{-6}$, with 500 warmup steps. Training ran for 17,324 optimization steps on four NVIDIA A100 80\,GB GPUs, requiring approximately 13.9 hours. We saved checkpoints after 4,331, 8,662, 12,993, and 17,324 steps, corresponding to one through four nominal epochs.
 
 \subsection{Xiaomi-Robotics-1 Fine-Tuning}
 
