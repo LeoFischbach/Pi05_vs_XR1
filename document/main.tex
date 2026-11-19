@@ -4,6 +4,7 @@
 \documentclass[10pt,twocolumn,letterpaper]{article}
 
 \usepackage{cvpr}
+\usepackage{float}
 \usepackage[switch,mathlines]{lineno}
 
 \definecolor{cvprblue}{rgb}{0.21,0.49,0.74}
@@ -81,7 +82,7 @@ Both approaches therefore use the same final task dataset but differ in their ac
 Both policies were evaluated on the physical dual arm setup using a 30hz control loop. Predictions were generated asynchronously in action chunks as the robot carried on with the execution of the current chunk. The $\pi_{0.5}$ policy produced predictions of relative joint actions which were then converted into joint targets using the robot state at the time of prediction. XR-1 produced predictions of relative Cartesian end-effector actions which were then converted into joint targets via inverse kinematics. Both policies used the same safety layer to constrain joint velocities, workspace motion and potential arm collisions. As the policies used different chunk lengths and transition settings we treat the results as a comparison of the two deployed systems rather than a comparison of two isolated model architectures.
 
 \subsection{Evaluation Protocol}
-We did two real world evaluations. In the robustness study we compared the four stage ($\pi_{0.5}$) policy to XR-1 under an unperturbed reference condition and the following controlled perturbations: lighting switched off, an elevated mat, and foreign objects in the workspace. In the training progression study we evaluated the separately trained ($\pi_{0.5}$) policy at four checkpoints and XR-1 at the checkpoints after epochs 1, 2, and 4 (4,331, 8,662, and 17,324 optimisation steps) under the unperturbed condition, with c. 50 pin-placement attempts per checkpoint. The epoch-3 checkpoint could not be evaluated because of a robot malfunction; the epoch-4 results were obtained in an earlier session. We relate the success rates to optimisation steps and training compute.
+We did two real world evaluations. In the robustness study we compared the four stage ($\pi_{0.5}$) policy to XR-1 under an unperturbed reference condition and the following controlled perturbations: lighting switched off, an elevated mat, and foreign objects in the workspace. In the training progression study we evaluated the ($\pi_{0.5}$) policy at four checkpoints and XR-1 at the checkpoints after epochs 1, 2, and 4 (4,331, 8,662, and 17,324 optimisation steps) under the unperturbed condition, with c. 50 pin-placement attempts per checkpoint. The epoch-3 checkpoint could not be evaluated because of a robot malfunction; the epoch-4 results were obtained in an earlier session. We relate the success rates to optimisation steps and training compute.
 
 We manually annotated the recorded rollouts. For each pin placement attempt we recorded whether the task was successful overall and whether it was successful at each of three stages: pin grasped, pin passed to the other arm and pin placed in the correct tray slot. An attempt was only counted as a success overall if all three of those stages had been completed successfully. A stage would be marked as not applicable if it wasn't possible to attempt it due to a failure in a prior stage. The overall success rate is calculated using all attempts as the denominator; the stage-specific success rates are calculated as only attempts that reached the stage. We also recorded the length of each attempt.
 
@@ -102,6 +103,15 @@ To increase the importance of corrective demonstrations during training, the 380
 
 \section{Experiments and Results}
 \subsection{Fine-Tuning Progression}
+Both models exhibit a consistent reduction in their mean training loss over the four nominal fine-tuning epochs. Figure \textbf{HIER MUSS JETZT DIE GRAFIK AUS DEM LEO CHAPTER REIN} shows the evolution of the respective training objectives (with separate vertical scales for $\pi_{0.5}$ and XR-1). Each point is the arithmetic mean of the loss values recorded during the respective epoch. As the models are optimising different objectives, the absolute loss values are read in isolation.
+
+For $\pi_{0.5}$ the mean logged training loss went from 0.0218 in epoch 1 to 0.00855 in epoch 2, then 0.00576 and 0.00424 in epochs 3 and 4 respectively. The biggest drop was between epoch 1 and 2 (a drop of ~60.7\%). Training continued to reduce the loss, but only with diminishing absolute improvements in each subsequent epoch. The mean in epoch 4 was approximately 80.5\% lower than in epoch 1. This is clearly a case of a very significant initial adaptation to the training data, followed by a much more gradual optimisation.
+
+XR-1 showed a very similar trend in its total training objective. The mean logged loss went from 1.022 in epoch 1 to 0.667, 0.521 and 0.425 in the next three epochs respectively. The drop from epoch 1 to 2 was about 34.8\% and the drop in the fourth epoch was about 58.4\% of the first epoch value. As with $\pi_{0.5}$ the biggest absolute drop was in the early epochs, though the loss did continue to go down throughout the training period. The falling epoch averages are showing ongoing optimisation.
+
+The reported training times were c. 13.9hrs for $\pi_{0.5}$ and c. 14.6hrs for XR-1, corresponding to c. 55.6 and c. 58.4 GPU-hours respectively. So XR-1 took around 5\% more training to train for the same number of optimisation steps in these runs. These are the figures for the training pipeline as implemented, including the different input resolutions, action representations and training objectives.
+
+Overall both the fine-tuning runs reduced their respective training losses, with the absolute reductions in objective going down from epoch to epoch. The different loss definitions and the different scales make it impossible to say which model did better in terms of loss magnitude or percentage reduction. The results are a clear indication of how each model was optimising its own objective on the training data.
 
 \subsection{Performance under Environmental Pertubations}
 
