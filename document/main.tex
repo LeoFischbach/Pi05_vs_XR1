@@ -61,21 +61,7 @@ We compare pi0.5 and Xiaomi-Robotics-1 (XR-1), two VLA models that generate cont
 
 Although there's been prior work looking at VLA robustness and efficient adaptation, it's still not clear how these two models stack up against each other on the same physical manipulation task \cite{fei2026liberoplus,guo2026robustvla}. We therefore look at two questions. Firstly, with respect to robustness: how do the models do under controlled visual perturbations and at what stage of the grasping, handover and placement do the failures occur? Secondly, with respect to fine-tuning efficiency: how does task success progress across training checkpoints under unperturbed conditions in relation to training progress and compute cost? Given that the two models are so different in so many ways we interpret the results as a comparison of the two deployed systems rather than as a comparison of the effect of any one design choice.
 
-\section{Method}
-
-\subsection{Data Collection}
-
-We collected training data using a dual-arm robotic setup consisting of two six-degree-of-freedom Dobot Nova 2 arms with parallel grippers. The task is to pick up a pin from a box, hand it over to the other arm, and place it into the next available slot of an eight-slot tray in the correct order. Three RealSense cameras provide a top-down view and one POV view per arm, recording RGB images at a resolution of $640 \times 480$ pixels and 30 fps. Joint positions, gripper openings, gripper loads, and commanded actions are also recorded.
-
-The final dataset consists of 633 episodes with a total of 277,185 frames, corresponding to approximately 154 minutes of recordings. Of these episodes, 253 are teleoperated demonstrations, and 380 are corrective interventions. Demonstrations were collected through leader-follower teleoperation, while interventions were recorded by manually taking control when an executing policy encountered difficulties. All interventions originated from earlier $\pi_{0.5}$ policies, as time constraints prevented us from collecting additional interventions using XR-1. This introduces a potential bias towards failure cases encountered by $\pi_{0.5}$. However, given that both models perform the same manipulation task under similar conditions, an overlap in their failure modes is likely. All episodes share the same natural-language task instruction.
-
-\subsection{Dataset Preprocessing}
-
-Raw recordings were converted into HDF5 and subsequently into model-specific training datasets. During preprocessing, recordings with invalid timing information were excluded, and stationary intervals lasting at least 1.5 seconds were removed. The top camera images were cropped to focus on the manipulation workspace, while all three camera views were resized to $480 \times 480$ pixels. The resulting observations and robot states were converted into LeRobot format for $\pi_{0.5}$ and a separate representation for XR-1.
-
-Although both models use the same underlying demonstrations, their input and action representations differ. For $\pi_{0.5}$, images are resized to $224 \times 224$ pixels, while the 16-dimensional robot state is discretized and included in the language prompt. Its action targets consist of relative joint-position changes and absolute gripper commands (i.e. how much each joint needs to change). In contrast, XR-1 processes images at $384 \times 384$ pixels and receives a fixed 60-dimensional robot state vector (where only 14 positions are populated in our case, since we only have 12 joints + 2 grippers). Its action targets are relative gripper position changes and gripper movements in the 3D space, derived from the recorded joint trajectories using forward kinematics (converting joint angles into 3D coordinates).
-
-To increase the importance of corrective demonstrations during training, the 380 intervention sequences were upweighted by a factor of 2.622. This resulted in corrective data accounting for approximately half of the sampled training examples for both models. In the $\pi_{0.5}$ training pipeline, this could be implemented by multiplying the sampling probability of corrective demonstration by 2.622 while in the XR-1 pipeline, those demonstrations were simply multiplied in the training queue.  
+\section{Methodology}
 
 \subsection{$\pi_{0.5}$ Fine-Tuning}
 
@@ -91,13 +77,33 @@ Unlike $\pi_{0.5}$, XR-1 was fine-tuned in a single training run initialized dir
 
 Both approaches therefore use the same final task dataset but differ in their action representations, training objectives, and fine-tuning histories. These differences are taken into account when interpreting their computational efficiency and real-world performance.
 
-\section{Experimental Setup}
-\papertodo{State the data splits, baselines, evaluation metrics, and training or inference settings.}
+\subsection{Rollout Execution}
+Both policies were evaluated on the physical dual arm setup using a 30hz control loop. Predictions were generated asynchronously in action chunks as the robot carried on with the execution of the current chunk. The $\pi_{0.5}$ policy produced predictions of relative joint actions which were then converted into joint targets using the robot state at the time of prediction. XR-1 produced predictions of relative Cartesian end-effector actions which were then converted into joint targets via inverse kinematics. Both policies used the same safety layer to constrain joint velocities, workspace motion and potential arm collisions. As the policies used different chunk lengths and transition settings we treat the results as a comparison of the two deployed systems rather than a comparison of two isolated model architectures.
 
-\section{Results and Discussion}
+\subsection{Evaluation Protocol}
+We did two real world evaluations. In the robustness study we compared the four stage ($\pi_{0.5}$) policy to XR-1 under an unperturbed reference condition and the following controlled perturbations: lighting switched off, an elevated mat, and foreign objects in the workspace. In the training progression study we evaluated the separately trained ($\pi_{0.5}$) policy at four checkpoints and XR-1 at the checkpoints after epochs 1, 2, and 4 (4,331, 8,662, and 17,324 optimisation steps) under the unperturbed condition, with c. 50 pin-placement attempts per checkpoint. The epoch-3 checkpoint could not be evaluated because of a robot malfunction; the epoch-4 results were obtained in an earlier session. We relate the success rates to optimisation steps and training compute.
+
+We manually annotated the recorded rollouts. For each pin placement attempt we recorded whether the task was successful overall and whether it was successful at each of three stages: pin grasped, pin passed to the other arm and pin placed in the correct tray slot. An attempt was only counted as a success overall if all three of those stages had been completed successfully. A stage would be marked as not applicable if it wasn't possible to attempt it due to a failure in a prior stage. The overall success rate is calculated using all attempts as the denominator; the stage-specific success rates are calculated as only attempts that reached the stage. We also recorded the length of each attempt.
+
+\section{Datasets}
+\subsection{Data Collection}
+
+We collected training data using a dual-arm robotic setup consisting of two six-degree-of-freedom Dobot Nova 2 arms with parallel grippers. The task is to pick up a pin from a box, hand it over to the other arm, and place it into the next available slot of an eight-slot tray in the correct order. Three RealSense cameras provide a top-down view and one POV view per arm, recording RGB images at a resolution of $640 \times 480$ pixels and 30 fps. Joint positions, gripper openings, gripper loads, and commanded actions are also recorded.
+
+The final dataset consists of 633 episodes with a total of 277,185 frames, corresponding to approximately 154 minutes of recordings. Of these episodes, 253 are teleoperated demonstrations, and 380 are corrective interventions. Demonstrations were collected through leader-follower teleoperation, while interventions were recorded by manually taking control when an executing policy encountered difficulties. All interventions originated from earlier $\pi_{0.5}$ policies, as time constraints prevented us from collecting additional interventions using XR-1. This introduces a potential bias towards failure cases encountered by $\pi_{0.5}$. However, given that both models perform the same manipulation task under similar conditions, an overlap in their failure modes is likely. All episodes share the same natural-language task instruction.
+
+\subsection{Dataset Preprocessing}
+
+Raw recordings were converted into HDF5 and subsequently into model-specific training datasets. During preprocessing, recordings with invalid timing information were excluded, and stationary intervals lasting at least 1.5 seconds were removed. The top camera images were cropped to focus on the manipulation workspace, while all three camera views were resized to $480 \times 480$ pixels. The resulting observations and robot states were converted into LeRobot format for $\pi_{0.5}$ and a separate representation for XR-1.
+
+Although both models use the same underlying demonstrations, their input and action representations differ. For $\pi_{0.5}$, images are resized to $224 \times 224$ pixels, while the 16-dimensional robot state is discretized and included in the language prompt. Its action targets consist of relative joint-position changes and absolute gripper commands (i.e. how much each joint needs to change). In contrast, XR-1 processes images at $384 \times 384$ pixels and receives a fixed 60-dimensional robot state vector (where only 14 positions are populated in our case, since we only have 12 joints + 2 grippers). Its action targets are relative gripper position changes and gripper movements in the 3D space, derived from the recorded joint trajectories using forward kinematics (converting joint angles into 3D coordinates).
+
+To increase the importance of corrective demonstrations during training, the 380 intervention sequences were upweighted by a factor of 2.622. This resulted in corrective data accounting for approximately half of the sampled training examples for both models. In the $\pi_{0.5}$ training pipeline, this could be implemented by multiplying the sampling probability of corrective demonstration by 2.622 while in the XR-1 pipeline, those demonstrations were simply multiplied in the training queue.  
+
+\section{Experiments and Results}
 \papertodo{Present quantitative results, qualitative examples, comparisons, and interpretation. Add figures and tables as needed.}
 
-\section{Conclusion}
+\section{Conclusions}
 \papertodo{Summarize the findings, limitations, and possible future work.}
 
 {\small
