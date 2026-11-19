@@ -118,7 +118,14 @@ The reported training times were c. 13.9hrs for $\pi_{0.5}$ and c. 14.6hrs for X
 Overall both the fine-tuning runs reduced their respective training losses, with the absolute reductions in objective going down from epoch to epoch. The different loss definitions and the different scales make it impossible to say which model did better in terms of loss magnitude or percentage reduction. The results are a clear indication of how each model was optimising its own objective on the training data.
 
 \subsection{Performance under Environmental Pertubations}
-This section answers the first research question of how well the models do under different perturbations to the environment and which subtasks are more/less successful. To begin with, we look at the performance under standard conditions, where XR-1 reaches a success rate of 97.1\% compared to 90.0\% for $\pi_{0.5}$. The detailed breakdown per setting can be found in Fig. 2??????? below. While both models perform equally well or even better in the "elevated mat"- setting, $\pi_{0.5}$ struggles a lot in reduced light (-8pp.), where XR-1 has the clearest advantage. To be precise, in this setting, XR-1 achieves a success rate 13.4pp. higher than $\pi_{0.5}$.
+This section answers the first research question of how well the models do under different perturbations to the environment and which subtasks are more/less successful. To begin with, we look at the performance under standard conditions, where XR-1 reaches a success rate of 97.1\% compared to 90.0\% for $\pi_{0.5}$. The detailed breakdown per setting can be found in Fig.~\ref{fig:success-by-setting} below. While both models perform equally well or even better in the "elevated mat"- setting, $\pi_{0.5}$ struggles a lot in reduced light (-8pp.), where XR-1 has the clearest advantage. To be precise, in this setting, XR-1 achieves a success rate 13.4pp. higher than $\pi_{0.5}$.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{../Results/robustness_evaluation/success_by_setting.png}
+    \caption{Overall task success rates of $\pi_{0.5}$ and XR-1 under standard conditions and environmental perturbations.}
+    \label{fig:success-by-setting}
+\end{figure}
 
 However, the remaining perturbations show that this advantage is not universal. XR-1 is especially sensitive to foreign objects (-11.0pp.), where $\pi_{0.5}$ only loses 2.0pp. Hence there is no general advantage of one model over the other with regards to perturbation resistance. The evaluation rather shows perturbation-specific advantages of either model. Ignoring the sensitivity to perturbations however, it can be said that XR-1 achieves on average slightly higher success rates than $\pi_{0.5}$.
 
