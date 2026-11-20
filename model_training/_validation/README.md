@@ -8,6 +8,13 @@ From `model_training/`, with Python 3 and FFmpeg installed:
 python3 _validation/smoke_test.py
 ```
 
+On macOS, if Conda's `ffmpeg` is first on `PATH` and cannot decode AV1, use the
+Homebrew binary for this run:
+
+```bash
+PATH="$(brew --prefix ffmpeg)/bin:$PATH" python3 _validation/smoke_test.py
+```
+
 This read-only check validates source syntax, the supplied episode metadata, XR-1 annotations,
 and sample video decoding. Frames are counted during FFmpeg decoding, without relying on
 ffprobe's optional `nb_read_frames` field. Decoder failures include the tool path and its error

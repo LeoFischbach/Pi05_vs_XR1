@@ -49,10 +49,10 @@ def check_video(path, expected_frames, fps):
     assert numerator / denominator == fps, path
 
     # Count decoded frames directly: ffprobe may omit nb_read_frames on some installations.
-    # -vsync 0 preserves each decoded frame without adding or dropping frames.
+    # Passthrough preserves each decoded frame without adding or dropping frames.
     progress = video_command_output(
         ["ffmpeg", "-v", "error", "-xerror", "-nostdin", "-i", str(path),
-         "-map", "0:v:0", "-an", "-vsync", "0", "-progress", "pipe:1", "-nostats", "-f", "null", "-"], path,
+         "-map", "0:v:0", "-an", "-fps_mode", "passthrough", "-progress", "pipe:1", "-nostats", "-f", "null", "-"], path,
     )
     counts = [int(line.split("=", 1)[1]) for line in progress.splitlines() if line.startswith("frame=")]
     if not counts:
