@@ -12,7 +12,7 @@ FLASH_ATTN_WHEEL='flash_attn-2.8.3+cu12torch2.8cxx11abiTRUE-cp310-cp310-linux_x8
 FLASH_ATTN_URL='https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3/flash_attn-2.8.3%2Bcu12torch2.8cxx11abiTRUE-cp310-cp310-linux_x86_64.whl'
 FLASH_ATTN_SHA256=75c51f34bb93c5a4438d6b767547ca6c22a9bfc6b29b5646dda98e943cd75d99
 
-conda create -y -q -p "$ENV" --file "$HERE/env/conda-explicit.txt"
+conda create -y -q --override-channels -c conda-forge -p "$ENV" --file "$HERE/env/conda-explicit.txt"
 "$ENV/bin/pip" install -q --no-deps -r "$HERE/env/requirements.lock.txt"
 DOWNLOAD="$(mktemp -d)"
 curl -fsSL -o "$DOWNLOAD/$FLASH_ATTN_WHEEL" "$FLASH_ATTN_URL"

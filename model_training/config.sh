@@ -17,7 +17,7 @@ REFERENCE_EPISODES="$PIPELINE_DIR/common/reference/clean4_trained_episodes.json"
 # XR-1: a clone of github.com/XiaomiRobotics/Xiaomi-Robotics-1 (only read), its conda env
 # (xr1/setup_xr1_env.sh) and the pretrained checkpoint (Hugging Face XiaomiRobotics/Xiaomi-Robotics-1-5B).
 XR1_REPO="$HOME/Xiaomi-Robotics-1"
-XR1_ENV="/opt/miniforge3/envs/xr1"
+XR1_ENV="${XR1_ENV:-/opt/miniforge3/envs/xr1}"
 XR1_PRETRAINED="$XR1_REPO/xr1/pretrained_ckpt/model_states.pt"
 
 # --- Hardware -----------------------------------------------------------------------------------
@@ -26,7 +26,7 @@ XR1_PRETRAINED="$XR1_REPO/xr1/pretrained_ckpt/model_states.pt"
 # new_steps = old_steps x old_effective_batch / new_effective_batch, rounded up.
 # Scale save intervals and warmup steps by the same ratio to preserve their sample positions.
 # This preserves the sample budget, not identical optimisation behaviour.
-NUM_GPUS=4
+NUM_GPUS="${NUM_GPUS:-4}"
 
 # --- pi0.5 ------------
 PI05_BASE_MODEL="lerobot/pi05_base"      # Hugging Face model id or a local pretrained_model folder
@@ -37,7 +37,7 @@ PI05_LR=2e-5                             # peak of the cosine schedule (as XR-1)
 PI05_FINAL_LR=5e-6
 PI05_WARMUP_STEPS=500
 PI05_WEIGHT_DECAY=1e-10                  # openpi's value, i.e. off
-PI05_DATALOADER_WORKERS=11               # per GPU; about (CPU cores / GPUs) - 1
+PI05_DATALOADER_WORKERS="${PI05_DATALOADER_WORKERS:-11}"  # per GPU; about (CPU cores / GPUs) - 1
 
 # --- XR-1 -------------------------
 XR1_BATCH_PER_GPU=16
@@ -48,7 +48,7 @@ XR1_FINAL_LR=5e-6
 XR1_WARMUP_STEPS=500
 # 1 only after applying xr1/patches/save_last_link.patch to the XR-1 clone (saves ~70 GB of disk:
 # last.ckpt becomes a link instead of a second copy). The training itself is the same.
-XR1_SAVE_LAST_AS_LINK=0
+XR1_SAVE_LAST_AS_LINK="${XR1_SAVE_LAST_AS_LINK:-0}"
 
 # --- Logging ------------------------------------------------------------------------------------
 # Weights & Biases: "offline" writes the run into its run folder (sync later with `wandb sync`),
