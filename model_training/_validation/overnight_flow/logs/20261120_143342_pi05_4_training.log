@@ -1,1 +1,0 @@
-WOULD RUN: bash pi05/train_pi05.sh /home/anton/dobot/ANTON_X_BOCCONI_Training_Pipeline_for_Repo/_validation/overnight_flow/pi05/dataset/ANTON_X_BOCCONI_clean4 /home/anton/dobot/ANTON_X_BOCCONI_Training_Pipeline_for_Repo/_validation/overnight_flow/pi05/runs/pi05_ANTON_X_BOCCONI_clean4_20261120_143342

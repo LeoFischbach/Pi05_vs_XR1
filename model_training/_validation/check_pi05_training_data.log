@@ -1,6 +1,0 @@
-dataset class: LeRobotDatasetWithFixedCameraJitter | jittered cameras: ['observation.images.top']
-samples per epoch: 1330 (expected 1330 = kept frames x repeats)
-batch: {'observation.images.top': (4, 3, 480, 480), 'observation.images.left_wrist': (4, 3, 480, 480), 'observation.images.right_wrist': (4, 3, 480, 480), 'observation.state': (4, 16), 'action': (4, 50, 14), 'timestamp': (4,), 'frame_index': (4,), 'episode_index': (4,), 'index': (4,), 'task_index': (4,), 'action_is_pad': (4, 50)}
-  observation.images.top: changed by the jitter: True
-  observation.images.left_wrist: changed by the jitter: False
-  observation.images.right_wrist: changed by the jitter: False

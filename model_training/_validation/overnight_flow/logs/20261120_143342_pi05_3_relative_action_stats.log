@@ -1,17 +1,0 @@
-Computing stats from data files:   0%|          | 0/1 [00:00<?, ?it/s]Computing stats from data files: 100%|██████████| 1/1 [00:00<00:00, 137.06it/s]
-  observation.state: global quantiles, 1.6% of the values outside q01..q99
-  left_joint_1    relative q01 -0.067 .. q99 +0.044
-  left_joint_2    relative q01 -0.032 .. q99 +0.077
-  left_joint_3    relative q01 -0.107 .. q99 +0.101
-  left_joint_4    relative q01 -0.048 .. q99 +0.128
-  left_joint_5    relative q01 -0.209 .. q99 +0.162
-  left_joint_6    relative q01 -0.389 .. q99 +0.105
-  left_gripper    relative q01 +0.187 .. q99 +0.966
-  right_joint_1   relative q01 -0.008 .. q99 +0.029
-  right_joint_2   relative q01 -0.017 .. q99 +0.103
-  right_joint_3   relative q01 -0.130 .. q99 +0.026
-  right_joint_4   relative q01 -0.019 .. q99 +0.014
-  right_joint_5   relative q01 -0.008 .. q99 +0.009
-  right_joint_6   relative q01 -0.008 .. q99 +0.016
-  right_gripper   relative q01 +0.000 .. q99 +0.000
-wrote relative-action statistics into /home/anton/dobot/ANTON_X_BOCCONI_Training_Pipeline_for_Repo/_validation/overnight_flow/pi05/dataset/ANTON_X_BOCCONI_clean4/meta/stats.json

@@ -1,5 +1,0 @@
-PASS: syntax of 9 Python files and 5 shell files
-PASS: episode selection and pi0.5 samples (3 episodes, 476 frames)
-PASS: XR-1 annotations (8 files, 1330 weighted frames)
-PASS: all 12 unique sample videos decode, with matching frame counts and size
-PASS: local data smoke test. No model loading, raw-data rebuild or GPU training performed.
