@@ -88,12 +88,21 @@ Both policies were evaluated on the physical dual arm setup using a 30hz control
 \subsection{Evaluation Protocol}
 We did two real world evaluations. In the robustness study we compare the $\pi_{0.5}$ policy to XR-1 under an unperturbed reference condition and the following controlled perturbations: lighting switched off, an elevated mat, and foreign objects in the workspace. In the training progression study we evaluated the ($\pi_{0.5}$) policy at four checkpoints and XR-1 at the checkpoints after epochs 1, 2, and 4 (4,331, 8,662, and 17,324 optimisation steps) under the unperturbed condition, with c. 50 pin-placement attempts per checkpoint. The epoch-3 checkpoint could not be evaluated because the robot hardware broke mid-recording; the epoch-4 results were obtained in an earlier session. We relate the success rates to optimisation steps and training compute.
 
+{ROBUSTNESS SZENARIEN GENAU BESCHREIBEN}
+
 We manually annotated the recorded rollouts. For each pin placement attempt we recorded whether the task was successful overall and whether it was successful at each of three stages: pin grasped, pin passed to the other arm and pin placed in the correct tray slot. An attempt was only counted as a success overall if all three of those stages had been completed successfully. A stage would be marked as not applicable if it wasn't possible to attempt it due to a failure in a prior stage. The overall success rate is calculated using all attempts as the denominator; the stage-specific success rates are calculated as only attempts that reached the stage. We also recorded the length of each attempt.
 
 \section{Datasets}
 \subsection{Data Collection}
 
-We collected training data using a dual-arm robotic setup consisting of two six-degree-of-freedom Dobot Nova 2 arms with parallel grippers. The task is to pick up a pin from a box, hand it over to the other arm, and place it into the next available slot of an eight-slot tray in the correct order. Three RealSense cameras provide a top-down view and one POV view per arm, recording RGB images at a resolution of $640 \times 480$ pixels and 30 fps. Joint positions, gripper openings, gripper loads, and commanded actions are also recorded.
+As Figure~\ref{fig:robot-setup} shows, we collected training data using a dual-arm setup consisting of two six-degree-of-freedom Dobot Nova 2 arms with parallel grippers. The task is to pick up a pin from a box, hand it over to the other arm, and place it into the next available slot of an eight-slot tray in the correct order. Three RealSense cameras provide a top-down view and one POV view per arm, recording RGB images at a resolution of $640 \times 480$ pixels and 30 fps. Joint positions, gripper openings, gripper loads, and commanded actions are also recorded.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{../document/images/robot_setup.jpeg}
+    \caption{Robot setup including teleoperation joysticks.}
+    \label{fig:robot-setup}
+\end{figure}
 
 The final dataset consists of 633 episodes with a total of 277,185 frames, corresponding to approximately 154 minutes of recordings. Of these episodes, 253 are teleoperated demonstrations, and 380 are corrective interventions. Demonstrations were collected through leader-follower teleoperation, while interventions were recorded by manually taking control when an executing policy encountered difficulties. All interventions originated from earlier $\pi_{0.5}$ policies, as time constraints prevented us from collecting additional interventions using XR-1. This introduces a potential bias towards failure cases encountered by $\pi_{0.5}$. However, given that both models perform the same manipulation task under similar conditions, an overlap in their failure modes is likely. All episodes share the same natural-language task instruction.
 
@@ -107,15 +116,20 @@ To increase the importance of corrective demonstrations during training, the 380
 
 \section{Experiments and Results}
 \subsection{Fine-Tuning Progression}
-Both models show a consistent reduction in their mean training loss over the four fine-tuning epochs. Figure~\ref{fig:success_rate_by_epoch} shows the evolution of the respective training objectives (with separate vertical scales for $\pi_{0.5}$ and XR-1). Each point is the arithmetic mean of the loss values recorded during the respective epoch. As the models are optimising different objectives, the absolute loss values are read in isolation.
+Both models show a consistent reduction in their mean training loss over the four fine-tuning epochs. Figure~\ref{fig:train_loss_evolution} shows the evolution of the respective training objectives for both models. Each point is the arithmetic mean of the loss values recorded during the respective epoch. As the models are optimising different objectives, the absolute loss values are not comparable. $\pi_{0.5}$ optimises only the flow-matching mean squared error (MSE) of its action prediction head. XR-1 instead combines flow-matching MSE with a frequency loss (emphasizing smooth actions), an L1 action-candidate loss for the VLM backbone (so the VLM backbone learn useful representations for the action head) and a scoring loss (so the VLM backbone can evaluate its own action candidates).
 
-For $\pi_{0.5}$ the mean logged training loss went from 0.0218 in epoch 1 to 0.00855 in epoch 2, then 0.00576 and 0.00424 in epochs 3 and 4 respectively. The biggest drop was between epoch 1 and 2 (a drop of ~60.7\%). Training continued to reduce the loss, but only with diminishing absolute improvements in each subsequent epoch. The mean in epoch 4 was approximately 80.5\% lower than in epoch 1. This is clearly a case of a very significant initial adaptation to the training data, followed by a much more gradual optimisation.
+For $\pi_{0.5}$ the mean logged training loss went from 0.0218 in epoch 1 to 0.00855 in epoch 2, then 0.00576 and 0.00424 in epochs 3 and 4 respectively. The biggest drop was between epoch 1 and 2 (a drop of ~60.7\%). Training continued to reduce the loss, but only with diminishing absolute improvements in each subsequent epoch. The mean in epoch 4 was approximately 80.5\% lower than in epoch 1. This is clearly a case of a strong initial adaptation to the training data, followed by a much more gradual optimisation.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{../Results/epoch_evaluation/training_loss_comparison.png}
+    \caption{Train loss evolution of $\pi_{0.5}$ and XR-1.}
+    \label{fig:train_loss_evolution}
+\end{figure}
 
 XR-1 showed a very similar trend in its total training objective. The mean logged loss went from 1.022 in epoch 1 to 0.667, 0.521 and 0.425 in the next three epochs respectively. The drop from epoch 1 to 2 was about 34.8\% and the drop in the fourth epoch was about 58.4\% of the first epoch value. As with $\pi_{0.5}$ the biggest absolute drop was in the early epochs, though the loss did continue to go down throughout the training period. The falling epoch averages are showing ongoing optimisation.
 
-The reported training times were c. 13.9hrs for $\pi_{0.5}$ and c. 14.6hrs for XR-1, corresponding to c. 55.6 and c. 58.4 GPU-hours respectively. So XR-1 took around 5\% more training to train for the same number of optimisation steps in these runs. These are the figures for the training pipeline as implemented, including the different input resolutions, action representations and training objectives.
-
-Overall both the fine-tuning runs reduced their respective training losses, with the absolute reductions in objective going down from epoch to epoch. The different loss definitions and the different scales make it impossible to say which model did better in terms of loss magnitude or percentage reduction. The results are a clear indication of how each model was optimising its own objective on the training data.
+The reported training times were c. 13.9hrs for $\pi_{0.5}$ and c. 14.6hrs for XR-1, corresponding to c. 55.6 and c. 58.4 GPU-hours respectively. So XR-1 took around 5\% more time to train for the same number of optimisation steps in these runs. These are the figures for the training pipeline as implemented, including the different input resolutions, action representations and training objectives.
 
 \subsection{Performance under Environmental Pertubations}
 This section answers the first research question of how well the models do under different perturbations to the environment and which subtasks are more/less successful. To begin with, we look at the performance under standard conditions, where XR-1 reaches a success rate of 97.1\% compared to 90.0\% for $\pi_{0.5}$. The detailed breakdown per setting can be found in Fig.~\ref{fig:success-by-setting} below. While both models perform equally well or even better in the "elevated mat"- setting, $\pi_{0.5}$ struggles a lot in reduced light (-8pp.), where XR-1 has the clearest advantage. To be precise, in this setting, XR-1 achieves a success rate 13.4pp. higher than $\pi_{0.5}$.
@@ -134,9 +148,9 @@ Looking at where in the model execution failures occur reveals that $\pi_{0.5}$'
 To finally answer the first research question, XR-1 achieves higher success rates under standard conditions and reduced lighting, but does not consistently outperform $\pi_{0.5}$ across all perturbations. These results characterize the deployed systems as a whole, they do not isolate the effects of model architecture or training design.
 
 \subsection{Epoch-Wise Performance}
-To assess how the optimisation trends in Section~5.1 translate into real-world task performance, we evaluated successive checkpoints under unperturbed conditions. Figure~\ref{fig:success_rate_by_epoch} reports the proportion of pin-placement attempts in which grasping, handover and placement were all completed successfully.
+To assess how the optimisation trends in Section~5.1 translate into real-world task performance, we evaluated each model epoch under standard conditions. Figure~\ref{fig:success_rate_by_epoch} reports the success rate of both models for each epoch. XR-1 epoch 3 is missing in this evaluation since the robot hardware broke mid-recording. 
 
-The models exhibit different adaptation trajectories. For $\pi_{0.5}$, success increases from 25.0\% after the first nominal epoch to 74.0\%, 77.0\% and 90.0\% after epochs two, three and four, respectively. XR-1 already achieves 82.5\% after one epoch and reaches 98.0\% after two, compared with 97.1\% after four. XR-1 therefore achieves a higher observed success rate after 8,662 optimisation steps than $\pi_{0.5}$ after the full 17,324 steps, indicating earlier successful adaptation within the investigated training range.
+The models exhibit different success rate trajectories over training epochs. For $\pi_{0.5}$, success increases from 25.0\% after the first epoch to 74.0\%, 77.0\% and 90.0\% after epochs two, three and four, respectively. XR-1 already achieves 82.5\% after one epoch and reaches 98.0\% after two and then plateaus. XR-1 therefore achieves a higher empirical success rate after epoch 1 than the final $\pi_{0.5}$ model, indicating earlier successful adaptation (possibly due to the fact that XR-1 was pretrained with c. 10 times the amount of data and hence better generalizes "out-of-the-box").
 
 \begin{figure}[H]
     \centering
@@ -146,9 +160,9 @@ The models exhibit different adaptation trajectories. For $\pi_{0.5}$, success i
     \label{fig:success_rate_by_epoch}
 \end{figure}
 
-The stage-level results help explain these trajectories. For $\pi_{0.5}$, handover is the principal initial bottleneck: 27 of 44 attempts fail at this stage after epoch one, compared with only one of 50 after epoch four. Much of its improvement is therefore associated with increasingly reliable handovers. XR-1's initial failures instead occur predominantly during placement, accounting for nine of its ten failures after epoch one. At epoch two, no placement failures are recorded, and only one attempt fails overall.
+The stage-level results help explain these trajectories. For $\pi_{0.5}$, handover is the principal bottleneck in epoch 1: 27 of 44 attempts fail at this stage, compared to only one of 50 after epoch four. Much of its improvement is therefore associated with increasingly reliable handovers. XR-1's initial failures instead occur predominantly during placement, accounting for nine of its ten failures after epoch one. At epoch two, no placement failures are recorded, and only one attempt fails overall.
 
-Despite the continued reduction in training loss described in Section~5.1, XR-1 shows no further observed success-rate improvement between epochs two and four. Further optimisation of the training objective therefore does not necessarily yield better task execution. However, the small difference between these checkpoints should not be interpreted as evidence of overfitting: the evaluations contain different numbers of attempts and were conducted in separate sessions. The missing epoch-three evaluation, caused by a robot malfunction, further limits the resolution of the observed learning trajectory.
+Despite the continued reduction in training loss described in Section~5.1, XR-1 shows no further observed success-rate improvement between epochs two and four. Further optimisation of the training objective therefore does not necessarily yield better real world performance. However, the small difference between these checkpoints should not be interpreted as evidence of overfitting: the evaluations contain different numbers of attempts and were conducted in separate sessions. Moreover, as discussed in Section~5.2, the epoch 4 model still generalizes well over the various perturbations of the environment. 
 
 Overall, XR-1 reaches high task success with fewer optimisation steps, whereas $\pi_{0.5}$ continues to improve through the final evaluated checkpoint. Together with the similar full-run computational costs reported in Section~5.1, these findings favour XR-1 for earlier successful adaptation under the tested setup, without establishing an optimal stopping point or isolating the contribution of individual architectural choices.
 
