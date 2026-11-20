@@ -1,0 +1,6 @@
+{
+  "chunk_size": 50,
+  "exclude": [
+    "gripper"
+  ]
+}

@@ -1,0 +1,18 @@
+[14:33:42] pipeline both for ANTON_X_BOCCONI_clean4 (SMOKE TEST), outputs in /home/anton/dobot/ANTON_X_BOCCONI_Training_Pipeline_for_Repo/_validation/overnight_flow
+[14:33:42] 1_select_episodes ... (log: 20261120_143342_1_select_episodes.log)
+[14:33:58] 1_select_episodes done: wrote /home/anton/dobot/ANTON_X_BOCCONI_Training_Pipeline_for_Repo/_validation/overnight_flow/episodes/ANTON_X_BOCCONI_clean4_episodes.json
+[14:33:58] pi05_2_lerobot_dataset ... (log: 20261120_143342_pi05_2_lerobot_dataset.log)
+[14:34:03] pi05_2_lerobot_dataset done: wrote /home/anton/dobot/ANTON_X_BOCCONI_Training_Pipeline_for_Repo/_validation/overnight_flow/pi05/dataset/ANTON_X_BOCCONI_clean4: 3 episodes, 476 frames
+[14:34:03] pi05_3_relative_action_stats ... (log: 20261120_143342_pi05_3_relative_action_stats.log)
+[14:34:06] pi05_3_relative_action_stats done: wrote relative-action statistics into /home/anton/dobot/ANTON_X_BOCCONI_Training_Pipeline_for_Repo/_validation/overnight_flow/pi05/dataset/ANTON_X_BOCCONI_clean4/meta/stats.json
+[14:34:06] pi05_4_training ... (log: 20261120_143342_pi05_4_training.log)
+[14:34:06] pi05_4_training done: WOULD RUN: bash pi05/train_pi05.sh /home/anton/dobot/ANTON_X_BOCCONI_Training_Pipeline_for_Repo/_validation/overnight_flow/pi05/dataset/ANTON_X_BOCCONI_clean4 /home/anton/dobot/ANTON_X_BOCCONI_Training_Pipeline_for_Repo/_validation/overnight_flow/pi05/runs/pi05_ANTON_X_BOCCONI_clean4_20261120_143342
+[14:34:06] pi05 checkpoints: /home/anton/dobot/ANTON_X_BOCCONI_Training_Pipeline_for_Repo/_validation/overnight_flow/pi05/runs/pi05_ANTON_X_BOCCONI_clean4_20261120_143342/checkpoints/
+[14:34:06] xr1_2_dataset ... (log: 20261120_143342_xr1_2_dataset.log)
+[14:34:09] xr1_2_dataset done: wrote /home/anton/dobot/ANTON_X_BOCCONI_Training_Pipeline_for_Repo/_validation/overnight_flow/xr1/dataset/ANTON_X_BOCCONI_clean4: 3 episodes, 476 frames (1330 with the repeated files)
+[14:34:09] xr1_3_statistics ... (log: 20261120_143342_xr1_3_statistics.log)
+[14:34:10] xr1_3_statistics done: wrote /home/anton/dobot/ANTON_X_BOCCONI_Training_Pipeline_for_Repo/_validation/overnight_flow/xr1/configs/data/ANTON_X_BOCCONI_clean4.yaml (8 files, 1330 frames, 1098 action windows)
+[14:34:10] xr1_4_training ... (log: 20261120_143342_xr1_4_training.log)
+[14:34:10] xr1_4_training done: WOULD RUN: bash xr1/train_xr1.sh /home/anton/dobot/ANTON_X_BOCCONI_Training_Pipeline_for_Repo/_validation/overnight_flow/xr1/configs ANTON_X_BOCCONI_clean4 /home/anton/dobot/ANTON_X_BOCCONI_Training_Pipeline_for_Repo/_validation/overnight_flow/xr1/runs/xr1_ANTON_X_BOCCONI_clean4_20261120_143342
+[14:34:10] xr1 checkpoints: /home/anton/dobot/ANTON_X_BOCCONI_Training_Pipeline_for_Repo/_validation/overnight_flow/xr1/runs/xr1_ANTON_X_BOCCONI_clean4_20261120_143342/project_xiaomi-robotics-1/xr1_ANTON_X_BOCCONI_clean4_20261120_143342/
+[14:34:10] all done

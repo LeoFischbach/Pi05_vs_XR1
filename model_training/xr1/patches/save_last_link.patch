@@ -1,0 +1,15 @@
+diff --git a/xr1/tools/train.py b/xr1/tools/train.py
+index 6615e54..e18e6d4 100644
+--- a/xr1/tools/train.py
++++ b/xr1/tools/train.py
+@@ -27,7 +27,9 @@ def prepare(cfg: Dict[str, Any]) -> Tuple[Config, LightningDataModule, Lightning
+         ModelSummary(max_depth=2),
+         ModelCheckpoint(
+             save_top_k=-1,
+-            save_last=True,
++            # "link": last.ckpt becomes a symlink to the newest checkpoint instead of a second
++            # full copy (a full-finetune DeepSpeed checkpoint with optimizer state is ~70 GB).
++            save_last=cfg.trainer.pop("save_last", True),
+             every_n_train_steps=cfg.trainer.pop("save_interval", 10000),
+             dirpath=cfg.trainer.default_root_dir,
+             enable_version_counter=False,

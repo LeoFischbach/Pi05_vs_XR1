@@ -1,0 +1,10 @@
+observation.state    shape (476, 16) identical: True
+action               shape (476, 14) identical: True
+timestamp            shape (476,) identical: True
+frame_index          shape (476,) identical: True
+episode_index        shape (476,) identical: True
+features identical: True | fps 30 30
+image_crop.json True
+image_size.json True
+task identical: True
+decoded image frames: largest pixel difference 0.0 / 255

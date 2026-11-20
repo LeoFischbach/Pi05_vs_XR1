@@ -1,0 +1,1 @@
+WOULD RUN: bash xr1/train_xr1.sh /home/anton/dobot/ANTON_X_BOCCONI_Training_Pipeline_for_Repo/_validation/overnight_flow/xr1/configs ANTON_X_BOCCONI_clean4 /home/anton/dobot/ANTON_X_BOCCONI_Training_Pipeline_for_Repo/_validation/overnight_flow/xr1/runs/xr1_ANTON_X_BOCCONI_clean4_20261120_143410

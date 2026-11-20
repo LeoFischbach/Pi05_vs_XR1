@@ -1,0 +1,31 @@
+# Environment for shared preprocessing, pi0.5 and the XR-1 dataset builder.
+# Install with uv sync. XR-1 statistics/training use xr1/setup_xr1_env.sh instead.
+# Exact package versions are recorded in uv.lock.
+[project]
+name = "anton-x-bocconi-training-pipeline"
+version = "1.0.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "lerobot[pi,training]==0.6.1",
+    "torch==2.11.0",
+    "torchvision==0.26.0",
+    "torchcodec==0.11.1",
+    "transformers==5.5.4",
+    "accelerate==1.14.0",
+    "numpy==2.2.6",
+    "opencv-python-headless==4.13.0.92",
+    "pandas==2.3.3",
+    "wandb==0.27.2",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+torchvision = { index = "pytorch-cu128" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
