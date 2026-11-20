@@ -1,0 +1,20 @@
+{
+  "dataset": "ANTON_X_BOCCONI_clean4",
+  "task": "Pick up the pin with the right arm from the cardboard box, give it to the left arm and place it in the next free slot in the black tray",
+  "fps": 30,
+  "crop_boxes": {
+    "top": [
+      136,
+      132,
+      488,
+      396
+    ]
+  },
+  "image_size": [
+    480,
+    480
+  ],
+  "episodes": 3,
+  "frames": 476,
+  "frames_with_repeats": 1330
+}

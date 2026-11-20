@@ -1,0 +1,3 @@
+[14:34:22] pipeline pi05 for ANTON_X_BOCCONI_clean4 (SMOKE TEST), outputs in /home/anton/dobot/ANTON_X_BOCCONI_Training_Pipeline_for_Repo/_validation/overnight_error
+[14:34:22] 1_select_episodes ... (log: 20261120_143422_1_select_episodes.log)
+[14:34:22] FAILED in step: 1_select_episodes (see /home/anton/dobot/ANTON_X_BOCCONI_Training_Pipeline_for_Repo/_validation/overnight_error/logs/20261120_143422_*.log)

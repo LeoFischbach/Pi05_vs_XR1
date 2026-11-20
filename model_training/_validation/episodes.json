@@ -1,0 +1,10361 @@
+{
+ "dataset": "ANTON_X_BOCCONI_clean4",
+ "task": "Pick up the pin with the right arm from the cardboard box, give it to the left arm and place it in the next free slot in the black tray",
+ "fps": 30,
+ "raw_project_dir": "/home/anton/dobot/dobot_xtrainer/datasets/ANTON_X_BOCCONI",
+ "correction_factor": 2.622,
+ "episodes": [
+  {
+   "index": 0,
+   "recording": "correction_20261029215806",
+   "recording_number": 50,
+   "frames": 186,
+   "kept_ranges": [
+    [
+     0,
+     186
+    ]
+   ],
+   "kept_frames": 186,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 1,
+   "recording": "correction_20261029215816",
+   "recording_number": 51,
+   "frames": 98,
+   "kept_ranges": [
+    [
+     0,
+     98
+    ]
+   ],
+   "kept_frames": 98,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 2,
+   "recording": "correction_20261029215823",
+   "recording_number": 52,
+   "frames": 192,
+   "kept_ranges": [
+    [
+     0,
+     192
+    ]
+   ],
+   "kept_frames": 192,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 3,
+   "recording": "correction_20261029215834",
+   "recording_number": 53,
+   "frames": 119,
+   "kept_ranges": [
+    [
+     0,
+     119
+    ]
+   ],
+   "kept_frames": 119,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 4,
+   "recording": "correction_20261029215921",
+   "recording_number": 54,
+   "frames": 142,
+   "kept_ranges": [
+    [
+     0,
+     142
+    ]
+   ],
+   "kept_frames": 142,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 5,
+   "recording": "correction_20261029215929",
+   "recording_number": 55,
+   "frames": 109,
+   "kept_ranges": [
+    [
+     0,
+     109
+    ]
+   ],
+   "kept_frames": 109,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 6,
+   "recording": "correction_20261029215939",
+   "recording_number": 56,
+   "frames": 134,
+   "kept_ranges": [
+    [
+     0,
+     134
+    ]
+   ],
+   "kept_frames": 134,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 7,
+   "recording": "correction_20261029215948",
+   "recording_number": 57,
+   "frames": 132,
+   "kept_ranges": [
+    [
+     0,
+     132
+    ]
+   ],
+   "kept_frames": 132,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 8,
+   "recording": "correction_20261029215959",
+   "recording_number": 58,
+   "frames": 114,
+   "kept_ranges": [
+    [
+     0,
+     114
+    ]
+   ],
+   "kept_frames": 114,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 9,
+   "recording": "correction_20261029220012",
+   "recording_number": 59,
+   "frames": 105,
+   "kept_ranges": [
+    [
+     0,
+     105
+    ]
+   ],
+   "kept_frames": 105,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 10,
+   "recording": "correction_20261029220021",
+   "recording_number": 60,
+   "frames": 187,
+   "kept_ranges": [
+    [
+     0,
+     187
+    ]
+   ],
+   "kept_frames": 187,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 11,
+   "recording": "correction_20261029220031",
+   "recording_number": 61,
+   "frames": 74,
+   "kept_ranges": [
+    [
+     0,
+     74
+    ]
+   ],
+   "kept_frames": 74,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 12,
+   "recording": "correction_20261029220036",
+   "recording_number": 62,
+   "frames": 84,
+   "kept_ranges": [
+    [
+     0,
+     84
+    ]
+   ],
+   "kept_frames": 84,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 13,
+   "recording": "correction_20261029220043",
+   "recording_number": 63,
+   "frames": 112,
+   "kept_ranges": [
+    [
+     0,
+     112
+    ]
+   ],
+   "kept_frames": 112,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 14,
+   "recording": "correction_20261029220054",
+   "recording_number": 64,
+   "frames": 200,
+   "kept_ranges": [
+    [
+     0,
+     111
+    ],
+    [
+     138,
+     200
+    ]
+   ],
+   "kept_frames": 173,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 15,
+   "recording": "correction_20261029220111",
+   "recording_number": 65,
+   "frames": 163,
+   "kept_ranges": [
+    [
+     0,
+     163
+    ]
+   ],
+   "kept_frames": 163,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 16,
+   "recording": "correction_20261029220123",
+   "recording_number": 66,
+   "frames": 295,
+   "kept_ranges": [
+    [
+     0,
+     150
+    ],
+    [
+     154,
+     185
+    ],
+    [
+     195,
+     295
+    ]
+   ],
+   "kept_frames": 281,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 17,
+   "recording": "correction_20261029220321",
+   "recording_number": 67,
+   "frames": 74,
+   "kept_ranges": [
+    [
+     0,
+     74
+    ]
+   ],
+   "kept_frames": 74,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 18,
+   "recording": "correction_20261029220325",
+   "recording_number": 68,
+   "frames": 58,
+   "kept_ranges": [
+    [
+     0,
+     58
+    ]
+   ],
+   "kept_frames": 58,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 19,
+   "recording": "correction_20261029220329",
+   "recording_number": 69,
+   "frames": 52,
+   "kept_ranges": [
+    [
+     0,
+     52
+    ]
+   ],
+   "kept_frames": 52,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 20,
+   "recording": "correction_20261029220332",
+   "recording_number": 70,
+   "frames": 54,
+   "kept_ranges": [
+    [
+     0,
+     54
+    ]
+   ],
+   "kept_frames": 54,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 21,
+   "recording": "correction_20261029220344",
+   "recording_number": 71,
+   "frames": 46,
+   "kept_ranges": [
+    [
+     0,
+     46
+    ]
+   ],
+   "kept_frames": 46,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 22,
+   "recording": "correction_20261029220346",
+   "recording_number": 72,
+   "frames": 50,
+   "kept_ranges": [
+    [
+     0,
+     50
+    ]
+   ],
+   "kept_frames": 50,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 23,
+   "recording": "correction_20261029220350",
+   "recording_number": 73,
+   "frames": 65,
+   "kept_ranges": [
+    [
+     0,
+     65
+    ]
+   ],
+   "kept_frames": 65,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 24,
+   "recording": "correction_20261029220355",
+   "recording_number": 74,
+   "frames": 71,
+   "kept_ranges": [
+    [
+     0,
+     71
+    ]
+   ],
+   "kept_frames": 71,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 25,
+   "recording": "correction_20261029220400",
+   "recording_number": 75,
+   "frames": 80,
+   "kept_ranges": [
+    [
+     0,
+     80
+    ]
+   ],
+   "kept_frames": 80,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 26,
+   "recording": "correction_20261029220407",
+   "recording_number": 76,
+   "frames": 52,
+   "kept_ranges": [
+    [
+     0,
+     52
+    ]
+   ],
+   "kept_frames": 52,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 27,
+   "recording": "correction_20261029220411",
+   "recording_number": 77,
+   "frames": 74,
+   "kept_ranges": [
+    [
+     0,
+     50
+    ],
+    [
+     58,
+     74
+    ]
+   ],
+   "kept_frames": 66,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 28,
+   "recording": "correction_20261029220416",
+   "recording_number": 78,
+   "frames": 74,
+   "kept_ranges": [
+    [
+     0,
+     74
+    ]
+   ],
+   "kept_frames": 74,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 29,
+   "recording": "correction_20261029220421",
+   "recording_number": 79,
+   "frames": 83,
+   "kept_ranges": [
+    [
+     0,
+     83
+    ]
+   ],
+   "kept_frames": 83,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 30,
+   "recording": "correction_20261029220426",
+   "recording_number": 80,
+   "frames": 62,
+   "kept_ranges": [
+    [
+     0,
+     62
+    ]
+   ],
+   "kept_frames": 62,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 31,
+   "recording": "correction_20261029220430",
+   "recording_number": 81,
+   "frames": 62,
+   "kept_ranges": [
+    [
+     0,
+     62
+    ]
+   ],
+   "kept_frames": 62,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 32,
+   "recording": "correction_20261029220435",
+   "recording_number": 82,
+   "frames": 83,
+   "kept_ranges": [
+    [
+     0,
+     83
+    ]
+   ],
+   "kept_frames": 83,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 33,
+   "recording": "correction_20261029220445",
+   "recording_number": 83,
+   "frames": 91,
+   "kept_ranges": [
+    [
+     0,
+     91
+    ]
+   ],
+   "kept_frames": 91,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 34,
+   "recording": "correction_20261029220449",
+   "recording_number": 84,
+   "frames": 71,
+   "kept_ranges": [
+    [
+     0,
+     71
+    ]
+   ],
+   "kept_frames": 71,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 35,
+   "recording": "correction_20261029220453",
+   "recording_number": 85,
+   "frames": 64,
+   "kept_ranges": [
+    [
+     0,
+     64
+    ]
+   ],
+   "kept_frames": 64,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 36,
+   "recording": "correction_20261029220456",
+   "recording_number": 86,
+   "frames": 76,
+   "kept_ranges": [
+    [
+     0,
+     76
+    ]
+   ],
+   "kept_frames": 76,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 37,
+   "recording": "correction_20261029220501",
+   "recording_number": 87,
+   "frames": 60,
+   "kept_ranges": [
+    [
+     0,
+     60
+    ]
+   ],
+   "kept_frames": 60,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 38,
+   "recording": "correction_20261029220519",
+   "recording_number": 88,
+   "frames": 90,
+   "kept_ranges": [
+    [
+     0,
+     90
+    ]
+   ],
+   "kept_frames": 90,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 39,
+   "recording": "correction_20261029220524",
+   "recording_number": 89,
+   "frames": 52,
+   "kept_ranges": [
+    [
+     0,
+     52
+    ]
+   ],
+   "kept_frames": 52,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 40,
+   "recording": "correction_20261029220529",
+   "recording_number": 90,
+   "frames": 78,
+   "kept_ranges": [
+    [
+     0,
+     78
+    ]
+   ],
+   "kept_frames": 78,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 41,
+   "recording": "correction_20261029220533",
+   "recording_number": 91,
+   "frames": 58,
+   "kept_ranges": [
+    [
+     0,
+     58
+    ]
+   ],
+   "kept_frames": 58,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 42,
+   "recording": "correction_20261029220539",
+   "recording_number": 92,
+   "frames": 70,
+   "kept_ranges": [
+    [
+     0,
+     70
+    ]
+   ],
+   "kept_frames": 70,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 43,
+   "recording": "correction_20261029220543",
+   "recording_number": 93,
+   "frames": 72,
+   "kept_ranges": [
+    [
+     0,
+     72
+    ]
+   ],
+   "kept_frames": 72,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 44,
+   "recording": "correction_20261029220548",
+   "recording_number": 94,
+   "frames": 50,
+   "kept_ranges": [
+    [
+     0,
+     50
+    ]
+   ],
+   "kept_frames": 50,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 45,
+   "recording": "correction_20261029220553",
+   "recording_number": 95,
+   "frames": 51,
+   "kept_ranges": [
+    [
+     0,
+     51
+    ]
+   ],
+   "kept_frames": 51,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 46,
+   "recording": "correction_20261029220556",
+   "recording_number": 96,
+   "frames": 56,
+   "kept_ranges": [
+    [
+     0,
+     56
+    ]
+   ],
+   "kept_frames": 56,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 47,
+   "recording": "correction_20261029220600",
+   "recording_number": 97,
+   "frames": 80,
+   "kept_ranges": [
+    [
+     0,
+     80
+    ]
+   ],
+   "kept_frames": 80,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 48,
+   "recording": "correction_20261029220605",
+   "recording_number": 98,
+   "frames": 72,
+   "kept_ranges": [
+    [
+     0,
+     72
+    ]
+   ],
+   "kept_frames": 72,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 49,
+   "recording": "correction_20261029220609",
+   "recording_number": 99,
+   "frames": 59,
+   "kept_ranges": [
+    [
+     0,
+     59
+    ]
+   ],
+   "kept_frames": 59,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 50,
+   "recording": "correction_20261029220613",
+   "recording_number": 100,
+   "frames": 57,
+   "kept_ranges": [
+    [
+     0,
+     57
+    ]
+   ],
+   "kept_frames": 57,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 51,
+   "recording": "correction_20261029220623",
+   "recording_number": 101,
+   "frames": 90,
+   "kept_ranges": [
+    [
+     0,
+     90
+    ]
+   ],
+   "kept_frames": 90,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 52,
+   "recording": "correction_20261029220629",
+   "recording_number": 102,
+   "frames": 66,
+   "kept_ranges": [
+    [
+     0,
+     66
+    ]
+   ],
+   "kept_frames": 66,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 53,
+   "recording": "correction_20261029220634",
+   "recording_number": 103,
+   "frames": 103,
+   "kept_ranges": [
+    [
+     0,
+     103
+    ]
+   ],
+   "kept_frames": 103,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 54,
+   "recording": "correction_20261029220639",
+   "recording_number": 104,
+   "frames": 69,
+   "kept_ranges": [
+    [
+     0,
+     69
+    ]
+   ],
+   "kept_frames": 69,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 55,
+   "recording": "correction_20261029220644",
+   "recording_number": 105,
+   "frames": 78,
+   "kept_ranges": [
+    [
+     0,
+     78
+    ]
+   ],
+   "kept_frames": 78,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 56,
+   "recording": "correction_20261029220648",
+   "recording_number": 106,
+   "frames": 63,
+   "kept_ranges": [
+    [
+     0,
+     63
+    ]
+   ],
+   "kept_frames": 63,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 57,
+   "recording": "correction_20261029220700",
+   "recording_number": 107,
+   "frames": 181,
+   "kept_ranges": [
+    [
+     0,
+     181
+    ]
+   ],
+   "kept_frames": 181,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 58,
+   "recording": "correction_20261029220714",
+   "recording_number": 108,
+   "frames": 95,
+   "kept_ranges": [
+    [
+     0,
+     95
+    ]
+   ],
+   "kept_frames": 95,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 59,
+   "recording": "correction_20261029220719",
+   "recording_number": 109,
+   "frames": 55,
+   "kept_ranges": [
+    [
+     0,
+     55
+    ]
+   ],
+   "kept_frames": 55,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 60,
+   "recording": "correction_20261029220722",
+   "recording_number": 110,
+   "frames": 183,
+   "kept_ranges": [
+    [
+     0,
+     183
+    ]
+   ],
+   "kept_frames": 183,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 61,
+   "recording": "correction_20261029220730",
+   "recording_number": 111,
+   "frames": 103,
+   "kept_ranges": [
+    [
+     0,
+     103
+    ]
+   ],
+   "kept_frames": 103,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 62,
+   "recording": "correction_20261029220737",
+   "recording_number": 112,
+   "frames": 65,
+   "kept_ranges": [
+    [
+     0,
+     65
+    ]
+   ],
+   "kept_frames": 65,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 63,
+   "recording": "correction_20261029220741",
+   "recording_number": 113,
+   "frames": 171,
+   "kept_ranges": [
+    [
+     0,
+     171
+    ]
+   ],
+   "kept_frames": 171,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 64,
+   "recording": "correction_20261029220752",
+   "recording_number": 114,
+   "frames": 152,
+   "kept_ranges": [
+    [
+     0,
+     152
+    ]
+   ],
+   "kept_frames": 152,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 65,
+   "recording": "correction_20261029220758",
+   "recording_number": 115,
+   "frames": 134,
+   "kept_ranges": [
+    [
+     0,
+     134
+    ]
+   ],
+   "kept_frames": 134,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 66,
+   "recording": "correction_20261029220807",
+   "recording_number": 116,
+   "frames": 68,
+   "kept_ranges": [
+    [
+     0,
+     68
+    ]
+   ],
+   "kept_frames": 68,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 67,
+   "recording": "20261030120015",
+   "recording_number": 117,
+   "frames": 516,
+   "kept_ranges": [
+    [
+     0,
+     516
+    ]
+   ],
+   "kept_frames": 516,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 68,
+   "recording": "20261030120034",
+   "recording_number": 118,
+   "frames": 577,
+   "kept_ranges": [
+    [
+     0,
+     577
+    ]
+   ],
+   "kept_frames": 577,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 69,
+   "recording": "20261030120055",
+   "recording_number": 119,
+   "frames": 519,
+   "kept_ranges": [
+    [
+     0,
+     519
+    ]
+   ],
+   "kept_frames": 519,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 70,
+   "recording": "20261030120114",
+   "recording_number": 120,
+   "frames": 579,
+   "kept_ranges": [
+    [
+     0,
+     486
+    ],
+    [
+     490,
+     579
+    ]
+   ],
+   "kept_frames": 575,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 71,
+   "recording": "20261030120214",
+   "recording_number": 121,
+   "frames": 533,
+   "kept_ranges": [
+    [
+     0,
+     533
+    ]
+   ],
+   "kept_frames": 533,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 72,
+   "recording": "20261030120233",
+   "recording_number": 122,
+   "frames": 571,
+   "kept_ranges": [
+    [
+     0,
+     571
+    ]
+   ],
+   "kept_frames": 571,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 73,
+   "recording": "20261030120254",
+   "recording_number": 123,
+   "frames": 666,
+   "kept_ranges": [
+    [
+     0,
+     666
+    ]
+   ],
+   "kept_frames": 666,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 74,
+   "recording": "20261030120327",
+   "recording_number": 124,
+   "frames": 601,
+   "kept_ranges": [
+    [
+     0,
+     601
+    ]
+   ],
+   "kept_frames": 601,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 75,
+   "recording": "20261030120358",
+   "recording_number": 125,
+   "frames": 471,
+   "kept_ranges": [
+    [
+     0,
+     471
+    ]
+   ],
+   "kept_frames": 471,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 76,
+   "recording": "20261030120415",
+   "recording_number": 126,
+   "frames": 560,
+   "kept_ranges": [
+    [
+     0,
+     560
+    ]
+   ],
+   "kept_frames": 560,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 77,
+   "recording": "20261030120436",
+   "recording_number": 127,
+   "frames": 423,
+   "kept_ranges": [
+    [
+     0,
+     423
+    ]
+   ],
+   "kept_frames": 423,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 78,
+   "recording": "20261030120719",
+   "recording_number": 128,
+   "frames": 483,
+   "kept_ranges": [
+    [
+     0,
+     483
+    ]
+   ],
+   "kept_frames": 483,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 79,
+   "recording": "20261030120736",
+   "recording_number": 129,
+   "frames": 572,
+   "kept_ranges": [
+    [
+     0,
+     572
+    ]
+   ],
+   "kept_frames": 572,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 80,
+   "recording": "20261030120757",
+   "recording_number": 130,
+   "frames": 534,
+   "kept_ranges": [
+    [
+     0,
+     452
+    ],
+    [
+     467,
+     534
+    ]
+   ],
+   "kept_frames": 519,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 81,
+   "recording": "20261030120818",
+   "recording_number": 131,
+   "frames": 582,
+   "kept_ranges": [
+    [
+     0,
+     582
+    ]
+   ],
+   "kept_frames": 582,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 82,
+   "recording": "20261030120904",
+   "recording_number": 132,
+   "frames": 558,
+   "kept_ranges": [
+    [
+     0,
+     558
+    ]
+   ],
+   "kept_frames": 558,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 83,
+   "recording": "20261030121002",
+   "recording_number": 133,
+   "frames": 522,
+   "kept_ranges": [
+    [
+     0,
+     522
+    ]
+   ],
+   "kept_frames": 522,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 84,
+   "recording": "20261030121022",
+   "recording_number": 134,
+   "frames": 640,
+   "kept_ranges": [
+    [
+     0,
+     121
+    ],
+    [
+     124,
+     154
+    ],
+    [
+     177,
+     640
+    ]
+   ],
+   "kept_frames": 614,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 85,
+   "recording": "20261030121046",
+   "recording_number": 135,
+   "frames": 573,
+   "kept_ranges": [
+    [
+     0,
+     573
+    ]
+   ],
+   "kept_frames": 573,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 86,
+   "recording": "20261030121107",
+   "recording_number": 136,
+   "frames": 544,
+   "kept_ranges": [
+    [
+     0,
+     134
+    ],
+    [
+     158,
+     544
+    ]
+   ],
+   "kept_frames": 520,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 87,
+   "recording": "20261030121128",
+   "recording_number": 137,
+   "frames": 716,
+   "kept_ranges": [
+    [
+     0,
+     716
+    ]
+   ],
+   "kept_frames": 716,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 88,
+   "recording": "20261030121154",
+   "recording_number": 138,
+   "frames": 671,
+   "kept_ranges": [
+    [
+     0,
+     344
+    ],
+    [
+     359,
+     671
+    ]
+   ],
+   "kept_frames": 656,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 89,
+   "recording": "20261030121218",
+   "recording_number": 139,
+   "frames": 613,
+   "kept_ranges": [
+    [
+     0,
+     613
+    ]
+   ],
+   "kept_frames": 613,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 90,
+   "recording": "20261030121240",
+   "recording_number": 140,
+   "frames": 619,
+   "kept_ranges": [
+    [
+     0,
+     619
+    ]
+   ],
+   "kept_frames": 619,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 91,
+   "recording": "20261030121311",
+   "recording_number": 141,
+   "frames": 382,
+   "kept_ranges": [
+    [
+     0,
+     382
+    ]
+   ],
+   "kept_frames": 382,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 92,
+   "recording": "20261030121326",
+   "recording_number": 142,
+   "frames": 505,
+   "kept_ranges": [
+    [
+     0,
+     505
+    ]
+   ],
+   "kept_frames": 505,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 93,
+   "recording": "20261030121349",
+   "recording_number": 143,
+   "frames": 495,
+   "kept_ranges": [
+    [
+     0,
+     140
+    ],
+    [
+     163,
+     495
+    ]
+   ],
+   "kept_frames": 472,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 94,
+   "recording": "20261030121410",
+   "recording_number": 144,
+   "frames": 499,
+   "kept_ranges": [
+    [
+     0,
+     499
+    ]
+   ],
+   "kept_frames": 499,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 95,
+   "recording": "20261030121432",
+   "recording_number": 145,
+   "frames": 651,
+   "kept_ranges": [
+    [
+     0,
+     170
+    ],
+    [
+     174,
+     651
+    ]
+   ],
+   "kept_frames": 647,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 96,
+   "recording": "20261030121457",
+   "recording_number": 146,
+   "frames": 506,
+   "kept_ranges": [
+    [
+     0,
+     506
+    ]
+   ],
+   "kept_frames": 506,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 97,
+   "recording": "20261030121518",
+   "recording_number": 147,
+   "frames": 713,
+   "kept_ranges": [
+    [
+     0,
+     713
+    ]
+   ],
+   "kept_frames": 713,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 98,
+   "recording": "20261030121543",
+   "recording_number": 148,
+   "frames": 565,
+   "kept_ranges": [
+    [
+     0,
+     565
+    ]
+   ],
+   "kept_frames": 565,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 99,
+   "recording": "20261030121620",
+   "recording_number": 149,
+   "frames": 473,
+   "kept_ranges": [
+    [
+     0,
+     473
+    ]
+   ],
+   "kept_frames": 473,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 100,
+   "recording": "20261030121638",
+   "recording_number": 150,
+   "frames": 461,
+   "kept_ranges": [
+    [
+     0,
+     461
+    ]
+   ],
+   "kept_frames": 461,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 101,
+   "recording": "20261030121654",
+   "recording_number": 151,
+   "frames": 527,
+   "kept_ranges": [
+    [
+     0,
+     527
+    ]
+   ],
+   "kept_frames": 527,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 102,
+   "recording": "20261030121714",
+   "recording_number": 152,
+   "frames": 690,
+   "kept_ranges": [
+    [
+     0,
+     226
+    ],
+    [
+     258,
+     690
+    ]
+   ],
+   "kept_frames": 658,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 103,
+   "recording": "20261030121739",
+   "recording_number": 153,
+   "frames": 564,
+   "kept_ranges": [
+    [
+     0,
+     564
+    ]
+   ],
+   "kept_frames": 564,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 104,
+   "recording": "20261030121759",
+   "recording_number": 154,
+   "frames": 599,
+   "kept_ranges": [
+    [
+     0,
+     523
+    ],
+    [
+     536,
+     599
+    ]
+   ],
+   "kept_frames": 586,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 105,
+   "recording": "20261030121821",
+   "recording_number": 155,
+   "frames": 558,
+   "kept_ranges": [
+    [
+     0,
+     558
+    ]
+   ],
+   "kept_frames": 558,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 106,
+   "recording": "20261030121842",
+   "recording_number": 156,
+   "frames": 574,
+   "kept_ranges": [
+    [
+     0,
+     574
+    ]
+   ],
+   "kept_frames": 574,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 107,
+   "recording": "20261030121921",
+   "recording_number": 157,
+   "frames": 435,
+   "kept_ranges": [
+    [
+     0,
+     106
+    ],
+    [
+     119,
+     435
+    ]
+   ],
+   "kept_frames": 422,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 108,
+   "recording": "20261030121938",
+   "recording_number": 158,
+   "frames": 479,
+   "kept_ranges": [
+    [
+     0,
+     479
+    ]
+   ],
+   "kept_frames": 479,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 109,
+   "recording": "20261030121956",
+   "recording_number": 159,
+   "frames": 492,
+   "kept_ranges": [
+    [
+     0,
+     492
+    ]
+   ],
+   "kept_frames": 492,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 110,
+   "recording": "20261030122014",
+   "recording_number": 160,
+   "frames": 412,
+   "kept_ranges": [
+    [
+     0,
+     412
+    ]
+   ],
+   "kept_frames": 412,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 111,
+   "recording": "20261030122030",
+   "recording_number": 161,
+   "frames": 515,
+   "kept_ranges": [
+    [
+     0,
+     250
+    ],
+    [
+     255,
+     515
+    ]
+   ],
+   "kept_frames": 510,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 112,
+   "recording": "20261030122050",
+   "recording_number": 162,
+   "frames": 601,
+   "kept_ranges": [
+    [
+     0,
+     328
+    ],
+    [
+     337,
+     522
+    ],
+    [
+     527,
+     601
+    ]
+   ],
+   "kept_frames": 587,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 113,
+   "recording": "20261030122135",
+   "recording_number": 163,
+   "frames": 383,
+   "kept_ranges": [
+    [
+     0,
+     383
+    ]
+   ],
+   "kept_frames": 383,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 114,
+   "recording": "20261030122150",
+   "recording_number": 164,
+   "frames": 558,
+   "kept_ranges": [
+    [
+     0,
+     146
+    ],
+    [
+     161,
+     558
+    ]
+   ],
+   "kept_frames": 543,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 115,
+   "recording": "20261030122435",
+   "recording_number": 165,
+   "frames": 456,
+   "kept_ranges": [
+    [
+     0,
+     456
+    ]
+   ],
+   "kept_frames": 456,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 116,
+   "recording": "20261030122452",
+   "recording_number": 166,
+   "frames": 518,
+   "kept_ranges": [
+    [
+     0,
+     518
+    ]
+   ],
+   "kept_frames": 518,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 117,
+   "recording": "20261030122510",
+   "recording_number": 167,
+   "frames": 490,
+   "kept_ranges": [
+    [
+     0,
+     490
+    ]
+   ],
+   "kept_frames": 490,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 118,
+   "recording": "20261030122528",
+   "recording_number": 168,
+   "frames": 523,
+   "kept_ranges": [
+    [
+     0,
+     523
+    ]
+   ],
+   "kept_frames": 523,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 119,
+   "recording": "20261030122612",
+   "recording_number": 169,
+   "frames": 578,
+   "kept_ranges": [
+    [
+     0,
+     578
+    ]
+   ],
+   "kept_frames": 578,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 120,
+   "recording": "20261030122633",
+   "recording_number": 170,
+   "frames": 523,
+   "kept_ranges": [
+    [
+     0,
+     523
+    ]
+   ],
+   "kept_frames": 523,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 121,
+   "recording": "20261030122652",
+   "recording_number": 171,
+   "frames": 493,
+   "kept_ranges": [
+    [
+     0,
+     493
+    ]
+   ],
+   "kept_frames": 493,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 122,
+   "recording": "20261030122720",
+   "recording_number": 172,
+   "frames": 518,
+   "kept_ranges": [
+    [
+     0,
+     518
+    ]
+   ],
+   "kept_frames": 518,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 123,
+   "recording": "20261030122747",
+   "recording_number": 173,
+   "frames": 500,
+   "kept_ranges": [
+    [
+     0,
+     500
+    ]
+   ],
+   "kept_frames": 500,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 124,
+   "recording": "20261030122806",
+   "recording_number": 174,
+   "frames": 394,
+   "kept_ranges": [
+    [
+     0,
+     394
+    ]
+   ],
+   "kept_frames": 394,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 125,
+   "recording": "20261030122821",
+   "recording_number": 175,
+   "frames": 408,
+   "kept_ranges": [
+    [
+     0,
+     408
+    ]
+   ],
+   "kept_frames": 408,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 126,
+   "recording": "20261030122836",
+   "recording_number": 176,
+   "frames": 424,
+   "kept_ranges": [
+    [
+     0,
+     424
+    ]
+   ],
+   "kept_frames": 424,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 127,
+   "recording": "20261030122852",
+   "recording_number": 177,
+   "frames": 453,
+   "kept_ranges": [
+    [
+     0,
+     453
+    ]
+   ],
+   "kept_frames": 453,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 128,
+   "recording": "20261030122908",
+   "recording_number": 178,
+   "frames": 345,
+   "kept_ranges": [
+    [
+     0,
+     345
+    ]
+   ],
+   "kept_frames": 345,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 129,
+   "recording": "20261030122958",
+   "recording_number": 179,
+   "frames": 314,
+   "kept_ranges": [
+    [
+     0,
+     314
+    ]
+   ],
+   "kept_frames": 314,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 130,
+   "recording": "20261030123010",
+   "recording_number": 180,
+   "frames": 375,
+   "kept_ranges": [
+    [
+     0,
+     375
+    ]
+   ],
+   "kept_frames": 375,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 131,
+   "recording": "20261030123043",
+   "recording_number": 181,
+   "frames": 432,
+   "kept_ranges": [
+    [
+     0,
+     432
+    ]
+   ],
+   "kept_frames": 432,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 132,
+   "recording": "20261030123058",
+   "recording_number": 182,
+   "frames": 379,
+   "kept_ranges": [
+    [
+     0,
+     379
+    ]
+   ],
+   "kept_frames": 379,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 133,
+   "recording": "20261030123114",
+   "recording_number": 183,
+   "frames": 447,
+   "kept_ranges": [
+    [
+     0,
+     447
+    ]
+   ],
+   "kept_frames": 447,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 134,
+   "recording": "20261030123130",
+   "recording_number": 184,
+   "frames": 352,
+   "kept_ranges": [
+    [
+     0,
+     352
+    ]
+   ],
+   "kept_frames": 352,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 135,
+   "recording": "20261030123143",
+   "recording_number": 185,
+   "frames": 367,
+   "kept_ranges": [
+    [
+     0,
+     367
+    ]
+   ],
+   "kept_frames": 367,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 136,
+   "recording": "20261030123236",
+   "recording_number": 186,
+   "frames": 387,
+   "kept_ranges": [
+    [
+     0,
+     387
+    ]
+   ],
+   "kept_frames": 387,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 137,
+   "recording": "20261030123250",
+   "recording_number": 187,
+   "frames": 436,
+   "kept_ranges": [
+    [
+     0,
+     436
+    ]
+   ],
+   "kept_frames": 436,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 138,
+   "recording": "20261030123319",
+   "recording_number": 188,
+   "frames": 488,
+   "kept_ranges": [
+    [
+     0,
+     488
+    ]
+   ],
+   "kept_frames": 488,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 139,
+   "recording": "20261030123338",
+   "recording_number": 189,
+   "frames": 407,
+   "kept_ranges": [
+    [
+     0,
+     407
+    ]
+   ],
+   "kept_frames": 407,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 140,
+   "recording": "20261030123353",
+   "recording_number": 190,
+   "frames": 464,
+   "kept_ranges": [
+    [
+     0,
+     464
+    ]
+   ],
+   "kept_frames": 464,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 141,
+   "recording": "20261030123410",
+   "recording_number": 191,
+   "frames": 361,
+   "kept_ranges": [
+    [
+     0,
+     361
+    ]
+   ],
+   "kept_frames": 361,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 142,
+   "recording": "20261030123514",
+   "recording_number": 192,
+   "frames": 441,
+   "kept_ranges": [
+    [
+     0,
+     441
+    ]
+   ],
+   "kept_frames": 441,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 143,
+   "recording": "20261030123530",
+   "recording_number": 193,
+   "frames": 470,
+   "kept_ranges": [
+    [
+     0,
+     470
+    ]
+   ],
+   "kept_frames": 470,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 144,
+   "recording": "20261030123611",
+   "recording_number": 194,
+   "frames": 397,
+   "kept_ranges": [
+    [
+     0,
+     397
+    ]
+   ],
+   "kept_frames": 397,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 145,
+   "recording": "20261030123628",
+   "recording_number": 195,
+   "frames": 470,
+   "kept_ranges": [
+    [
+     0,
+     470
+    ]
+   ],
+   "kept_frames": 470,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 146,
+   "recording": "20261030123733",
+   "recording_number": 196,
+   "frames": 525,
+   "kept_ranges": [
+    [
+     0,
+     525
+    ]
+   ],
+   "kept_frames": 525,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 147,
+   "recording": "20261030123752",
+   "recording_number": 197,
+   "frames": 544,
+   "kept_ranges": [
+    [
+     0,
+     544
+    ]
+   ],
+   "kept_frames": 544,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 148,
+   "recording": "20261030123812",
+   "recording_number": 198,
+   "frames": 480,
+   "kept_ranges": [
+    [
+     0,
+     480
+    ]
+   ],
+   "kept_frames": 480,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 149,
+   "recording": "20261030123831",
+   "recording_number": 199,
+   "frames": 582,
+   "kept_ranges": [
+    [
+     0,
+     489
+    ],
+    [
+     493,
+     582
+    ]
+   ],
+   "kept_frames": 578,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 150,
+   "recording": "20261030123852",
+   "recording_number": 200,
+   "frames": 561,
+   "kept_ranges": [
+    [
+     0,
+     561
+    ]
+   ],
+   "kept_frames": 561,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 151,
+   "recording": "20261030123913",
+   "recording_number": 201,
+   "frames": 533,
+   "kept_ranges": [
+    [
+     0,
+     151
+    ],
+    [
+     156,
+     533
+    ]
+   ],
+   "kept_frames": 528,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 152,
+   "recording": "20261030123951",
+   "recording_number": 202,
+   "frames": 390,
+   "kept_ranges": [
+    [
+     0,
+     390
+    ]
+   ],
+   "kept_frames": 390,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 153,
+   "recording": "20261030124005",
+   "recording_number": 203,
+   "frames": 426,
+   "kept_ranges": [
+    [
+     0,
+     426
+    ]
+   ],
+   "kept_frames": 426,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 154,
+   "recording": "20261030124021",
+   "recording_number": 204,
+   "frames": 607,
+   "kept_ranges": [
+    [
+     0,
+     607
+    ]
+   ],
+   "kept_frames": 607,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 155,
+   "recording": "20261030124043",
+   "recording_number": 205,
+   "frames": 464,
+   "kept_ranges": [
+    [
+     0,
+     464
+    ]
+   ],
+   "kept_frames": 464,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 156,
+   "recording": "20261030124100",
+   "recording_number": 206,
+   "frames": 400,
+   "kept_ranges": [
+    [
+     0,
+     400
+    ]
+   ],
+   "kept_frames": 400,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 157,
+   "recording": "20261030124114",
+   "recording_number": 207,
+   "frames": 374,
+   "kept_ranges": [
+    [
+     0,
+     374
+    ]
+   ],
+   "kept_frames": 374,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 158,
+   "recording": "20261030124129",
+   "recording_number": 208,
+   "frames": 502,
+   "kept_ranges": [
+    [
+     0,
+     502
+    ]
+   ],
+   "kept_frames": 502,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 159,
+   "recording": "20261030124147",
+   "recording_number": 209,
+   "frames": 495,
+   "kept_ranges": [
+    [
+     0,
+     495
+    ]
+   ],
+   "kept_frames": 495,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 160,
+   "recording": "20261030124217",
+   "recording_number": 210,
+   "frames": 426,
+   "kept_ranges": [
+    [
+     0,
+     426
+    ]
+   ],
+   "kept_frames": 426,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 161,
+   "recording": "20261030124233",
+   "recording_number": 211,
+   "frames": 424,
+   "kept_ranges": [
+    [
+     0,
+     424
+    ]
+   ],
+   "kept_frames": 424,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 162,
+   "recording": "20261030124248",
+   "recording_number": 212,
+   "frames": 479,
+   "kept_ranges": [
+    [
+     0,
+     479
+    ]
+   ],
+   "kept_frames": 479,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 163,
+   "recording": "20261030124305",
+   "recording_number": 213,
+   "frames": 371,
+   "kept_ranges": [
+    [
+     0,
+     371
+    ]
+   ],
+   "kept_frames": 371,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 164,
+   "recording": "20261030124319",
+   "recording_number": 214,
+   "frames": 420,
+   "kept_ranges": [
+    [
+     0,
+     420
+    ]
+   ],
+   "kept_frames": 420,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 165,
+   "recording": "20261030124334",
+   "recording_number": 215,
+   "frames": 468,
+   "kept_ranges": [
+    [
+     0,
+     468
+    ]
+   ],
+   "kept_frames": 468,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 166,
+   "recording": "20261030124351",
+   "recording_number": 216,
+   "frames": 486,
+   "kept_ranges": [
+    [
+     0,
+     486
+    ]
+   ],
+   "kept_frames": 486,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 167,
+   "recording": "20261030124408",
+   "recording_number": 217,
+   "frames": 440,
+   "kept_ranges": [
+    [
+     0,
+     440
+    ]
+   ],
+   "kept_frames": 440,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 168,
+   "recording": "20261030124605",
+   "recording_number": 218,
+   "frames": 449,
+   "kept_ranges": [
+    [
+     0,
+     449
+    ]
+   ],
+   "kept_frames": 449,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 169,
+   "recording": "20261030124624",
+   "recording_number": 219,
+   "frames": 501,
+   "kept_ranges": [
+    [
+     0,
+     501
+    ]
+   ],
+   "kept_frames": 501,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 170,
+   "recording": "20261030124644",
+   "recording_number": 220,
+   "frames": 495,
+   "kept_ranges": [
+    [
+     0,
+     495
+    ]
+   ],
+   "kept_frames": 495,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 171,
+   "recording": "20261030124704",
+   "recording_number": 221,
+   "frames": 558,
+   "kept_ranges": [
+    [
+     0,
+     558
+    ]
+   ],
+   "kept_frames": 558,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 172,
+   "recording": "20261030124735",
+   "recording_number": 222,
+   "frames": 624,
+   "kept_ranges": [
+    [
+     0,
+     624
+    ]
+   ],
+   "kept_frames": 624,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 173,
+   "recording": "20261030124758",
+   "recording_number": 223,
+   "frames": 571,
+   "kept_ranges": [
+    [
+     0,
+     571
+    ]
+   ],
+   "kept_frames": 571,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 174,
+   "recording": "20261030130419",
+   "recording_number": 224,
+   "frames": 554,
+   "kept_ranges": [
+    [
+     0,
+     554
+    ]
+   ],
+   "kept_frames": 554,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 175,
+   "recording": "20261030130443",
+   "recording_number": 225,
+   "frames": 759,
+   "kept_ranges": [
+    [
+     0,
+     216
+    ],
+    [
+     224,
+     237
+    ],
+    [
+     251,
+     759
+    ]
+   ],
+   "kept_frames": 737,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 176,
+   "recording": "20261030130523",
+   "recording_number": 226,
+   "frames": 454,
+   "kept_ranges": [
+    [
+     0,
+     454
+    ]
+   ],
+   "kept_frames": 454,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 177,
+   "recording": "20261030130539",
+   "recording_number": 227,
+   "frames": 422,
+   "kept_ranges": [
+    [
+     0,
+     422
+    ]
+   ],
+   "kept_frames": 422,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 178,
+   "recording": "20261030130555",
+   "recording_number": 228,
+   "frames": 475,
+   "kept_ranges": [
+    [
+     0,
+     475
+    ]
+   ],
+   "kept_frames": 475,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 179,
+   "recording": "20261030130613",
+   "recording_number": 229,
+   "frames": 426,
+   "kept_ranges": [
+    [
+     0,
+     426
+    ]
+   ],
+   "kept_frames": 426,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 180,
+   "recording": "20261030130629",
+   "recording_number": 230,
+   "frames": 503,
+   "kept_ranges": [
+    [
+     0,
+     503
+    ]
+   ],
+   "kept_frames": 503,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 181,
+   "recording": "20261030130650",
+   "recording_number": 231,
+   "frames": 442,
+   "kept_ranges": [
+    [
+     0,
+     442
+    ]
+   ],
+   "kept_frames": 442,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 182,
+   "recording": "20261030130707",
+   "recording_number": 232,
+   "frames": 420,
+   "kept_ranges": [
+    [
+     0,
+     420
+    ]
+   ],
+   "kept_frames": 420,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 183,
+   "recording": "20261030130724",
+   "recording_number": 233,
+   "frames": 536,
+   "kept_ranges": [
+    [
+     0,
+     536
+    ]
+   ],
+   "kept_frames": 536,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 184,
+   "recording": "20261030130753",
+   "recording_number": 234,
+   "frames": 480,
+   "kept_ranges": [
+    [
+     0,
+     480
+    ]
+   ],
+   "kept_frames": 480,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 185,
+   "recording": "20261030130811",
+   "recording_number": 235,
+   "frames": 440,
+   "kept_ranges": [
+    [
+     0,
+     440
+    ]
+   ],
+   "kept_frames": 440,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 186,
+   "recording": "20261030130827",
+   "recording_number": 236,
+   "frames": 511,
+   "kept_ranges": [
+    [
+     0,
+     511
+    ]
+   ],
+   "kept_frames": 511,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 187,
+   "recording": "20261030131043",
+   "recording_number": 237,
+   "frames": 462,
+   "kept_ranges": [
+    [
+     0,
+     462
+    ]
+   ],
+   "kept_frames": 462,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 188,
+   "recording": "20261030145739",
+   "recording_number": 238,
+   "frames": 514,
+   "kept_ranges": [
+    [
+     0,
+     514
+    ]
+   ],
+   "kept_frames": 514,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 189,
+   "recording": "20261030145758",
+   "recording_number": 239,
+   "frames": 484,
+   "kept_ranges": [
+    [
+     0,
+     374
+    ],
+    [
+     377,
+     484
+    ]
+   ],
+   "kept_frames": 481,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 190,
+   "recording": "20261030145816",
+   "recording_number": 240,
+   "frames": 498,
+   "kept_ranges": [
+    [
+     0,
+     498
+    ]
+   ],
+   "kept_frames": 498,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 191,
+   "recording": "20261030145834",
+   "recording_number": 241,
+   "frames": 530,
+   "kept_ranges": [
+    [
+     0,
+     530
+    ]
+   ],
+   "kept_frames": 530,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 192,
+   "recording": "20261030145853",
+   "recording_number": 242,
+   "frames": 554,
+   "kept_ranges": [
+    [
+     0,
+     554
+    ]
+   ],
+   "kept_frames": 554,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 193,
+   "recording": "20261030145913",
+   "recording_number": 243,
+   "frames": 422,
+   "kept_ranges": [
+    [
+     0,
+     422
+    ]
+   ],
+   "kept_frames": 422,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 194,
+   "recording": "20261030145929",
+   "recording_number": 244,
+   "frames": 502,
+   "kept_ranges": [
+    [
+     0,
+     502
+    ]
+   ],
+   "kept_frames": 502,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 195,
+   "recording": "20261030145947",
+   "recording_number": 245,
+   "frames": 638,
+   "kept_ranges": [
+    [
+     0,
+     638
+    ]
+   ],
+   "kept_frames": 638,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 196,
+   "recording": "20261030150026",
+   "recording_number": 246,
+   "frames": 554,
+   "kept_ranges": [
+    [
+     0,
+     554
+    ]
+   ],
+   "kept_frames": 554,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 197,
+   "recording": "20261030150048",
+   "recording_number": 247,
+   "frames": 480,
+   "kept_ranges": [
+    [
+     0,
+     480
+    ]
+   ],
+   "kept_frames": 480,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 198,
+   "recording": "20261030150107",
+   "recording_number": 248,
+   "frames": 568,
+   "kept_ranges": [
+    [
+     0,
+     568
+    ]
+   ],
+   "kept_frames": 568,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 199,
+   "recording": "20261030150128",
+   "recording_number": 249,
+   "frames": 529,
+   "kept_ranges": [
+    [
+     0,
+     529
+    ]
+   ],
+   "kept_frames": 529,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 200,
+   "recording": "20261030150147",
+   "recording_number": 250,
+   "frames": 637,
+   "kept_ranges": [
+    [
+     0,
+     637
+    ]
+   ],
+   "kept_frames": 637,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 201,
+   "recording": "20261030150210",
+   "recording_number": 251,
+   "frames": 522,
+   "kept_ranges": [
+    [
+     0,
+     522
+    ]
+   ],
+   "kept_frames": 522,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 202,
+   "recording": "20261030150230",
+   "recording_number": 252,
+   "frames": 606,
+   "kept_ranges": [
+    [
+     0,
+     606
+    ]
+   ],
+   "kept_frames": 606,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 203,
+   "recording": "20261030150252",
+   "recording_number": 253,
+   "frames": 580,
+   "kept_ranges": [
+    [
+     0,
+     580
+    ]
+   ],
+   "kept_frames": 580,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 204,
+   "recording": "20261030150330",
+   "recording_number": 254,
+   "frames": 437,
+   "kept_ranges": [
+    [
+     0,
+     437
+    ]
+   ],
+   "kept_frames": 437,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 205,
+   "recording": "20261030150346",
+   "recording_number": 255,
+   "frames": 511,
+   "kept_ranges": [
+    [
+     0,
+     138
+    ],
+    [
+     169,
+     511
+    ]
+   ],
+   "kept_frames": 480,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 206,
+   "recording": "20261030150425",
+   "recording_number": 256,
+   "frames": 502,
+   "kept_ranges": [
+    [
+     0,
+     502
+    ]
+   ],
+   "kept_frames": 502,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 207,
+   "recording": "20261030150444",
+   "recording_number": 257,
+   "frames": 532,
+   "kept_ranges": [
+    [
+     0,
+     532
+    ]
+   ],
+   "kept_frames": 532,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 208,
+   "recording": "20261030150504",
+   "recording_number": 258,
+   "frames": 615,
+   "kept_ranges": [
+    [
+     0,
+     615
+    ]
+   ],
+   "kept_frames": 615,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 209,
+   "recording": "20261030150526",
+   "recording_number": 259,
+   "frames": 530,
+   "kept_ranges": [
+    [
+     0,
+     530
+    ]
+   ],
+   "kept_frames": 530,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 210,
+   "recording": "20261030150546",
+   "recording_number": 260,
+   "frames": 553,
+   "kept_ranges": [
+    [
+     0,
+     553
+    ]
+   ],
+   "kept_frames": 553,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 211,
+   "recording": "20261030150640",
+   "recording_number": 261,
+   "frames": 535,
+   "kept_ranges": [
+    [
+     0,
+     291
+    ],
+    [
+     294,
+     535
+    ]
+   ],
+   "kept_frames": 532,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 212,
+   "recording": "20261030150720",
+   "recording_number": 262,
+   "frames": 393,
+   "kept_ranges": [
+    [
+     0,
+     393
+    ]
+   ],
+   "kept_frames": 393,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 213,
+   "recording": "20261030150735",
+   "recording_number": 263,
+   "frames": 455,
+   "kept_ranges": [
+    [
+     0,
+     455
+    ]
+   ],
+   "kept_frames": 455,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 214,
+   "recording": "20261030150754",
+   "recording_number": 264,
+   "frames": 518,
+   "kept_ranges": [
+    [
+     0,
+     518
+    ]
+   ],
+   "kept_frames": 518,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 215,
+   "recording": "20261030150815",
+   "recording_number": 265,
+   "frames": 601,
+   "kept_ranges": [
+    [
+     0,
+     601
+    ]
+   ],
+   "kept_frames": 601,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 216,
+   "recording": "20261030150839",
+   "recording_number": 266,
+   "frames": 668,
+   "kept_ranges": [
+    [
+     0,
+     668
+    ]
+   ],
+   "kept_frames": 668,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 217,
+   "recording": "20261030150906",
+   "recording_number": 267,
+   "frames": 577,
+   "kept_ranges": [
+    [
+     0,
+     141
+    ],
+    [
+     146,
+     577
+    ]
+   ],
+   "kept_frames": 572,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 218,
+   "recording": "20261030150929",
+   "recording_number": 268,
+   "frames": 654,
+   "kept_ranges": [
+    [
+     0,
+     654
+    ]
+   ],
+   "kept_frames": 654,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 219,
+   "recording": "20261030150957",
+   "recording_number": 269,
+   "frames": 713,
+   "kept_ranges": [
+    [
+     0,
+     246
+    ],
+    [
+     251,
+     713
+    ]
+   ],
+   "kept_frames": 708,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 220,
+   "recording": "20261030151118",
+   "recording_number": 270,
+   "frames": 454,
+   "kept_ranges": [
+    [
+     0,
+     454
+    ]
+   ],
+   "kept_frames": 454,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 221,
+   "recording": "20261030151135",
+   "recording_number": 271,
+   "frames": 507,
+   "kept_ranges": [
+    [
+     0,
+     122
+    ],
+    [
+     160,
+     306
+    ],
+    [
+     313,
+     507
+    ]
+   ],
+   "kept_frames": 462,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 222,
+   "recording": "20261030151157",
+   "recording_number": 272,
+   "frames": 475,
+   "kept_ranges": [
+    [
+     0,
+     475
+    ]
+   ],
+   "kept_frames": 475,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 223,
+   "recording": "20261030151214",
+   "recording_number": 273,
+   "frames": 459,
+   "kept_ranges": [
+    [
+     0,
+     377
+    ],
+    [
+     382,
+     459
+    ]
+   ],
+   "kept_frames": 454,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 224,
+   "recording": "20261030151231",
+   "recording_number": 274,
+   "frames": 507,
+   "kept_ranges": [
+    [
+     0,
+     507
+    ]
+   ],
+   "kept_frames": 507,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 225,
+   "recording": "20261030151250",
+   "recording_number": 275,
+   "frames": 555,
+   "kept_ranges": [
+    [
+     0,
+     457
+    ],
+    [
+     463,
+     555
+    ]
+   ],
+   "kept_frames": 549,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 226,
+   "recording": "20261030151311",
+   "recording_number": 276,
+   "frames": 641,
+   "kept_ranges": [
+    [
+     0,
+     528
+    ],
+    [
+     541,
+     641
+    ]
+   ],
+   "kept_frames": 628,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 227,
+   "recording": "20261030151336",
+   "recording_number": 277,
+   "frames": 554,
+   "kept_ranges": [
+    [
+     0,
+     554
+    ]
+   ],
+   "kept_frames": 554,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 228,
+   "recording": "20261030151411",
+   "recording_number": 278,
+   "frames": 420,
+   "kept_ranges": [
+    [
+     0,
+     420
+    ]
+   ],
+   "kept_frames": 420,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 229,
+   "recording": "20261030151427",
+   "recording_number": 279,
+   "frames": 538,
+   "kept_ranges": [
+    [
+     0,
+     538
+    ]
+   ],
+   "kept_frames": 538,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 230,
+   "recording": "20261030151448",
+   "recording_number": 280,
+   "frames": 602,
+   "kept_ranges": [
+    [
+     0,
+     602
+    ]
+   ],
+   "kept_frames": 602,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 231,
+   "recording": "20261030151511",
+   "recording_number": 281,
+   "frames": 595,
+   "kept_ranges": [
+    [
+     0,
+     512
+    ],
+    [
+     523,
+     595
+    ]
+   ],
+   "kept_frames": 584,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 232,
+   "recording": "20261030151535",
+   "recording_number": 282,
+   "frames": 548,
+   "kept_ranges": [
+    [
+     0,
+     548
+    ]
+   ],
+   "kept_frames": 548,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 233,
+   "recording": "20261030151557",
+   "recording_number": 283,
+   "frames": 493,
+   "kept_ranges": [
+    [
+     0,
+     493
+    ]
+   ],
+   "kept_frames": 493,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 234,
+   "recording": "20261030151614",
+   "recording_number": 284,
+   "frames": 514,
+   "kept_ranges": [
+    [
+     0,
+     514
+    ]
+   ],
+   "kept_frames": 514,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 235,
+   "recording": "20261030151633",
+   "recording_number": 285,
+   "frames": 531,
+   "kept_ranges": [
+    [
+     0,
+     531
+    ]
+   ],
+   "kept_frames": 531,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 236,
+   "recording": "intervention_20261030153926",
+   "recording_number": 286,
+   "frames": 468,
+   "kept_ranges": [
+    [
+     25,
+     248
+    ],
+    [
+     364,
+     461
+    ]
+   ],
+   "kept_frames": 320,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 237,
+   "recording": "intervention_20261030154251",
+   "recording_number": 287,
+   "frames": 325,
+   "kept_ranges": [
+    [
+     15,
+     270
+    ]
+   ],
+   "kept_frames": 255,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 238,
+   "recording": "intervention_20261030154538",
+   "recording_number": 288,
+   "frames": 280,
+   "kept_ranges": [
+    [
+     10,
+     101
+    ],
+    [
+     112,
+     229
+    ]
+   ],
+   "kept_frames": 208,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 239,
+   "recording": "intervention_20261030155300",
+   "recording_number": 289,
+   "frames": 279,
+   "kept_ranges": [
+    [
+     10,
+     279
+    ]
+   ],
+   "kept_frames": 269,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 240,
+   "recording": "intervention_20261030155444",
+   "recording_number": 290,
+   "frames": 213,
+   "kept_ranges": [
+    [
+     0,
+     213
+    ]
+   ],
+   "kept_frames": 213,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 241,
+   "recording": "intervention_20261030155531",
+   "recording_number": 291,
+   "frames": 204,
+   "kept_ranges": [
+    [
+     0,
+     204
+    ]
+   ],
+   "kept_frames": 204,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 242,
+   "recording": "intervention_20261030155821",
+   "recording_number": 292,
+   "frames": 162,
+   "kept_ranges": [
+    [
+     0,
+     162
+    ]
+   ],
+   "kept_frames": 162,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 243,
+   "recording": "intervention_20261030155838",
+   "recording_number": 293,
+   "frames": 223,
+   "kept_ranges": [
+    [
+     11,
+     223
+    ]
+   ],
+   "kept_frames": 212,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 244,
+   "recording": "intervention_20261030155917",
+   "recording_number": 294,
+   "frames": 253,
+   "kept_ranges": [
+    [
+     9,
+     253
+    ]
+   ],
+   "kept_frames": 244,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 245,
+   "recording": "intervention_20261030155951",
+   "recording_number": 295,
+   "frames": 292,
+   "kept_ranges": [
+    [
+     0,
+     292
+    ]
+   ],
+   "kept_frames": 292,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 246,
+   "recording": "intervention_20261030160025",
+   "recording_number": 296,
+   "frames": 635,
+   "kept_ranges": [
+    [
+     0,
+     635
+    ]
+   ],
+   "kept_frames": 635,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 247,
+   "recording": "intervention_20261030160059",
+   "recording_number": 297,
+   "frames": 167,
+   "kept_ranges": [
+    [
+     0,
+     147
+    ]
+   ],
+   "kept_frames": 147,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 248,
+   "recording": "intervention_20261030160152",
+   "recording_number": 298,
+   "frames": 805,
+   "kept_ranges": [
+    [
+     10,
+     691
+    ]
+   ],
+   "kept_frames": 681,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 249,
+   "recording": "intervention_20261030160250",
+   "recording_number": 299,
+   "frames": 208,
+   "kept_ranges": [
+    [
+     0,
+     208
+    ]
+   ],
+   "kept_frames": 208,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 250,
+   "recording": "intervention_20261030160326",
+   "recording_number": 300,
+   "frames": 517,
+   "kept_ranges": [
+    [
+     0,
+     517
+    ]
+   ],
+   "kept_frames": 517,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 251,
+   "recording": "intervention_20261030160447",
+   "recording_number": 301,
+   "frames": 173,
+   "kept_ranges": [
+    [
+     0,
+     173
+    ]
+   ],
+   "kept_frames": 173,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 252,
+   "recording": "intervention_20261030160509",
+   "recording_number": 302,
+   "frames": 346,
+   "kept_ranges": [
+    [
+     0,
+     346
+    ]
+   ],
+   "kept_frames": 346,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 253,
+   "recording": "intervention_20261030160618",
+   "recording_number": 303,
+   "frames": 298,
+   "kept_ranges": [
+    [
+     0,
+     298
+    ]
+   ],
+   "kept_frames": 298,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 254,
+   "recording": "intervention_20261030160641",
+   "recording_number": 304,
+   "frames": 236,
+   "kept_ranges": [
+    [
+     0,
+     236
+    ]
+   ],
+   "kept_frames": 236,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 255,
+   "recording": "intervention_20261030160707",
+   "recording_number": 305,
+   "frames": 214,
+   "kept_ranges": [
+    [
+     13,
+     214
+    ]
+   ],
+   "kept_frames": 201,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 256,
+   "recording": "intervention_20261030160734",
+   "recording_number": 306,
+   "frames": 408,
+   "kept_ranges": [
+    [
+     0,
+     408
+    ]
+   ],
+   "kept_frames": 408,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 257,
+   "recording": "intervention_20261030160829",
+   "recording_number": 307,
+   "frames": 302,
+   "kept_ranges": [
+    [
+     0,
+     302
+    ]
+   ],
+   "kept_frames": 302,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 258,
+   "recording": "intervention_20261030160855",
+   "recording_number": 308,
+   "frames": 349,
+   "kept_ranges": [
+    [
+     10,
+     349
+    ]
+   ],
+   "kept_frames": 339,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 259,
+   "recording": "intervention_20261030160929",
+   "recording_number": 309,
+   "frames": 448,
+   "kept_ranges": [
+    [
+     0,
+     160
+    ]
+   ],
+   "kept_frames": 160,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 260,
+   "recording": "intervention_20261030161015",
+   "recording_number": 310,
+   "frames": 128,
+   "kept_ranges": [
+    [
+     0,
+     128
+    ]
+   ],
+   "kept_frames": 128,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 261,
+   "recording": "intervention_20261030161031",
+   "recording_number": 311,
+   "frames": 902,
+   "kept_ranges": [
+    [
+     4,
+     902
+    ]
+   ],
+   "kept_frames": 898,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 262,
+   "recording": "intervention_20261030161116",
+   "recording_number": 312,
+   "frames": 277,
+   "kept_ranges": [
+    [
+     0,
+     277
+    ]
+   ],
+   "kept_frames": 277,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 263,
+   "recording": "intervention_20261030163520",
+   "recording_number": 313,
+   "frames": 210,
+   "kept_ranges": [
+    [
+     11,
+     210
+    ]
+   ],
+   "kept_frames": 199,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 264,
+   "recording": "intervention_20261030163541",
+   "recording_number": 314,
+   "frames": 243,
+   "kept_ranges": [
+    [
+     11,
+     243
+    ]
+   ],
+   "kept_frames": 232,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 265,
+   "recording": "intervention_20261030163606",
+   "recording_number": 315,
+   "frames": 310,
+   "kept_ranges": [
+    [
+     14,
+     310
+    ]
+   ],
+   "kept_frames": 296,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 266,
+   "recording": "intervention_20261030163641",
+   "recording_number": 316,
+   "frames": 200,
+   "kept_ranges": [
+    [
+     0,
+     200
+    ]
+   ],
+   "kept_frames": 200,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 267,
+   "recording": "intervention_20261030163707",
+   "recording_number": 317,
+   "frames": 251,
+   "kept_ranges": [
+    [
+     0,
+     251
+    ]
+   ],
+   "kept_frames": 251,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 268,
+   "recording": "intervention_20261030163733",
+   "recording_number": 318,
+   "frames": 233,
+   "kept_ranges": [
+    [
+     0,
+     233
+    ]
+   ],
+   "kept_frames": 233,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 269,
+   "recording": "intervention_20261030163815",
+   "recording_number": 319,
+   "frames": 200,
+   "kept_ranges": [
+    [
+     0,
+     200
+    ]
+   ],
+   "kept_frames": 200,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 270,
+   "recording": "intervention_20261030164038",
+   "recording_number": 320,
+   "frames": 248,
+   "kept_ranges": [
+    [
+     0,
+     248
+    ]
+   ],
+   "kept_frames": 248,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 271,
+   "recording": "intervention_20261030164104",
+   "recording_number": 321,
+   "frames": 371,
+   "kept_ranges": [
+    [
+     20,
+     371
+    ]
+   ],
+   "kept_frames": 351,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 272,
+   "recording": "intervention_20261030164134",
+   "recording_number": 322,
+   "frames": 139,
+   "kept_ranges": [
+    [
+     12,
+     139
+    ]
+   ],
+   "kept_frames": 127,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 273,
+   "recording": "intervention_20261030164206",
+   "recording_number": 323,
+   "frames": 295,
+   "kept_ranges": [
+    [
+     12,
+     196
+    ],
+    [
+     250,
+     295
+    ]
+   ],
+   "kept_frames": 229,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 274,
+   "recording": "intervention_20261030164237",
+   "recording_number": 324,
+   "frames": 208,
+   "kept_ranges": [
+    [
+     0,
+     208
+    ]
+   ],
+   "kept_frames": 208,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 275,
+   "recording": "intervention_20261030164300",
+   "recording_number": 325,
+   "frames": 164,
+   "kept_ranges": [
+    [
+     0,
+     164
+    ]
+   ],
+   "kept_frames": 164,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 276,
+   "recording": "intervention_20261030164330",
+   "recording_number": 326,
+   "frames": 271,
+   "kept_ranges": [
+    [
+     0,
+     271
+    ]
+   ],
+   "kept_frames": 271,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 277,
+   "recording": "intervention_20261030164350",
+   "recording_number": 327,
+   "frames": 265,
+   "kept_ranges": [
+    [
+     0,
+     265
+    ]
+   ],
+   "kept_frames": 265,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 278,
+   "recording": "intervention_20261030164413",
+   "recording_number": 328,
+   "frames": 270,
+   "kept_ranges": [
+    [
+     0,
+     270
+    ]
+   ],
+   "kept_frames": 270,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 279,
+   "recording": "intervention_20261030165119",
+   "recording_number": 329,
+   "frames": 216,
+   "kept_ranges": [
+    [
+     0,
+     216
+    ]
+   ],
+   "kept_frames": 216,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 280,
+   "recording": "intervention_20261030165158",
+   "recording_number": 330,
+   "frames": 183,
+   "kept_ranges": [
+    [
+     0,
+     183
+    ]
+   ],
+   "kept_frames": 183,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 281,
+   "recording": "intervention_20261030165226",
+   "recording_number": 331,
+   "frames": 246,
+   "kept_ranges": [
+    [
+     0,
+     246
+    ]
+   ],
+   "kept_frames": 246,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 282,
+   "recording": "intervention_20261030165245",
+   "recording_number": 332,
+   "frames": 178,
+   "kept_ranges": [
+    [
+     0,
+     178
+    ]
+   ],
+   "kept_frames": 178,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 283,
+   "recording": "intervention_20261030165311",
+   "recording_number": 333,
+   "frames": 139,
+   "kept_ranges": [
+    [
+     0,
+     139
+    ]
+   ],
+   "kept_frames": 139,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 284,
+   "recording": "intervention_20261030165333",
+   "recording_number": 334,
+   "frames": 319,
+   "kept_ranges": [
+    [
+     0,
+     319
+    ]
+   ],
+   "kept_frames": 319,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 285,
+   "recording": "intervention_20261030165354",
+   "recording_number": 335,
+   "frames": 139,
+   "kept_ranges": [
+    [
+     0,
+     139
+    ]
+   ],
+   "kept_frames": 139,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 286,
+   "recording": "intervention_20261030165415",
+   "recording_number": 336,
+   "frames": 161,
+   "kept_ranges": [
+    [
+     0,
+     161
+    ]
+   ],
+   "kept_frames": 161,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 287,
+   "recording": "intervention_20261030165447",
+   "recording_number": 337,
+   "frames": 187,
+   "kept_ranges": [
+    [
+     0,
+     187
+    ]
+   ],
+   "kept_frames": 187,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 288,
+   "recording": "intervention_20261030170345",
+   "recording_number": 338,
+   "frames": 188,
+   "kept_ranges": [
+    [
+     0,
+     114
+    ],
+    [
+     121,
+     188
+    ]
+   ],
+   "kept_frames": 181,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 289,
+   "recording": "intervention_20261030170409",
+   "recording_number": 339,
+   "frames": 263,
+   "kept_ranges": [
+    [
+     0,
+     263
+    ]
+   ],
+   "kept_frames": 263,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 290,
+   "recording": "intervention_20261030170429",
+   "recording_number": 340,
+   "frames": 183,
+   "kept_ranges": [
+    [
+     0,
+     183
+    ]
+   ],
+   "kept_frames": 183,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 291,
+   "recording": "intervention_20261030170457",
+   "recording_number": 341,
+   "frames": 238,
+   "kept_ranges": [
+    [
+     11,
+     136
+    ],
+    [
+     174,
+     238
+    ]
+   ],
+   "kept_frames": 189,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 292,
+   "recording": "intervention_20261030170621",
+   "recording_number": 342,
+   "frames": 233,
+   "kept_ranges": [
+    [
+     0,
+     124
+    ],
+    [
+     144,
+     233
+    ]
+   ],
+   "kept_frames": 213,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 293,
+   "recording": "intervention_20261030170647",
+   "recording_number": 343,
+   "frames": 195,
+   "kept_ranges": [
+    [
+     0,
+     195
+    ]
+   ],
+   "kept_frames": 195,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 294,
+   "recording": "intervention_20261030170707",
+   "recording_number": 344,
+   "frames": 186,
+   "kept_ranges": [
+    [
+     0,
+     186
+    ]
+   ],
+   "kept_frames": 186,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 295,
+   "recording": "intervention_20261030170731",
+   "recording_number": 345,
+   "frames": 147,
+   "kept_ranges": [
+    [
+     9,
+     79
+    ],
+    [
+     83,
+     147
+    ]
+   ],
+   "kept_frames": 134,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 296,
+   "recording": "intervention_20261030170754",
+   "recording_number": 346,
+   "frames": 233,
+   "kept_ranges": [
+    [
+     0,
+     233
+    ]
+   ],
+   "kept_frames": 233,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 297,
+   "recording": "intervention_20261030170817",
+   "recording_number": 347,
+   "frames": 228,
+   "kept_ranges": [
+    [
+     0,
+     228
+    ]
+   ],
+   "kept_frames": 228,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 298,
+   "recording": "intervention_20261030170848",
+   "recording_number": 348,
+   "frames": 90,
+   "kept_ranges": [
+    [
+     0,
+     90
+    ]
+   ],
+   "kept_frames": 90,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 299,
+   "recording": "intervention_20261030170910",
+   "recording_number": 349,
+   "frames": 203,
+   "kept_ranges": [
+    [
+     0,
+     203
+    ]
+   ],
+   "kept_frames": 203,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 300,
+   "recording": "intervention_20261030170943",
+   "recording_number": 350,
+   "frames": 283,
+   "kept_ranges": [
+    [
+     0,
+     283
+    ]
+   ],
+   "kept_frames": 283,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 301,
+   "recording": "intervention_20261030171020",
+   "recording_number": 351,
+   "frames": 178,
+   "kept_ranges": [
+    [
+     0,
+     178
+    ]
+   ],
+   "kept_frames": 178,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 302,
+   "recording": "intervention_20261030171052",
+   "recording_number": 352,
+   "frames": 169,
+   "kept_ranges": [
+    [
+     0,
+     169
+    ]
+   ],
+   "kept_frames": 169,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 303,
+   "recording": "intervention_20261030171119",
+   "recording_number": 353,
+   "frames": 255,
+   "kept_ranges": [
+    [
+     0,
+     255
+    ]
+   ],
+   "kept_frames": 255,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 304,
+   "recording": "intervention_20261030171153",
+   "recording_number": 354,
+   "frames": 223,
+   "kept_ranges": [
+    [
+     0,
+     223
+    ]
+   ],
+   "kept_frames": 223,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 305,
+   "recording": "intervention_20261030171315",
+   "recording_number": 355,
+   "frames": 240,
+   "kept_ranges": [
+    [
+     0,
+     240
+    ]
+   ],
+   "kept_frames": 240,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 306,
+   "recording": "intervention_20261030171341",
+   "recording_number": 356,
+   "frames": 243,
+   "kept_ranges": [
+    [
+     13,
+     243
+    ]
+   ],
+   "kept_frames": 230,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 307,
+   "recording": "intervention_20261030171414",
+   "recording_number": 357,
+   "frames": 198,
+   "kept_ranges": [
+    [
+     0,
+     198
+    ]
+   ],
+   "kept_frames": 198,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 308,
+   "recording": "intervention_20261030171437",
+   "recording_number": 358,
+   "frames": 268,
+   "kept_ranges": [
+    [
+     0,
+     268
+    ]
+   ],
+   "kept_frames": 268,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 309,
+   "recording": "intervention_20261030171502",
+   "recording_number": 359,
+   "frames": 307,
+   "kept_ranges": [
+    [
+     0,
+     307
+    ]
+   ],
+   "kept_frames": 307,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 310,
+   "recording": "intervention_20261030171613",
+   "recording_number": 360,
+   "frames": 293,
+   "kept_ranges": [
+    [
+     0,
+     127
+    ],
+    [
+     135,
+     293
+    ]
+   ],
+   "kept_frames": 285,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 311,
+   "recording": "intervention_20261030171654",
+   "recording_number": 361,
+   "frames": 277,
+   "kept_ranges": [
+    [
+     0,
+     277
+    ]
+   ],
+   "kept_frames": 277,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 312,
+   "recording": "intervention_20261030171719",
+   "recording_number": 362,
+   "frames": 222,
+   "kept_ranges": [
+    [
+     0,
+     222
+    ]
+   ],
+   "kept_frames": 222,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 313,
+   "recording": "intervention_20261030171739",
+   "recording_number": 363,
+   "frames": 343,
+   "kept_ranges": [
+    [
+     0,
+     343
+    ]
+   ],
+   "kept_frames": 343,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 314,
+   "recording": "intervention_20261030171759",
+   "recording_number": 364,
+   "frames": 159,
+   "kept_ranges": [
+    [
+     0,
+     159
+    ]
+   ],
+   "kept_frames": 159,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 315,
+   "recording": "intervention_20261030171834",
+   "recording_number": 365,
+   "frames": 352,
+   "kept_ranges": [
+    [
+     0,
+     352
+    ]
+   ],
+   "kept_frames": 352,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 316,
+   "recording": "intervention_20261030171919",
+   "recording_number": 366,
+   "frames": 151,
+   "kept_ranges": [
+    [
+     10,
+     151
+    ]
+   ],
+   "kept_frames": 141,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 317,
+   "recording": "intervention_20261030171938",
+   "recording_number": 367,
+   "frames": 269,
+   "kept_ranges": [
+    [
+     0,
+     269
+    ]
+   ],
+   "kept_frames": 269,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 318,
+   "recording": "intervention_20261030172000",
+   "recording_number": 368,
+   "frames": 104,
+   "kept_ranges": [
+    [
+     21,
+     104
+    ]
+   ],
+   "kept_frames": 83,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 319,
+   "recording": "intervention_20261030172038",
+   "recording_number": 369,
+   "frames": 105,
+   "kept_ranges": [
+    [
+     0,
+     105
+    ]
+   ],
+   "kept_frames": 105,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 320,
+   "recording": "intervention_20261030172103",
+   "recording_number": 370,
+   "frames": 77,
+   "kept_ranges": [
+    [
+     0,
+     77
+    ]
+   ],
+   "kept_frames": 77,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 321,
+   "recording": "intervention_20261030172116",
+   "recording_number": 371,
+   "frames": 205,
+   "kept_ranges": [
+    [
+     0,
+     205
+    ]
+   ],
+   "kept_frames": 205,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 322,
+   "recording": "intervention_20261030172233",
+   "recording_number": 372,
+   "frames": 194,
+   "kept_ranges": [
+    [
+     0,
+     194
+    ]
+   ],
+   "kept_frames": 194,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 323,
+   "recording": "intervention_20261030172339",
+   "recording_number": 373,
+   "frames": 92,
+   "kept_ranges": [
+    [
+     0,
+     92
+    ]
+   ],
+   "kept_frames": 92,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 324,
+   "recording": "intervention_20261030172355",
+   "recording_number": 374,
+   "frames": 244,
+   "kept_ranges": [
+    [
+     0,
+     244
+    ]
+   ],
+   "kept_frames": 244,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 325,
+   "recording": "intervention_20261030172424",
+   "recording_number": 375,
+   "frames": 259,
+   "kept_ranges": [
+    [
+     0,
+     259
+    ]
+   ],
+   "kept_frames": 259,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 326,
+   "recording": "intervention_20261030172506",
+   "recording_number": 376,
+   "frames": 250,
+   "kept_ranges": [
+    [
+     0,
+     250
+    ]
+   ],
+   "kept_frames": 250,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 327,
+   "recording": "intervention_20261030180126",
+   "recording_number": 377,
+   "frames": 208,
+   "kept_ranges": [
+    [
+     0,
+     208
+    ]
+   ],
+   "kept_frames": 208,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 328,
+   "recording": "intervention_20261030180146",
+   "recording_number": 378,
+   "frames": 266,
+   "kept_ranges": [
+    [
+     0,
+     266
+    ]
+   ],
+   "kept_frames": 266,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 329,
+   "recording": "intervention_20261030180212",
+   "recording_number": 379,
+   "frames": 195,
+   "kept_ranges": [
+    [
+     0,
+     195
+    ]
+   ],
+   "kept_frames": 195,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 330,
+   "recording": "intervention_20261030180235",
+   "recording_number": 380,
+   "frames": 145,
+   "kept_ranges": [
+    [
+     0,
+     145
+    ]
+   ],
+   "kept_frames": 145,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 331,
+   "recording": "intervention_20261030180530",
+   "recording_number": 381,
+   "frames": 200,
+   "kept_ranges": [
+    [
+     0,
+     200
+    ]
+   ],
+   "kept_frames": 200,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 332,
+   "recording": "intervention_20261030180550",
+   "recording_number": 382,
+   "frames": 226,
+   "kept_ranges": [
+    [
+     0,
+     226
+    ]
+   ],
+   "kept_frames": 226,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 333,
+   "recording": "intervention_20261030180610",
+   "recording_number": 383,
+   "frames": 142,
+   "kept_ranges": [
+    [
+     0,
+     142
+    ]
+   ],
+   "kept_frames": 142,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 334,
+   "recording": "intervention_20261030180634",
+   "recording_number": 384,
+   "frames": 199,
+   "kept_ranges": [
+    [
+     0,
+     199
+    ]
+   ],
+   "kept_frames": 199,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 335,
+   "recording": "intervention_20261030180658",
+   "recording_number": 385,
+   "frames": 276,
+   "kept_ranges": [
+    [
+     0,
+     276
+    ]
+   ],
+   "kept_frames": 276,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 336,
+   "recording": "intervention_20261030180718",
+   "recording_number": 386,
+   "frames": 173,
+   "kept_ranges": [
+    [
+     0,
+     173
+    ]
+   ],
+   "kept_frames": 173,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 337,
+   "recording": "intervention_20261030180749",
+   "recording_number": 387,
+   "frames": 242,
+   "kept_ranges": [
+    [
+     0,
+     242
+    ]
+   ],
+   "kept_frames": 242,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 338,
+   "recording": "intervention_20261030180808",
+   "recording_number": 388,
+   "frames": 294,
+   "kept_ranges": [
+    [
+     0,
+     294
+    ]
+   ],
+   "kept_frames": 294,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 339,
+   "recording": "intervention_20261030180830",
+   "recording_number": 389,
+   "frames": 187,
+   "kept_ranges": [
+    [
+     0,
+     187
+    ]
+   ],
+   "kept_frames": 187,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 340,
+   "recording": "intervention_20261030180858",
+   "recording_number": 390,
+   "frames": 169,
+   "kept_ranges": [
+    [
+     0,
+     169
+    ]
+   ],
+   "kept_frames": 169,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 341,
+   "recording": "intervention_20261030180913",
+   "recording_number": 391,
+   "frames": 289,
+   "kept_ranges": [
+    [
+     0,
+     289
+    ]
+   ],
+   "kept_frames": 289,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 342,
+   "recording": "intervention_20261030180937",
+   "recording_number": 392,
+   "frames": 197,
+   "kept_ranges": [
+    [
+     0,
+     197
+    ]
+   ],
+   "kept_frames": 197,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 343,
+   "recording": "intervention_20261030181007",
+   "recording_number": 393,
+   "frames": 254,
+   "kept_ranges": [
+    [
+     0,
+     254
+    ]
+   ],
+   "kept_frames": 254,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 344,
+   "recording": "intervention_20261030181023",
+   "recording_number": 394,
+   "frames": 311,
+   "kept_ranges": [
+    [
+     0,
+     311
+    ]
+   ],
+   "kept_frames": 311,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 345,
+   "recording": "intervention_20261030181116",
+   "recording_number": 395,
+   "frames": 292,
+   "kept_ranges": [
+    [
+     0,
+     292
+    ]
+   ],
+   "kept_frames": 292,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 346,
+   "recording": "intervention_20261030181154",
+   "recording_number": 396,
+   "frames": 150,
+   "kept_ranges": [
+    [
+     0,
+     150
+    ]
+   ],
+   "kept_frames": 150,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 347,
+   "recording": "intervention_20261030181218",
+   "recording_number": 397,
+   "frames": 210,
+   "kept_ranges": [
+    [
+     0,
+     210
+    ]
+   ],
+   "kept_frames": 210,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 348,
+   "recording": "intervention_20261030181236",
+   "recording_number": 398,
+   "frames": 235,
+   "kept_ranges": [
+    [
+     0,
+     235
+    ]
+   ],
+   "kept_frames": 235,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 349,
+   "recording": "intervention_20261030181308",
+   "recording_number": 399,
+   "frames": 168,
+   "kept_ranges": [
+    [
+     0,
+     168
+    ]
+   ],
+   "kept_frames": 168,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 350,
+   "recording": "intervention_20261030181331",
+   "recording_number": 400,
+   "frames": 178,
+   "kept_ranges": [
+    [
+     0,
+     178
+    ]
+   ],
+   "kept_frames": 178,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 351,
+   "recording": "intervention_20261030181347",
+   "recording_number": 401,
+   "frames": 200,
+   "kept_ranges": [
+    [
+     0,
+     200
+    ]
+   ],
+   "kept_frames": 200,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 352,
+   "recording": "intervention_20261030181409",
+   "recording_number": 402,
+   "frames": 220,
+   "kept_ranges": [
+    [
+     0,
+     220
+    ]
+   ],
+   "kept_frames": 220,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 353,
+   "recording": "intervention_20261030181435",
+   "recording_number": 403,
+   "frames": 146,
+   "kept_ranges": [
+    [
+     0,
+     146
+    ]
+   ],
+   "kept_frames": 146,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 354,
+   "recording": "intervention_20261030181452",
+   "recording_number": 404,
+   "frames": 224,
+   "kept_ranges": [
+    [
+     0,
+     224
+    ]
+   ],
+   "kept_frames": 224,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 355,
+   "recording": "intervention_20261030181514",
+   "recording_number": 405,
+   "frames": 209,
+   "kept_ranges": [
+    [
+     0,
+     209
+    ]
+   ],
+   "kept_frames": 209,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 356,
+   "recording": "intervention_20261030181542",
+   "recording_number": 406,
+   "frames": 186,
+   "kept_ranges": [
+    [
+     0,
+     186
+    ]
+   ],
+   "kept_frames": 186,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 357,
+   "recording": "intervention_20261030181602",
+   "recording_number": 407,
+   "frames": 267,
+   "kept_ranges": [
+    [
+     0,
+     267
+    ]
+   ],
+   "kept_frames": 267,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 358,
+   "recording": "intervention_20261030181622",
+   "recording_number": 408,
+   "frames": 138,
+   "kept_ranges": [
+    [
+     0,
+     138
+    ]
+   ],
+   "kept_frames": 138,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 359,
+   "recording": "intervention_20261030181707",
+   "recording_number": 409,
+   "frames": 198,
+   "kept_ranges": [
+    [
+     0,
+     198
+    ]
+   ],
+   "kept_frames": 198,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 360,
+   "recording": "intervention_20261030181736",
+   "recording_number": 410,
+   "frames": 234,
+   "kept_ranges": [
+    [
+     0,
+     234
+    ]
+   ],
+   "kept_frames": 234,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 361,
+   "recording": "intervention_20261030183256",
+   "recording_number": 411,
+   "frames": 251,
+   "kept_ranges": [
+    [
+     0,
+     251
+    ]
+   ],
+   "kept_frames": 251,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 362,
+   "recording": "intervention_20261030183705",
+   "recording_number": 412,
+   "frames": 124,
+   "kept_ranges": [
+    [
+     0,
+     124
+    ]
+   ],
+   "kept_frames": 124,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 363,
+   "recording": "intervention_20261030183721",
+   "recording_number": 413,
+   "frames": 250,
+   "kept_ranges": [
+    [
+     0,
+     250
+    ]
+   ],
+   "kept_frames": 250,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 364,
+   "recording": "intervention_20261030183739",
+   "recording_number": 414,
+   "frames": 165,
+   "kept_ranges": [
+    [
+     0,
+     165
+    ]
+   ],
+   "kept_frames": 165,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 365,
+   "recording": "intervention_20261030183801",
+   "recording_number": 415,
+   "frames": 168,
+   "kept_ranges": [
+    [
+     0,
+     168
+    ]
+   ],
+   "kept_frames": 168,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 366,
+   "recording": "intervention_20261030183839",
+   "recording_number": 416,
+   "frames": 206,
+   "kept_ranges": [
+    [
+     0,
+     206
+    ]
+   ],
+   "kept_frames": 206,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 367,
+   "recording": "intervention_20261030183926",
+   "recording_number": 417,
+   "frames": 171,
+   "kept_ranges": [
+    [
+     0,
+     171
+    ]
+   ],
+   "kept_frames": 171,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 368,
+   "recording": "intervention_20261030183941",
+   "recording_number": 418,
+   "frames": 221,
+   "kept_ranges": [
+    [
+     0,
+     221
+    ]
+   ],
+   "kept_frames": 221,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 369,
+   "recording": "intervention_20261030183959",
+   "recording_number": 419,
+   "frames": 195,
+   "kept_ranges": [
+    [
+     0,
+     195
+    ]
+   ],
+   "kept_frames": 195,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 370,
+   "recording": "intervention_20261030184018",
+   "recording_number": 420,
+   "frames": 156,
+   "kept_ranges": [
+    [
+     0,
+     156
+    ]
+   ],
+   "kept_frames": 156,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 371,
+   "recording": "intervention_20261030184033",
+   "recording_number": 421,
+   "frames": 249,
+   "kept_ranges": [
+    [
+     0,
+     249
+    ]
+   ],
+   "kept_frames": 249,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 372,
+   "recording": "intervention_20261030184052",
+   "recording_number": 422,
+   "frames": 217,
+   "kept_ranges": [
+    [
+     0,
+     217
+    ]
+   ],
+   "kept_frames": 217,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 373,
+   "recording": "intervention_20261030184109",
+   "recording_number": 423,
+   "frames": 177,
+   "kept_ranges": [
+    [
+     0,
+     177
+    ]
+   ],
+   "kept_frames": 177,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 374,
+   "recording": "intervention_20261030184125",
+   "recording_number": 424,
+   "frames": 321,
+   "kept_ranges": [
+    [
+     0,
+     321
+    ]
+   ],
+   "kept_frames": 321,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 375,
+   "recording": "intervention_20261030184145",
+   "recording_number": 425,
+   "frames": 173,
+   "kept_ranges": [
+    [
+     0,
+     173
+    ]
+   ],
+   "kept_frames": 173,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 376,
+   "recording": "intervention_20261030184210",
+   "recording_number": 426,
+   "frames": 150,
+   "kept_ranges": [
+    [
+     0,
+     150
+    ]
+   ],
+   "kept_frames": 150,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 377,
+   "recording": "intervention_20261030184222",
+   "recording_number": 427,
+   "frames": 298,
+   "kept_ranges": [
+    [
+     0,
+     298
+    ]
+   ],
+   "kept_frames": 298,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 378,
+   "recording": "intervention_20261030184303",
+   "recording_number": 428,
+   "frames": 157,
+   "kept_ranges": [
+    [
+     0,
+     157
+    ]
+   ],
+   "kept_frames": 157,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 379,
+   "recording": "intervention_20261030184316",
+   "recording_number": 429,
+   "frames": 215,
+   "kept_ranges": [
+    [
+     0,
+     215
+    ]
+   ],
+   "kept_frames": 215,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 380,
+   "recording": "intervention_20261030184341",
+   "recording_number": 430,
+   "frames": 231,
+   "kept_ranges": [
+    [
+     0,
+     231
+    ]
+   ],
+   "kept_frames": 231,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 381,
+   "recording": "intervention_20261030184458",
+   "recording_number": 431,
+   "frames": 258,
+   "kept_ranges": [
+    [
+     0,
+     258
+    ]
+   ],
+   "kept_frames": 258,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 382,
+   "recording": "intervention_20261030184533",
+   "recording_number": 432,
+   "frames": 196,
+   "kept_ranges": [
+    [
+     0,
+     196
+    ]
+   ],
+   "kept_frames": 196,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 383,
+   "recording": "intervention_20261030184548",
+   "recording_number": 433,
+   "frames": 193,
+   "kept_ranges": [
+    [
+     0,
+     193
+    ]
+   ],
+   "kept_frames": 193,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 384,
+   "recording": "intervention_20261030184609",
+   "recording_number": 434,
+   "frames": 170,
+   "kept_ranges": [
+    [
+     0,
+     170
+    ]
+   ],
+   "kept_frames": 170,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 385,
+   "recording": "intervention_20261030184624",
+   "recording_number": 435,
+   "frames": 218,
+   "kept_ranges": [
+    [
+     0,
+     218
+    ]
+   ],
+   "kept_frames": 218,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 386,
+   "recording": "intervention_20261030184646",
+   "recording_number": 436,
+   "frames": 204,
+   "kept_ranges": [
+    [
+     0,
+     204
+    ]
+   ],
+   "kept_frames": 204,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 387,
+   "recording": "intervention_20261030184705",
+   "recording_number": 437,
+   "frames": 198,
+   "kept_ranges": [
+    [
+     0,
+     198
+    ]
+   ],
+   "kept_frames": 198,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 388,
+   "recording": "intervention_20261030184720",
+   "recording_number": 438,
+   "frames": 196,
+   "kept_ranges": [
+    [
+     0,
+     196
+    ]
+   ],
+   "kept_frames": 196,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 389,
+   "recording": "intervention_20261030184739",
+   "recording_number": 439,
+   "frames": 146,
+   "kept_ranges": [
+    [
+     0,
+     146
+    ]
+   ],
+   "kept_frames": 146,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 390,
+   "recording": "intervention_20261030184802",
+   "recording_number": 440,
+   "frames": 251,
+   "kept_ranges": [
+    [
+     0,
+     251
+    ]
+   ],
+   "kept_frames": 251,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 391,
+   "recording": "intervention_20261030184832",
+   "recording_number": 441,
+   "frames": 209,
+   "kept_ranges": [
+    [
+     0,
+     209
+    ]
+   ],
+   "kept_frames": 209,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 392,
+   "recording": "intervention_20261030184847",
+   "recording_number": 442,
+   "frames": 225,
+   "kept_ranges": [
+    [
+     0,
+     225
+    ]
+   ],
+   "kept_frames": 225,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 393,
+   "recording": "intervention_20261030184912",
+   "recording_number": 443,
+   "frames": 270,
+   "kept_ranges": [
+    [
+     0,
+     270
+    ]
+   ],
+   "kept_frames": 270,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 394,
+   "recording": "intervention_20261030184959",
+   "recording_number": 444,
+   "frames": 242,
+   "kept_ranges": [
+    [
+     0,
+     242
+    ]
+   ],
+   "kept_frames": 242,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 395,
+   "recording": "intervention_20261030185730",
+   "recording_number": 445,
+   "frames": 129,
+   "kept_ranges": [
+    [
+     0,
+     129
+    ]
+   ],
+   "kept_frames": 129,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 396,
+   "recording": "intervention_20261030185956",
+   "recording_number": 446,
+   "frames": 234,
+   "kept_ranges": [
+    [
+     0,
+     234
+    ]
+   ],
+   "kept_frames": 234,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 397,
+   "recording": "intervention_20261031124853",
+   "recording_number": 447,
+   "frames": 88,
+   "kept_ranges": [
+    [
+     10,
+     88
+    ]
+   ],
+   "kept_frames": 78,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 398,
+   "recording": "intervention_20261031125008",
+   "recording_number": 448,
+   "frames": 82,
+   "kept_ranges": [
+    [
+     0,
+     82
+    ]
+   ],
+   "kept_frames": 82,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 399,
+   "recording": "intervention_20261031125027",
+   "recording_number": 449,
+   "frames": 86,
+   "kept_ranges": [
+    [
+     0,
+     86
+    ]
+   ],
+   "kept_frames": 86,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 400,
+   "recording": "intervention_20261031125133",
+   "recording_number": 450,
+   "frames": 153,
+   "kept_ranges": [
+    [
+     0,
+     153
+    ]
+   ],
+   "kept_frames": 153,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 401,
+   "recording": "intervention_20261031130354",
+   "recording_number": 451,
+   "frames": 149,
+   "kept_ranges": [
+    [
+     0,
+     149
+    ]
+   ],
+   "kept_frames": 149,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 402,
+   "recording": "intervention_20261031130854",
+   "recording_number": 452,
+   "frames": 56,
+   "kept_ranges": [
+    [
+     0,
+     56
+    ]
+   ],
+   "kept_frames": 56,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 403,
+   "recording": "intervention_20261031131114",
+   "recording_number": 453,
+   "frames": 140,
+   "kept_ranges": [
+    [
+     0,
+     140
+    ]
+   ],
+   "kept_frames": 140,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 404,
+   "recording": "intervention_20261031131624",
+   "recording_number": 454,
+   "frames": 108,
+   "kept_ranges": [
+    [
+     0,
+     108
+    ]
+   ],
+   "kept_frames": 108,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 405,
+   "recording": "intervention_20261031131922",
+   "recording_number": 455,
+   "frames": 128,
+   "kept_ranges": [
+    [
+     0,
+     128
+    ]
+   ],
+   "kept_frames": 128,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 406,
+   "recording": "intervention_20261031132043",
+   "recording_number": 456,
+   "frames": 82,
+   "kept_ranges": [
+    [
+     0,
+     82
+    ]
+   ],
+   "kept_frames": 82,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 407,
+   "recording": "intervention_20261031133212",
+   "recording_number": 457,
+   "frames": 136,
+   "kept_ranges": [
+    [
+     0,
+     136
+    ]
+   ],
+   "kept_frames": 136,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 408,
+   "recording": "intervention_20261031144018",
+   "recording_number": 458,
+   "frames": 69,
+   "kept_ranges": [
+    [
+     0,
+     69
+    ]
+   ],
+   "kept_frames": 69,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 409,
+   "recording": "intervention_20261031144218",
+   "recording_number": 459,
+   "frames": 105,
+   "kept_ranges": [
+    [
+     0,
+     105
+    ]
+   ],
+   "kept_frames": 105,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 410,
+   "recording": "intervention_20261031152101",
+   "recording_number": 460,
+   "frames": 82,
+   "kept_ranges": [
+    [
+     0,
+     82
+    ]
+   ],
+   "kept_frames": 82,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 411,
+   "recording": "intervention_20261031152132",
+   "recording_number": 461,
+   "frames": 118,
+   "kept_ranges": [
+    [
+     0,
+     118
+    ]
+   ],
+   "kept_frames": 118,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 412,
+   "recording": "intervention_20261031152155",
+   "recording_number": 462,
+   "frames": 126,
+   "kept_ranges": [
+    [
+     0,
+     126
+    ]
+   ],
+   "kept_frames": 126,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 413,
+   "recording": "intervention_20261031152346",
+   "recording_number": 463,
+   "frames": 71,
+   "kept_ranges": [
+    [
+     0,
+     71
+    ]
+   ],
+   "kept_frames": 71,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 414,
+   "recording": "intervention_20261031152404",
+   "recording_number": 464,
+   "frames": 178,
+   "kept_ranges": [
+    [
+     0,
+     178
+    ]
+   ],
+   "kept_frames": 178,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 415,
+   "recording": "intervention_20261031154113",
+   "recording_number": 465,
+   "frames": 83,
+   "kept_ranges": [
+    [
+     0,
+     83
+    ]
+   ],
+   "kept_frames": 83,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 416,
+   "recording": "intervention_20261031154210",
+   "recording_number": 466,
+   "frames": 111,
+   "kept_ranges": [
+    [
+     0,
+     111
+    ]
+   ],
+   "kept_frames": 111,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 417,
+   "recording": "intervention_20261031154436",
+   "recording_number": 469,
+   "frames": 111,
+   "kept_ranges": [
+    [
+     0,
+     111
+    ]
+   ],
+   "kept_frames": 111,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 418,
+   "recording": "intervention_20261031154456",
+   "recording_number": 470,
+   "frames": 149,
+   "kept_ranges": [
+    [
+     0,
+     149
+    ]
+   ],
+   "kept_frames": 149,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 419,
+   "recording": "intervention_20261031154515",
+   "recording_number": 471,
+   "frames": 294,
+   "kept_ranges": [
+    [
+     0,
+     294
+    ]
+   ],
+   "kept_frames": 294,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 420,
+   "recording": "intervention_20261031154555",
+   "recording_number": 472,
+   "frames": 75,
+   "kept_ranges": [
+    [
+     0,
+     75
+    ]
+   ],
+   "kept_frames": 75,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 421,
+   "recording": "intervention_20261031154613",
+   "recording_number": 473,
+   "frames": 524,
+   "kept_ranges": [
+    [
+     0,
+     524
+    ]
+   ],
+   "kept_frames": 524,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 422,
+   "recording": "intervention_20261031154648",
+   "recording_number": 474,
+   "frames": 119,
+   "kept_ranges": [
+    [
+     0,
+     119
+    ]
+   ],
+   "kept_frames": 119,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 423,
+   "recording": "intervention_20261031154702",
+   "recording_number": 475,
+   "frames": 302,
+   "kept_ranges": [
+    [
+     0,
+     302
+    ]
+   ],
+   "kept_frames": 302,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 424,
+   "recording": "intervention_20261031154721",
+   "recording_number": 476,
+   "frames": 166,
+   "kept_ranges": [
+    [
+     0,
+     166
+    ]
+   ],
+   "kept_frames": 166,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 425,
+   "recording": "intervention_20261031154747",
+   "recording_number": 477,
+   "frames": 174,
+   "kept_ranges": [
+    [
+     0,
+     174
+    ]
+   ],
+   "kept_frames": 174,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 426,
+   "recording": "intervention_20261031154802",
+   "recording_number": 478,
+   "frames": 172,
+   "kept_ranges": [
+    [
+     12,
+     101
+    ],
+    [
+     120,
+     172
+    ]
+   ],
+   "kept_frames": 141,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 427,
+   "recording": "intervention_20261031154832",
+   "recording_number": 479,
+   "frames": 667,
+   "kept_ranges": [
+    [
+     0,
+     667
+    ]
+   ],
+   "kept_frames": 667,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 428,
+   "recording": "20261031164507",
+   "recording_number": 480,
+   "frames": 2504,
+   "kept_ranges": [
+    [
+     2059,
+     2504
+    ]
+   ],
+   "kept_frames": 445,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 429,
+   "recording": "20261031164910",
+   "recording_number": 481,
+   "frames": 1563,
+   "kept_ranges": [
+    [
+     0,
+     1563
+    ]
+   ],
+   "kept_frames": 1563,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 430,
+   "recording": "20261031165018",
+   "recording_number": 482,
+   "frames": 3556,
+   "kept_ranges": [
+    [
+     0,
+     1086
+    ],
+    [
+     1612,
+     3556
+    ]
+   ],
+   "kept_frames": 3030,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 431,
+   "recording": "20261031165231",
+   "recording_number": 483,
+   "frames": 3598,
+   "kept_ranges": [
+    [
+     0,
+     3598
+    ]
+   ],
+   "kept_frames": 3598,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 432,
+   "recording": "20261031165448",
+   "recording_number": 484,
+   "frames": 3684,
+   "kept_ranges": [
+    [
+     1793,
+     3684
+    ]
+   ],
+   "kept_frames": 1891,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 433,
+   "recording": "20261031165700",
+   "recording_number": 485,
+   "frames": 3767,
+   "kept_ranges": [
+    [
+     0,
+     3767
+    ]
+   ],
+   "kept_frames": 3767,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 434,
+   "recording": "20261031165916",
+   "recording_number": 486,
+   "frames": 3810,
+   "kept_ranges": [
+    [
+     0,
+     3810
+    ]
+   ],
+   "kept_frames": 3810,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 435,
+   "recording": "20261031170140",
+   "recording_number": 487,
+   "frames": 4120,
+   "kept_ranges": [
+    [
+     0,
+     4120
+    ]
+   ],
+   "kept_frames": 4120,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 436,
+   "recording": "20261031170411",
+   "recording_number": 488,
+   "frames": 3789,
+   "kept_ranges": [
+    [
+     0,
+     3789
+    ]
+   ],
+   "kept_frames": 3789,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 437,
+   "recording": "20261031170628",
+   "recording_number": 489,
+   "frames": 1516,
+   "kept_ranges": [
+    [
+     0,
+     1479
+    ]
+   ],
+   "kept_frames": 1479,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 438,
+   "recording": "20261031170949",
+   "recording_number": 490,
+   "frames": 2258,
+   "kept_ranges": [
+    [
+     0,
+     2258
+    ]
+   ],
+   "kept_frames": 2258,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 439,
+   "recording": "20261031171116",
+   "recording_number": 491,
+   "frames": 3853,
+   "kept_ranges": [
+    [
+     1752,
+     3853
+    ]
+   ],
+   "kept_frames": 2101,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 440,
+   "recording": "20261031171341",
+   "recording_number": 492,
+   "frames": 4231,
+   "kept_ranges": [
+    [
+     0,
+     4231
+    ]
+   ],
+   "kept_frames": 4231,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 441,
+   "recording": "20261031171613",
+   "recording_number": 493,
+   "frames": 4122,
+   "kept_ranges": [
+    [
+     0,
+     4122
+    ]
+   ],
+   "kept_frames": 4122,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 442,
+   "recording": "intervention_20261031172122",
+   "recording_number": 494,
+   "frames": 67,
+   "kept_ranges": [
+    [
+     0,
+     67
+    ]
+   ],
+   "kept_frames": 67,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 443,
+   "recording": "intervention_20261031172824",
+   "recording_number": 495,
+   "frames": 62,
+   "kept_ranges": [
+    [
+     0,
+     62
+    ]
+   ],
+   "kept_frames": 62,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 444,
+   "recording": "intervention_20261031172847",
+   "recording_number": 496,
+   "frames": 84,
+   "kept_ranges": [
+    [
+     0,
+     84
+    ]
+   ],
+   "kept_frames": 84,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 445,
+   "recording": "intervention_20261031172913",
+   "recording_number": 497,
+   "frames": 258,
+   "kept_ranges": [
+    [
+     0,
+     258
+    ]
+   ],
+   "kept_frames": 258,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 446,
+   "recording": "intervention_20261031172958",
+   "recording_number": 498,
+   "frames": 195,
+   "kept_ranges": [
+    [
+     0,
+     195
+    ]
+   ],
+   "kept_frames": 195,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 447,
+   "recording": "intervention_20261031173024",
+   "recording_number": 499,
+   "frames": 82,
+   "kept_ranges": [
+    [
+     0,
+     82
+    ]
+   ],
+   "kept_frames": 82,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 448,
+   "recording": "intervention_20261031173042",
+   "recording_number": 500,
+   "frames": 211,
+   "kept_ranges": [
+    [
+     0,
+     211
+    ]
+   ],
+   "kept_frames": 211,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 449,
+   "recording": "intervention_20261031173111",
+   "recording_number": 501,
+   "frames": 130,
+   "kept_ranges": [
+    [
+     0,
+     130
+    ]
+   ],
+   "kept_frames": 130,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 450,
+   "recording": "intervention_20261031173125",
+   "recording_number": 502,
+   "frames": 161,
+   "kept_ranges": [
+    [
+     0,
+     161
+    ]
+   ],
+   "kept_frames": 161,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 451,
+   "recording": "intervention_20261031173208",
+   "recording_number": 503,
+   "frames": 141,
+   "kept_ranges": [
+    [
+     0,
+     141
+    ]
+   ],
+   "kept_frames": 141,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 452,
+   "recording": "intervention_20261031173225",
+   "recording_number": 504,
+   "frames": 338,
+   "kept_ranges": [
+    [
+     0,
+     338
+    ]
+   ],
+   "kept_frames": 338,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 453,
+   "recording": "intervention_20261031173650",
+   "recording_number": 505,
+   "frames": 187,
+   "kept_ranges": [
+    [
+     0,
+     187
+    ]
+   ],
+   "kept_frames": 187,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 454,
+   "recording": "intervention_20261031173749",
+   "recording_number": 506,
+   "frames": 590,
+   "kept_ranges": [
+    [
+     0,
+     590
+    ]
+   ],
+   "kept_frames": 590,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 455,
+   "recording": "intervention_20261031173834",
+   "recording_number": 507,
+   "frames": 124,
+   "kept_ranges": [
+    [
+     0,
+     124
+    ]
+   ],
+   "kept_frames": 124,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 456,
+   "recording": "intervention_20261031173925",
+   "recording_number": 508,
+   "frames": 55,
+   "kept_ranges": [
+    [
+     0,
+     55
+    ]
+   ],
+   "kept_frames": 55,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 457,
+   "recording": "intervention_20261031173941",
+   "recording_number": 509,
+   "frames": 131,
+   "kept_ranges": [
+    [
+     0,
+     131
+    ]
+   ],
+   "kept_frames": 131,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 458,
+   "recording": "intervention_20261031174115",
+   "recording_number": 510,
+   "frames": 138,
+   "kept_ranges": [
+    [
+     0,
+     138
+    ]
+   ],
+   "kept_frames": 138,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 459,
+   "recording": "intervention_20261031174216",
+   "recording_number": 511,
+   "frames": 100,
+   "kept_ranges": [
+    [
+     0,
+     100
+    ]
+   ],
+   "kept_frames": 100,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 460,
+   "recording": "intervention_20261031174307",
+   "recording_number": 512,
+   "frames": 125,
+   "kept_ranges": [
+    [
+     0,
+     125
+    ]
+   ],
+   "kept_frames": 125,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 461,
+   "recording": "intervention_20261031174325",
+   "recording_number": 513,
+   "frames": 238,
+   "kept_ranges": [
+    [
+     0,
+     238
+    ]
+   ],
+   "kept_frames": 238,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 462,
+   "recording": "intervention_20261031174432",
+   "recording_number": 514,
+   "frames": 449,
+   "kept_ranges": [
+    [
+     300,
+     449
+    ]
+   ],
+   "kept_frames": 149,
+   "cut": "manual",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 463,
+   "recording": "intervention_20261031174550",
+   "recording_number": 515,
+   "frames": 102,
+   "kept_ranges": [
+    [
+     0,
+     102
+    ]
+   ],
+   "kept_frames": 102,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 464,
+   "recording": "intervention_20261031174634",
+   "recording_number": 516,
+   "frames": 531,
+   "kept_ranges": [
+    [
+     0,
+     531
+    ]
+   ],
+   "kept_frames": 531,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 465,
+   "recording": "intervention_20261031174700",
+   "recording_number": 517,
+   "frames": 115,
+   "kept_ranges": [
+    [
+     0,
+     115
+    ]
+   ],
+   "kept_frames": 115,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 466,
+   "recording": "intervention_20261031174739",
+   "recording_number": 518,
+   "frames": 425,
+   "kept_ranges": [
+    [
+     0,
+     425
+    ]
+   ],
+   "kept_frames": 425,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 467,
+   "recording": "intervention_20261031174824",
+   "recording_number": 519,
+   "frames": 85,
+   "kept_ranges": [
+    [
+     0,
+     85
+    ]
+   ],
+   "kept_frames": 85,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 468,
+   "recording": "intervention_20261031174848",
+   "recording_number": 520,
+   "frames": 166,
+   "kept_ranges": [
+    [
+     0,
+     166
+    ]
+   ],
+   "kept_frames": 166,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 469,
+   "recording": "intervention_20261031174910",
+   "recording_number": 521,
+   "frames": 315,
+   "kept_ranges": [
+    [
+     0,
+     315
+    ]
+   ],
+   "kept_frames": 315,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 470,
+   "recording": "intervention_20261031174933",
+   "recording_number": 522,
+   "frames": 166,
+   "kept_ranges": [
+    [
+     0,
+     166
+    ]
+   ],
+   "kept_frames": 166,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 471,
+   "recording": "intervention_20261031174950",
+   "recording_number": 523,
+   "frames": 102,
+   "kept_ranges": [
+    [
+     0,
+     102
+    ]
+   ],
+   "kept_frames": 102,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 472,
+   "recording": "intervention_20261031175014",
+   "recording_number": 524,
+   "frames": 144,
+   "kept_ranges": [
+    [
+     0,
+     144
+    ]
+   ],
+   "kept_frames": 144,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 473,
+   "recording": "intervention_20261031175033",
+   "recording_number": 525,
+   "frames": 186,
+   "kept_ranges": [
+    [
+     0,
+     186
+    ]
+   ],
+   "kept_frames": 186,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 474,
+   "recording": "intervention_20261031175211",
+   "recording_number": 526,
+   "frames": 62,
+   "kept_ranges": [
+    [
+     0,
+     62
+    ]
+   ],
+   "kept_frames": 62,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 475,
+   "recording": "intervention_20261031175221",
+   "recording_number": 527,
+   "frames": 215,
+   "kept_ranges": [
+    [
+     0,
+     215
+    ]
+   ],
+   "kept_frames": 215,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 476,
+   "recording": "intervention_20261031175412",
+   "recording_number": 528,
+   "frames": 61,
+   "kept_ranges": [
+    [
+     0,
+     61
+    ]
+   ],
+   "kept_frames": 61,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 477,
+   "recording": "intervention_20261031175420",
+   "recording_number": 529,
+   "frames": 109,
+   "kept_ranges": [
+    [
+     0,
+     109
+    ]
+   ],
+   "kept_frames": 109,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 478,
+   "recording": "intervention_20261031175459",
+   "recording_number": 530,
+   "frames": 100,
+   "kept_ranges": [
+    [
+     0,
+     100
+    ]
+   ],
+   "kept_frames": 100,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 479,
+   "recording": "intervention_20261031175515",
+   "recording_number": 531,
+   "frames": 128,
+   "kept_ranges": [
+    [
+     0,
+     128
+    ]
+   ],
+   "kept_frames": 128,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 480,
+   "recording": "intervention_20261031175528",
+   "recording_number": 532,
+   "frames": 538,
+   "kept_ranges": [
+    [
+     0,
+     538
+    ]
+   ],
+   "kept_frames": 538,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 481,
+   "recording": "intervention_20261031175633",
+   "recording_number": 533,
+   "frames": 92,
+   "kept_ranges": [
+    [
+     0,
+     92
+    ]
+   ],
+   "kept_frames": 92,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 482,
+   "recording": "intervention_20261031175642",
+   "recording_number": 534,
+   "frames": 132,
+   "kept_ranges": [
+    [
+     0,
+     132
+    ]
+   ],
+   "kept_frames": 132,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 483,
+   "recording": "intervention_20261031175943",
+   "recording_number": 535,
+   "frames": 153,
+   "kept_ranges": [
+    [
+     0,
+     153
+    ]
+   ],
+   "kept_frames": 153,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 484,
+   "recording": "intervention_20261031175955",
+   "recording_number": 536,
+   "frames": 67,
+   "kept_ranges": [
+    [
+     0,
+     67
+    ]
+   ],
+   "kept_frames": 67,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 485,
+   "recording": "intervention_20261031180029",
+   "recording_number": 537,
+   "frames": 78,
+   "kept_ranges": [
+    [
+     0,
+     78
+    ]
+   ],
+   "kept_frames": 78,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 486,
+   "recording": "intervention_20261031180038",
+   "recording_number": 538,
+   "frames": 96,
+   "kept_ranges": [
+    [
+     0,
+     96
+    ]
+   ],
+   "kept_frames": 96,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 487,
+   "recording": "intervention_20261031180056",
+   "recording_number": 539,
+   "frames": 244,
+   "kept_ranges": [
+    [
+     0,
+     244
+    ]
+   ],
+   "kept_frames": 244,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 488,
+   "recording": "intervention_20261031180155",
+   "recording_number": 540,
+   "frames": 456,
+   "kept_ranges": [
+    [
+     0,
+     456
+    ]
+   ],
+   "kept_frames": 456,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 489,
+   "recording": "intervention_20261031180227",
+   "recording_number": 541,
+   "frames": 153,
+   "kept_ranges": [
+    [
+     0,
+     153
+    ]
+   ],
+   "kept_frames": 153,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 490,
+   "recording": "intervention_20261031180240",
+   "recording_number": 542,
+   "frames": 215,
+   "kept_ranges": [
+    [
+     0,
+     215
+    ]
+   ],
+   "kept_frames": 215,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 491,
+   "recording": "intervention_20261031180313",
+   "recording_number": 543,
+   "frames": 200,
+   "kept_ranges": [
+    [
+     0,
+     200
+    ]
+   ],
+   "kept_frames": 200,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 492,
+   "recording": "intervention_20261031180333",
+   "recording_number": 544,
+   "frames": 292,
+   "kept_ranges": [
+    [
+     0,
+     292
+    ]
+   ],
+   "kept_frames": 292,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 493,
+   "recording": "intervention_20261031180356",
+   "recording_number": 545,
+   "frames": 183,
+   "kept_ranges": [
+    [
+     0,
+     183
+    ]
+   ],
+   "kept_frames": 183,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 494,
+   "recording": "intervention_20261031180411",
+   "recording_number": 546,
+   "frames": 159,
+   "kept_ranges": [
+    [
+     0,
+     159
+    ]
+   ],
+   "kept_frames": 159,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 495,
+   "recording": "intervention_20261031180432",
+   "recording_number": 547,
+   "frames": 273,
+   "kept_ranges": [
+    [
+     0,
+     273
+    ]
+   ],
+   "kept_frames": 273,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 496,
+   "recording": "intervention_20261031180452",
+   "recording_number": 548,
+   "frames": 91,
+   "kept_ranges": [
+    [
+     0,
+     91
+    ]
+   ],
+   "kept_frames": 91,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 497,
+   "recording": "intervention_20261031180506",
+   "recording_number": 549,
+   "frames": 106,
+   "kept_ranges": [
+    [
+     0,
+     106
+    ]
+   ],
+   "kept_frames": 106,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 498,
+   "recording": "intervention_20261031180524",
+   "recording_number": 550,
+   "frames": 254,
+   "kept_ranges": [
+    [
+     0,
+     34
+    ],
+    [
+     73,
+     254
+    ]
+   ],
+   "kept_frames": 215,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 499,
+   "recording": "intervention_20261031180542",
+   "recording_number": 551,
+   "frames": 56,
+   "kept_ranges": [
+    [
+     0,
+     56
+    ]
+   ],
+   "kept_frames": 56,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 500,
+   "recording": "intervention_20261031180616",
+   "recording_number": 552,
+   "frames": 84,
+   "kept_ranges": [
+    [
+     0,
+     84
+    ]
+   ],
+   "kept_frames": 84,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 501,
+   "recording": "intervention_20261031180648",
+   "recording_number": 553,
+   "frames": 83,
+   "kept_ranges": [
+    [
+     0,
+     83
+    ]
+   ],
+   "kept_frames": 83,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 502,
+   "recording": "intervention_20261031180704",
+   "recording_number": 554,
+   "frames": 426,
+   "kept_ranges": [
+    [
+     0,
+     426
+    ]
+   ],
+   "kept_frames": 426,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 503,
+   "recording": "intervention_20261031180731",
+   "recording_number": 555,
+   "frames": 82,
+   "kept_ranges": [
+    [
+     0,
+     82
+    ]
+   ],
+   "kept_frames": 82,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 504,
+   "recording": "intervention_20261031180743",
+   "recording_number": 556,
+   "frames": 60,
+   "kept_ranges": [
+    [
+     0,
+     60
+    ]
+   ],
+   "kept_frames": 60,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 505,
+   "recording": "intervention_20261031180754",
+   "recording_number": 557,
+   "frames": 232,
+   "kept_ranges": [
+    [
+     0,
+     232
+    ]
+   ],
+   "kept_frames": 232,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 506,
+   "recording": "intervention_20261102132235",
+   "recording_number": 558,
+   "frames": 658,
+   "kept_ranges": [
+    [
+     0,
+     490
+    ],
+    [
+     548,
+     658
+    ]
+   ],
+   "kept_frames": 600,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 507,
+   "recording": "intervention_20261102132431",
+   "recording_number": 559,
+   "frames": 683,
+   "kept_ranges": [
+    [
+     0,
+     683
+    ]
+   ],
+   "kept_frames": 683,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 508,
+   "recording": "intervention_20261102132621",
+   "recording_number": 560,
+   "frames": 939,
+   "kept_ranges": [
+    [
+     0,
+     789
+    ],
+    [
+     825,
+     939
+    ]
+   ],
+   "kept_frames": 903,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 509,
+   "recording": "intervention_20261102132704",
+   "recording_number": 561,
+   "frames": 684,
+   "kept_ranges": [
+    [
+     0,
+     684
+    ]
+   ],
+   "kept_frames": 684,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 510,
+   "recording": "20261102133331",
+   "recording_number": 562,
+   "frames": 973,
+   "kept_ranges": [
+    [
+     0,
+     973
+    ]
+   ],
+   "kept_frames": 973,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 511,
+   "recording": "20261102133454",
+   "recording_number": 563,
+   "frames": 905,
+   "kept_ranges": [
+    [
+     0,
+     905
+    ]
+   ],
+   "kept_frames": 905,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 512,
+   "recording": "20261102133557",
+   "recording_number": 564,
+   "frames": 850,
+   "kept_ranges": [
+    [
+     0,
+     850
+    ]
+   ],
+   "kept_frames": 850,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 513,
+   "recording": "20261102133657",
+   "recording_number": 565,
+   "frames": 868,
+   "kept_ranges": [
+    [
+     0,
+     868
+    ]
+   ],
+   "kept_frames": 868,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 514,
+   "recording": "20261102133754",
+   "recording_number": 566,
+   "frames": 930,
+   "kept_ranges": [
+    [
+     0,
+     930
+    ]
+   ],
+   "kept_frames": 930,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 515,
+   "recording": "20261102133845",
+   "recording_number": 567,
+   "frames": 892,
+   "kept_ranges": [
+    [
+     0,
+     892
+    ]
+   ],
+   "kept_frames": 892,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 516,
+   "recording": "20261102134038",
+   "recording_number": 569,
+   "frames": 64,
+   "kept_ranges": [
+    [
+     0,
+     64
+    ]
+   ],
+   "kept_frames": 64,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 517,
+   "recording": "20261102134631",
+   "recording_number": 570,
+   "frames": 83,
+   "kept_ranges": [
+    [
+     0,
+     83
+    ]
+   ],
+   "kept_frames": 83,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 518,
+   "recording": "intervention_20261102142406",
+   "recording_number": 571,
+   "frames": 738,
+   "kept_ranges": [
+    [
+     0,
+     738
+    ]
+   ],
+   "kept_frames": 738,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 519,
+   "recording": "intervention_20261102143307",
+   "recording_number": 572,
+   "frames": 875,
+   "kept_ranges": [
+    [
+     0,
+     875
+    ]
+   ],
+   "kept_frames": 875,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 520,
+   "recording": "intervention_20261102143439",
+   "recording_number": 573,
+   "frames": 173,
+   "kept_ranges": [
+    [
+     0,
+     173
+    ]
+   ],
+   "kept_frames": 173,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 521,
+   "recording": "intervention_20261102143611",
+   "recording_number": 574,
+   "frames": 692,
+   "kept_ranges": [
+    [
+     0,
+     692
+    ]
+   ],
+   "kept_frames": 692,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 522,
+   "recording": "intervention_20261102143738",
+   "recording_number": 575,
+   "frames": 171,
+   "kept_ranges": [
+    [
+     0,
+     171
+    ]
+   ],
+   "kept_frames": 171,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 523,
+   "recording": "intervention_20261102143852",
+   "recording_number": 576,
+   "frames": 810,
+   "kept_ranges": [
+    [
+     0,
+     41
+    ],
+    [
+     77,
+     810
+    ]
+   ],
+   "kept_frames": 774,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 524,
+   "recording": "intervention_20261102144417",
+   "recording_number": 577,
+   "frames": 467,
+   "kept_ranges": [
+    [
+     0,
+     467
+    ]
+   ],
+   "kept_frames": 467,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 525,
+   "recording": "intervention_20261102144526",
+   "recording_number": 578,
+   "frames": 287,
+   "kept_ranges": [
+    [
+     0,
+     136
+    ],
+    [
+     175,
+     287
+    ]
+   ],
+   "kept_frames": 248,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 526,
+   "recording": "intervention_20261102144637",
+   "recording_number": 579,
+   "frames": 109,
+   "kept_ranges": [
+    [
+     0,
+     109
+    ]
+   ],
+   "kept_frames": 109,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 527,
+   "recording": "intervention_20261102144705",
+   "recording_number": 580,
+   "frames": 216,
+   "kept_ranges": [
+    [
+     0,
+     216
+    ]
+   ],
+   "kept_frames": 216,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 528,
+   "recording": "intervention_20261102145105",
+   "recording_number": 581,
+   "frames": 510,
+   "kept_ranges": [
+    [
+     0,
+     59
+    ],
+    [
+     92,
+     510
+    ]
+   ],
+   "kept_frames": 477,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 529,
+   "recording": "intervention_20261102145148",
+   "recording_number": 582,
+   "frames": 160,
+   "kept_ranges": [
+    [
+     0,
+     160
+    ]
+   ],
+   "kept_frames": 160,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 530,
+   "recording": "intervention_20261102145356",
+   "recording_number": 583,
+   "frames": 203,
+   "kept_ranges": [
+    [
+     0,
+     203
+    ]
+   ],
+   "kept_frames": 203,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 531,
+   "recording": "intervention_20261102145559",
+   "recording_number": 584,
+   "frames": 359,
+   "kept_ranges": [
+    [
+     0,
+     359
+    ]
+   ],
+   "kept_frames": 359,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 532,
+   "recording": "intervention_20261102145653",
+   "recording_number": 585,
+   "frames": 670,
+   "kept_ranges": [
+    [
+     0,
+     670
+    ]
+   ],
+   "kept_frames": 670,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 533,
+   "recording": "intervention_20261102145856",
+   "recording_number": 586,
+   "frames": 100,
+   "kept_ranges": [
+    [
+     0,
+     100
+    ]
+   ],
+   "kept_frames": 100,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 534,
+   "recording": "intervention_20261102145958",
+   "recording_number": 587,
+   "frames": 169,
+   "kept_ranges": [
+    [
+     0,
+     169
+    ]
+   ],
+   "kept_frames": 169,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 535,
+   "recording": "intervention_20261102150103",
+   "recording_number": 588,
+   "frames": 170,
+   "kept_ranges": [
+    [
+     0,
+     170
+    ]
+   ],
+   "kept_frames": 170,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 536,
+   "recording": "intervention_20261102150217",
+   "recording_number": 589,
+   "frames": 154,
+   "kept_ranges": [
+    [
+     0,
+     154
+    ]
+   ],
+   "kept_frames": 154,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 537,
+   "recording": "intervention_20261102150317",
+   "recording_number": 590,
+   "frames": 165,
+   "kept_ranges": [
+    [
+     0,
+     165
+    ]
+   ],
+   "kept_frames": 165,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 538,
+   "recording": "intervention_20261102150500",
+   "recording_number": 591,
+   "frames": 168,
+   "kept_ranges": [
+    [
+     0,
+     168
+    ]
+   ],
+   "kept_frames": 168,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 539,
+   "recording": "intervention_20261102153119",
+   "recording_number": 592,
+   "frames": 240,
+   "kept_ranges": [
+    [
+     0,
+     240
+    ]
+   ],
+   "kept_frames": 240,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 540,
+   "recording": "20261102170440",
+   "recording_number": 593,
+   "frames": 531,
+   "kept_ranges": [
+    [
+     0,
+     531
+    ]
+   ],
+   "kept_frames": 531,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 541,
+   "recording": "20261102170513",
+   "recording_number": 594,
+   "frames": 81,
+   "kept_ranges": [
+    [
+     0,
+     81
+    ]
+   ],
+   "kept_frames": 81,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 542,
+   "recording": "20261102170534",
+   "recording_number": 595,
+   "frames": 731,
+   "kept_ranges": [
+    [
+     0,
+     731
+    ]
+   ],
+   "kept_frames": 731,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 543,
+   "recording": "20261102170627",
+   "recording_number": 596,
+   "frames": 815,
+   "kept_ranges": [
+    [
+     0,
+     815
+    ]
+   ],
+   "kept_frames": 815,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 544,
+   "recording": "20261102170933",
+   "recording_number": 597,
+   "frames": 1630,
+   "kept_ranges": [
+    [
+     0,
+     1630
+    ]
+   ],
+   "kept_frames": 1630,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 545,
+   "recording": "20261103160856",
+   "recording_number": 598,
+   "frames": 4321,
+   "kept_ranges": [
+    [
+     0,
+     3618
+    ]
+   ],
+   "kept_frames": 3618,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 546,
+   "recording": "20261103161710",
+   "recording_number": 599,
+   "frames": 4382,
+   "kept_ranges": [
+    [
+     0,
+     4382
+    ]
+   ],
+   "kept_frames": 4382,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 547,
+   "recording": "20261103161949",
+   "recording_number": 600,
+   "frames": 100,
+   "kept_ranges": [
+    [
+     0,
+     30
+    ]
+   ],
+   "kept_frames": 30,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 548,
+   "recording": "20261103162008",
+   "recording_number": 601,
+   "frames": 3654,
+   "kept_ranges": [
+    [
+     0,
+     3460
+    ]
+   ],
+   "kept_frames": 3460,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 549,
+   "recording": "20261103162245",
+   "recording_number": 602,
+   "frames": 672,
+   "kept_ranges": [
+    [
+     0,
+     672
+    ]
+   ],
+   "kept_frames": 672,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 550,
+   "recording": "20261103162407",
+   "recording_number": 603,
+   "frames": 4258,
+   "kept_ranges": [
+    [
+     0,
+     4258
+    ]
+   ],
+   "kept_frames": 4258,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 551,
+   "recording": "20261103162642",
+   "recording_number": 604,
+   "frames": 4393,
+   "kept_ranges": [
+    [
+     0,
+     4393
+    ]
+   ],
+   "kept_frames": 4393,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 552,
+   "recording": "20261103162928",
+   "recording_number": 605,
+   "frames": 2398,
+   "kept_ranges": [
+    [
+     0,
+     2398
+    ]
+   ],
+   "kept_frames": 2398,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 553,
+   "recording": "20261103163103",
+   "recording_number": 606,
+   "frames": 2823,
+   "kept_ranges": [
+    [
+     0,
+     2672
+    ],
+    [
+     2707,
+     2823
+    ]
+   ],
+   "kept_frames": 2788,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 554,
+   "recording": "20261103163331",
+   "recording_number": 607,
+   "frames": 119,
+   "kept_ranges": [
+    [
+     0,
+     117
+    ]
+   ],
+   "kept_frames": 117,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 555,
+   "recording": "20261103163348",
+   "recording_number": 608,
+   "frames": 4442,
+   "kept_ranges": [
+    [
+     0,
+     4442
+    ]
+   ],
+   "kept_frames": 4442,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 556,
+   "recording": "20261103163618",
+   "recording_number": 609,
+   "frames": 4933,
+   "kept_ranges": [
+    [
+     118,
+     4933
+    ]
+   ],
+   "kept_frames": 4815,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 557,
+   "recording": "20261103163953",
+   "recording_number": 610,
+   "frames": 340,
+   "kept_ranges": [
+    [
+     0,
+     266
+    ]
+   ],
+   "kept_frames": 266,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 558,
+   "recording": "20261103164150",
+   "recording_number": 611,
+   "frames": 8838,
+   "kept_ranges": [
+    [
+     0,
+     4508
+    ],
+    [
+     4593,
+     8838
+    ]
+   ],
+   "kept_frames": 8753,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 559,
+   "recording": "20261103164726",
+   "recording_number": 612,
+   "frames": 4659,
+   "kept_ranges": [
+    [
+     0,
+     805
+    ],
+    [
+     860,
+     4659
+    ]
+   ],
+   "kept_frames": 4604,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 560,
+   "recording": "20261103165024",
+   "recording_number": 613,
+   "frames": 4469,
+   "kept_ranges": [
+    [
+     0,
+     4469
+    ]
+   ],
+   "kept_frames": 4469,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 561,
+   "recording": "intervention_20261103165711",
+   "recording_number": 614,
+   "frames": 222,
+   "kept_ranges": [
+    [
+     0,
+     222
+    ]
+   ],
+   "kept_frames": 222,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 562,
+   "recording": "intervention_20261103165819",
+   "recording_number": 615,
+   "frames": 165,
+   "kept_ranges": [
+    [
+     0,
+     47
+    ],
+    [
+     88,
+     165
+    ]
+   ],
+   "kept_frames": 124,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 563,
+   "recording": "intervention_20261103170000",
+   "recording_number": 616,
+   "frames": 138,
+   "kept_ranges": [
+    [
+     0,
+     138
+    ]
+   ],
+   "kept_frames": 138,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 564,
+   "recording": "intervention_20261103170027",
+   "recording_number": 617,
+   "frames": 115,
+   "kept_ranges": [
+    [
+     0,
+     115
+    ]
+   ],
+   "kept_frames": 115,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 565,
+   "recording": "intervention_20261103170135",
+   "recording_number": 618,
+   "frames": 219,
+   "kept_ranges": [
+    [
+     0,
+     56
+    ],
+    [
+     142,
+     219
+    ]
+   ],
+   "kept_frames": 133,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 566,
+   "recording": "intervention_20261103170205",
+   "recording_number": 619,
+   "frames": 305,
+   "kept_ranges": [
+    [
+     0,
+     305
+    ]
+   ],
+   "kept_frames": 305,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 567,
+   "recording": "intervention_20261103170253",
+   "recording_number": 620,
+   "frames": 144,
+   "kept_ranges": [
+    [
+     0,
+     144
+    ]
+   ],
+   "kept_frames": 144,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 568,
+   "recording": "intervention_20261103170430",
+   "recording_number": 621,
+   "frames": 369,
+   "kept_ranges": [
+    [
+     0,
+     369
+    ]
+   ],
+   "kept_frames": 369,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 569,
+   "recording": "intervention_20261103170503",
+   "recording_number": 622,
+   "frames": 148,
+   "kept_ranges": [
+    [
+     0,
+     148
+    ]
+   ],
+   "kept_frames": 148,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 570,
+   "recording": "intervention_20261103170541",
+   "recording_number": 623,
+   "frames": 114,
+   "kept_ranges": [
+    [
+     0,
+     114
+    ]
+   ],
+   "kept_frames": 114,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 571,
+   "recording": "intervention_20261103170632",
+   "recording_number": 624,
+   "frames": 158,
+   "kept_ranges": [
+    [
+     0,
+     158
+    ]
+   ],
+   "kept_frames": 158,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 572,
+   "recording": "intervention_20261103170719",
+   "recording_number": 625,
+   "frames": 652,
+   "kept_ranges": [
+    [
+     0,
+     652
+    ]
+   ],
+   "kept_frames": 652,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 573,
+   "recording": "intervention_20261103170822",
+   "recording_number": 626,
+   "frames": 177,
+   "kept_ranges": [
+    [
+     0,
+     177
+    ]
+   ],
+   "kept_frames": 177,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 574,
+   "recording": "intervention_20261103170908",
+   "recording_number": 627,
+   "frames": 244,
+   "kept_ranges": [
+    [
+     0,
+     244
+    ]
+   ],
+   "kept_frames": 244,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 575,
+   "recording": "intervention_20261103170930",
+   "recording_number": 628,
+   "frames": 173,
+   "kept_ranges": [
+    [
+     0,
+     173
+    ]
+   ],
+   "kept_frames": 173,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 576,
+   "recording": "intervention_20261103170945",
+   "recording_number": 629,
+   "frames": 122,
+   "kept_ranges": [
+    [
+     0,
+     122
+    ]
+   ],
+   "kept_frames": 122,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 577,
+   "recording": "intervention_20261103171011",
+   "recording_number": 630,
+   "frames": 370,
+   "kept_ranges": [
+    [
+     0,
+     370
+    ]
+   ],
+   "kept_frames": 370,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 578,
+   "recording": "intervention_20261103171050",
+   "recording_number": 631,
+   "frames": 278,
+   "kept_ranges": [
+    [
+     0,
+     278
+    ]
+   ],
+   "kept_frames": 278,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 579,
+   "recording": "intervention_20261103171122",
+   "recording_number": 632,
+   "frames": 258,
+   "kept_ranges": [
+    [
+     0,
+     141
+    ],
+    [
+     185,
+     258
+    ]
+   ],
+   "kept_frames": 214,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 580,
+   "recording": "intervention_20261103171208",
+   "recording_number": 633,
+   "frames": 180,
+   "kept_ranges": [
+    [
+     0,
+     180
+    ]
+   ],
+   "kept_frames": 180,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 581,
+   "recording": "intervention_20261103171233",
+   "recording_number": 634,
+   "frames": 120,
+   "kept_ranges": [
+    [
+     0,
+     120
+    ]
+   ],
+   "kept_frames": 120,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 582,
+   "recording": "intervention_20261103171320",
+   "recording_number": 635,
+   "frames": 154,
+   "kept_ranges": [
+    [
+     0,
+     154
+    ]
+   ],
+   "kept_frames": 154,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 583,
+   "recording": "intervention_20261103171630",
+   "recording_number": 636,
+   "frames": 89,
+   "kept_ranges": [
+    [
+     0,
+     89
+    ]
+   ],
+   "kept_frames": 89,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 584,
+   "recording": "intervention_20261103171747",
+   "recording_number": 637,
+   "frames": 150,
+   "kept_ranges": [
+    [
+     0,
+     150
+    ]
+   ],
+   "kept_frames": 150,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 585,
+   "recording": "intervention_20261103171948",
+   "recording_number": 638,
+   "frames": 376,
+   "kept_ranges": [
+    [
+     0,
+     376
+    ]
+   ],
+   "kept_frames": 376,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 586,
+   "recording": "intervention_20261103172254",
+   "recording_number": 639,
+   "frames": 250,
+   "kept_ranges": [
+    [
+     0,
+     250
+    ]
+   ],
+   "kept_frames": 250,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 587,
+   "recording": "intervention_20261103172355",
+   "recording_number": 640,
+   "frames": 274,
+   "kept_ranges": [
+    [
+     0,
+     274
+    ]
+   ],
+   "kept_frames": 274,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 588,
+   "recording": "intervention_20261103172429",
+   "recording_number": 641,
+   "frames": 312,
+   "kept_ranges": [
+    [
+     0,
+     312
+    ]
+   ],
+   "kept_frames": 312,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 589,
+   "recording": "intervention_20261103172516",
+   "recording_number": 642,
+   "frames": 269,
+   "kept_ranges": [
+    [
+     0,
+     269
+    ]
+   ],
+   "kept_frames": 269,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 590,
+   "recording": "intervention_20261103172638",
+   "recording_number": 643,
+   "frames": 365,
+   "kept_ranges": [
+    [
+     0,
+     365
+    ]
+   ],
+   "kept_frames": 365,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 3
+  },
+  {
+   "index": 591,
+   "recording": "intervention_20261103172721",
+   "recording_number": 644,
+   "frames": 184,
+   "kept_ranges": [
+    [
+     0,
+     184
+    ]
+   ],
+   "kept_frames": 184,
+   "cut": "automatic",
+   "is_correction": true,
+   "repeats": 2
+  },
+  {
+   "index": 592,
+   "recording": "20261103173051",
+   "recording_number": 645,
+   "frames": 100,
+   "kept_ranges": [
+    [
+     0,
+     100
+    ]
+   ],
+   "kept_frames": 100,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 593,
+   "recording": "20261103173103",
+   "recording_number": 646,
+   "frames": 137,
+   "kept_ranges": [
+    [
+     0,
+     137
+    ]
+   ],
+   "kept_frames": 137,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 594,
+   "recording": "20261103173118",
+   "recording_number": 647,
+   "frames": 79,
+   "kept_ranges": [
+    [
+     0,
+     79
+    ]
+   ],
+   "kept_frames": 79,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 595,
+   "recording": "20261103173132",
+   "recording_number": 648,
+   "frames": 106,
+   "kept_ranges": [
+    [
+     0,
+     106
+    ]
+   ],
+   "kept_frames": 106,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 596,
+   "recording": "20261103173154",
+   "recording_number": 649,
+   "frames": 107,
+   "kept_ranges": [
+    [
+     0,
+     107
+    ]
+   ],
+   "kept_frames": 107,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 597,
+   "recording": "20261103173207",
+   "recording_number": 650,
+   "frames": 134,
+   "kept_ranges": [
+    [
+     0,
+     134
+    ]
+   ],
+   "kept_frames": 134,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 598,
+   "recording": "20261103173219",
+   "recording_number": 651,
+   "frames": 105,
+   "kept_ranges": [
+    [
+     0,
+     105
+    ]
+   ],
+   "kept_frames": 105,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 599,
+   "recording": "20261103173635",
+   "recording_number": 652,
+   "frames": 101,
+   "kept_ranges": [
+    [
+     0,
+     101
+    ]
+   ],
+   "kept_frames": 101,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 600,
+   "recording": "20261103173648",
+   "recording_number": 653,
+   "frames": 128,
+   "kept_ranges": [
+    [
+     0,
+     128
+    ]
+   ],
+   "kept_frames": 128,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 601,
+   "recording": "20261103173657",
+   "recording_number": 654,
+   "frames": 150,
+   "kept_ranges": [
+    [
+     0,
+     150
+    ]
+   ],
+   "kept_frames": 150,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 602,
+   "recording": "20261103173712",
+   "recording_number": 655,
+   "frames": 159,
+   "kept_ranges": [
+    [
+     0,
+     159
+    ]
+   ],
+   "kept_frames": 159,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 603,
+   "recording": "20261103173734",
+   "recording_number": 656,
+   "frames": 89,
+   "kept_ranges": [
+    [
+     0,
+     89
+    ]
+   ],
+   "kept_frames": 89,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 604,
+   "recording": "20261103173801",
+   "recording_number": 657,
+   "frames": 85,
+   "kept_ranges": [
+    [
+     0,
+     85
+    ]
+   ],
+   "kept_frames": 85,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 605,
+   "recording": "20261103173812",
+   "recording_number": 658,
+   "frames": 107,
+   "kept_ranges": [
+    [
+     0,
+     107
+    ]
+   ],
+   "kept_frames": 107,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 606,
+   "recording": "20261103173852",
+   "recording_number": 659,
+   "frames": 67,
+   "kept_ranges": [
+    [
+     0,
+     67
+    ]
+   ],
+   "kept_frames": 67,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 607,
+   "recording": "20261103173907",
+   "recording_number": 660,
+   "frames": 70,
+   "kept_ranges": [
+    [
+     0,
+     70
+    ]
+   ],
+   "kept_frames": 70,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 608,
+   "recording": "20261103173935",
+   "recording_number": 661,
+   "frames": 100,
+   "kept_ranges": [
+    [
+     0,
+     100
+    ]
+   ],
+   "kept_frames": 100,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 609,
+   "recording": "20261103173951",
+   "recording_number": 662,
+   "frames": 96,
+   "kept_ranges": [
+    [
+     0,
+     96
+    ]
+   ],
+   "kept_frames": 96,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 610,
+   "recording": "20261103174022",
+   "recording_number": 663,
+   "frames": 90,
+   "kept_ranges": [
+    [
+     0,
+     90
+    ]
+   ],
+   "kept_frames": 90,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 611,
+   "recording": "20261103174042",
+   "recording_number": 664,
+   "frames": 188,
+   "kept_ranges": [
+    [
+     0,
+     188
+    ]
+   ],
+   "kept_frames": 188,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 612,
+   "recording": "20261103174107",
+   "recording_number": 665,
+   "frames": 442,
+   "kept_ranges": [
+    [
+     0,
+     386
+    ]
+   ],
+   "kept_frames": 386,
+   "cut": "manual",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 613,
+   "recording": "20261103174326",
+   "recording_number": 666,
+   "frames": 142,
+   "kept_ranges": [
+    [
+     0,
+     142
+    ]
+   ],
+   "kept_frames": 142,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 614,
+   "recording": "20261103174342",
+   "recording_number": 667,
+   "frames": 119,
+   "kept_ranges": [
+    [
+     0,
+     119
+    ]
+   ],
+   "kept_frames": 119,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 615,
+   "recording": "20261103174400",
+   "recording_number": 668,
+   "frames": 128,
+   "kept_ranges": [
+    [
+     0,
+     128
+    ]
+   ],
+   "kept_frames": 128,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 616,
+   "recording": "20261103174417",
+   "recording_number": 669,
+   "frames": 113,
+   "kept_ranges": [
+    [
+     0,
+     113
+    ]
+   ],
+   "kept_frames": 113,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 617,
+   "recording": "20261103174440",
+   "recording_number": 670,
+   "frames": 96,
+   "kept_ranges": [
+    [
+     0,
+     96
+    ]
+   ],
+   "kept_frames": 96,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 618,
+   "recording": "20261103174513",
+   "recording_number": 671,
+   "frames": 111,
+   "kept_ranges": [
+    [
+     0,
+     111
+    ]
+   ],
+   "kept_frames": 111,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 619,
+   "recording": "20261103174538",
+   "recording_number": 672,
+   "frames": 117,
+   "kept_ranges": [
+    [
+     0,
+     117
+    ]
+   ],
+   "kept_frames": 117,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 620,
+   "recording": "20261103174554",
+   "recording_number": 673,
+   "frames": 84,
+   "kept_ranges": [
+    [
+     0,
+     84
+    ]
+   ],
+   "kept_frames": 84,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 621,
+   "recording": "20261103174634",
+   "recording_number": 674,
+   "frames": 255,
+   "kept_ranges": [
+    [
+     0,
+     255
+    ]
+   ],
+   "kept_frames": 255,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 622,
+   "recording": "20261103174651",
+   "recording_number": 675,
+   "frames": 109,
+   "kept_ranges": [
+    [
+     0,
+     109
+    ]
+   ],
+   "kept_frames": 109,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 623,
+   "recording": "20261103174702",
+   "recording_number": 676,
+   "frames": 403,
+   "kept_ranges": [
+    [
+     0,
+     403
+    ]
+   ],
+   "kept_frames": 403,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 624,
+   "recording": "20261103174725",
+   "recording_number": 677,
+   "frames": 1779,
+   "kept_ranges": [
+    [
+     0,
+     1779
+    ]
+   ],
+   "kept_frames": 1779,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 625,
+   "recording": "20261103174852",
+   "recording_number": 678,
+   "frames": 99,
+   "kept_ranges": [
+    [
+     0,
+     99
+    ]
+   ],
+   "kept_frames": 99,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 626,
+   "recording": "20261103174858",
+   "recording_number": 679,
+   "frames": 88,
+   "kept_ranges": [
+    [
+     0,
+     88
+    ]
+   ],
+   "kept_frames": 88,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 627,
+   "recording": "20261103174905",
+   "recording_number": 680,
+   "frames": 136,
+   "kept_ranges": [
+    [
+     0,
+     136
+    ]
+   ],
+   "kept_frames": 136,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 628,
+   "recording": "20261103174938",
+   "recording_number": 681,
+   "frames": 157,
+   "kept_ranges": [
+    [
+     0,
+     157
+    ]
+   ],
+   "kept_frames": 157,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 629,
+   "recording": "20261103175000",
+   "recording_number": 682,
+   "frames": 227,
+   "kept_ranges": [
+    [
+     0,
+     227
+    ]
+   ],
+   "kept_frames": 227,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 630,
+   "recording": "20261103175028",
+   "recording_number": 683,
+   "frames": 135,
+   "kept_ranges": [
+    [
+     0,
+     135
+    ]
+   ],
+   "kept_frames": 135,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 631,
+   "recording": "20261103175105",
+   "recording_number": 684,
+   "frames": 4445,
+   "kept_ranges": [
+    [
+     0,
+     4445
+    ]
+   ],
+   "kept_frames": 4445,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  },
+  {
+   "index": 632,
+   "recording": "20261103175337",
+   "recording_number": 685,
+   "frames": 658,
+   "kept_ranges": [
+    [
+     166,
+     658
+    ]
+   ],
+   "kept_frames": 492,
+   "cut": "automatic",
+   "is_correction": false,
+   "repeats": 1
+  }
+ ]
+}

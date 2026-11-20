@@ -1,0 +1,6559 @@
+{
+"note": "The 633 episodes both reference runs trained on, in dataset order: recording, kept [start, end) frames and how often it is drawn per epoch. From dobot_xtrainer datasets/lerobot/ANTON_X_BOCCONI_clean4/meta/episode_sources.json (built 2026-11-03) and the repeat groups of cloud job 20261115-173938 (= the __dup files of XR-1 run _20261106_1827).",
+"episodes": [
+{
+"recording": "correction_20261029215806",
+"kept_ranges": [
+[
+0,
+186
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029215816",
+"kept_ranges": [
+[
+0,
+98
+]
+],
+"repeats": 2
+},
+{
+"recording": "correction_20261029215823",
+"kept_ranges": [
+[
+0,
+192
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029215834",
+"kept_ranges": [
+[
+0,
+119
+]
+],
+"repeats": 2
+},
+{
+"recording": "correction_20261029215921",
+"kept_ranges": [
+[
+0,
+142
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029215929",
+"kept_ranges": [
+[
+0,
+109
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029215939",
+"kept_ranges": [
+[
+0,
+134
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029215948",
+"kept_ranges": [
+[
+0,
+132
+]
+],
+"repeats": 2
+},
+{
+"recording": "correction_20261029215959",
+"kept_ranges": [
+[
+0,
+114
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220012",
+"kept_ranges": [
+[
+0,
+105
+]
+],
+"repeats": 2
+},
+{
+"recording": "correction_20261029220021",
+"kept_ranges": [
+[
+0,
+187
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220031",
+"kept_ranges": [
+[
+0,
+74
+]
+],
+"repeats": 2
+},
+{
+"recording": "correction_20261029220036",
+"kept_ranges": [
+[
+0,
+84
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220043",
+"kept_ranges": [
+[
+0,
+112
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220054",
+"kept_ranges": [
+[
+0,
+111
+],
+[
+138,
+200
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220111",
+"kept_ranges": [
+[
+0,
+163
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220123",
+"kept_ranges": [
+[
+0,
+150
+],
+[
+154,
+185
+],
+[
+195,
+295
+]
+],
+"repeats": 2
+},
+{
+"recording": "correction_20261029220321",
+"kept_ranges": [
+[
+0,
+74
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220325",
+"kept_ranges": [
+[
+0,
+58
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220329",
+"kept_ranges": [
+[
+0,
+52
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220332",
+"kept_ranges": [
+[
+0,
+54
+]
+],
+"repeats": 2
+},
+{
+"recording": "correction_20261029220344",
+"kept_ranges": [
+[
+0,
+46
+]
+],
+"repeats": 2
+},
+{
+"recording": "correction_20261029220346",
+"kept_ranges": [
+[
+0,
+50
+]
+],
+"repeats": 2
+},
+{
+"recording": "correction_20261029220350",
+"kept_ranges": [
+[
+0,
+65
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220355",
+"kept_ranges": [
+[
+0,
+71
+]
+],
+"repeats": 2
+},
+{
+"recording": "correction_20261029220400",
+"kept_ranges": [
+[
+0,
+80
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220407",
+"kept_ranges": [
+[
+0,
+52
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220411",
+"kept_ranges": [
+[
+0,
+50
+],
+[
+58,
+74
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220416",
+"kept_ranges": [
+[
+0,
+74
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220421",
+"kept_ranges": [
+[
+0,
+83
+]
+],
+"repeats": 2
+},
+{
+"recording": "correction_20261029220426",
+"kept_ranges": [
+[
+0,
+62
+]
+],
+"repeats": 2
+},
+{
+"recording": "correction_20261029220430",
+"kept_ranges": [
+[
+0,
+62
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220435",
+"kept_ranges": [
+[
+0,
+83
+]
+],
+"repeats": 2
+},
+{
+"recording": "correction_20261029220445",
+"kept_ranges": [
+[
+0,
+91
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220449",
+"kept_ranges": [
+[
+0,
+71
+]
+],
+"repeats": 2
+},
+{
+"recording": "correction_20261029220453",
+"kept_ranges": [
+[
+0,
+64
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220456",
+"kept_ranges": [
+[
+0,
+76
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220501",
+"kept_ranges": [
+[
+0,
+60
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220519",
+"kept_ranges": [
+[
+0,
+90
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220524",
+"kept_ranges": [
+[
+0,
+52
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220529",
+"kept_ranges": [
+[
+0,
+78
+]
+],
+"repeats": 2
+},
+{
+"recording": "correction_20261029220533",
+"kept_ranges": [
+[
+0,
+58
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220539",
+"kept_ranges": [
+[
+0,
+70
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220543",
+"kept_ranges": [
+[
+0,
+72
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220548",
+"kept_ranges": [
+[
+0,
+50
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220553",
+"kept_ranges": [
+[
+0,
+51
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220556",
+"kept_ranges": [
+[
+0,
+56
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220600",
+"kept_ranges": [
+[
+0,
+80
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220605",
+"kept_ranges": [
+[
+0,
+72
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220609",
+"kept_ranges": [
+[
+0,
+59
+]
+],
+"repeats": 2
+},
+{
+"recording": "correction_20261029220613",
+"kept_ranges": [
+[
+0,
+57
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220623",
+"kept_ranges": [
+[
+0,
+90
+]
+],
+"repeats": 2
+},
+{
+"recording": "correction_20261029220629",
+"kept_ranges": [
+[
+0,
+66
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220634",
+"kept_ranges": [
+[
+0,
+103
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220639",
+"kept_ranges": [
+[
+0,
+69
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220644",
+"kept_ranges": [
+[
+0,
+78
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220648",
+"kept_ranges": [
+[
+0,
+63
+]
+],
+"repeats": 2
+},
+{
+"recording": "correction_20261029220700",
+"kept_ranges": [
+[
+0,
+181
+]
+],
+"repeats": 2
+},
+{
+"recording": "correction_20261029220714",
+"kept_ranges": [
+[
+0,
+95
+]
+],
+"repeats": 2
+},
+{
+"recording": "correction_20261029220719",
+"kept_ranges": [
+[
+0,
+55
+]
+],
+"repeats": 2
+},
+{
+"recording": "correction_20261029220722",
+"kept_ranges": [
+[
+0,
+183
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220730",
+"kept_ranges": [
+[
+0,
+103
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220737",
+"kept_ranges": [
+[
+0,
+65
+]
+],
+"repeats": 2
+},
+{
+"recording": "correction_20261029220741",
+"kept_ranges": [
+[
+0,
+171
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220752",
+"kept_ranges": [
+[
+0,
+152
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220758",
+"kept_ranges": [
+[
+0,
+134
+]
+],
+"repeats": 3
+},
+{
+"recording": "correction_20261029220807",
+"kept_ranges": [
+[
+0,
+68
+]
+],
+"repeats": 2
+},
+{
+"recording": "20261030120015",
+"kept_ranges": [
+[
+0,
+516
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030120034",
+"kept_ranges": [
+[
+0,
+577
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030120055",
+"kept_ranges": [
+[
+0,
+519
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030120114",
+"kept_ranges": [
+[
+0,
+486
+],
+[
+490,
+579
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030120214",
+"kept_ranges": [
+[
+0,
+533
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030120233",
+"kept_ranges": [
+[
+0,
+571
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030120254",
+"kept_ranges": [
+[
+0,
+666
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030120327",
+"kept_ranges": [
+[
+0,
+601
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030120358",
+"kept_ranges": [
+[
+0,
+471
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030120415",
+"kept_ranges": [
+[
+0,
+560
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030120436",
+"kept_ranges": [
+[
+0,
+423
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030120719",
+"kept_ranges": [
+[
+0,
+483
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030120736",
+"kept_ranges": [
+[
+0,
+572
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030120757",
+"kept_ranges": [
+[
+0,
+452
+],
+[
+467,
+534
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030120818",
+"kept_ranges": [
+[
+0,
+582
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030120904",
+"kept_ranges": [
+[
+0,
+558
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121002",
+"kept_ranges": [
+[
+0,
+522
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121022",
+"kept_ranges": [
+[
+0,
+121
+],
+[
+124,
+154
+],
+[
+177,
+640
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121046",
+"kept_ranges": [
+[
+0,
+573
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121107",
+"kept_ranges": [
+[
+0,
+134
+],
+[
+158,
+544
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121128",
+"kept_ranges": [
+[
+0,
+716
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121154",
+"kept_ranges": [
+[
+0,
+344
+],
+[
+359,
+671
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121218",
+"kept_ranges": [
+[
+0,
+613
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121240",
+"kept_ranges": [
+[
+0,
+619
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121311",
+"kept_ranges": [
+[
+0,
+382
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121326",
+"kept_ranges": [
+[
+0,
+505
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121349",
+"kept_ranges": [
+[
+0,
+140
+],
+[
+163,
+495
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121410",
+"kept_ranges": [
+[
+0,
+499
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121432",
+"kept_ranges": [
+[
+0,
+170
+],
+[
+174,
+651
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121457",
+"kept_ranges": [
+[
+0,
+506
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121518",
+"kept_ranges": [
+[
+0,
+713
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121543",
+"kept_ranges": [
+[
+0,
+565
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121620",
+"kept_ranges": [
+[
+0,
+473
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121638",
+"kept_ranges": [
+[
+0,
+461
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121654",
+"kept_ranges": [
+[
+0,
+527
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121714",
+"kept_ranges": [
+[
+0,
+226
+],
+[
+258,
+690
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121739",
+"kept_ranges": [
+[
+0,
+564
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121759",
+"kept_ranges": [
+[
+0,
+523
+],
+[
+536,
+599
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121821",
+"kept_ranges": [
+[
+0,
+558
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121842",
+"kept_ranges": [
+[
+0,
+574
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121921",
+"kept_ranges": [
+[
+0,
+106
+],
+[
+119,
+435
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121938",
+"kept_ranges": [
+[
+0,
+479
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030121956",
+"kept_ranges": [
+[
+0,
+492
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030122014",
+"kept_ranges": [
+[
+0,
+412
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030122030",
+"kept_ranges": [
+[
+0,
+250
+],
+[
+255,
+515
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030122050",
+"kept_ranges": [
+[
+0,
+328
+],
+[
+337,
+522
+],
+[
+527,
+601
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030122135",
+"kept_ranges": [
+[
+0,
+383
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030122150",
+"kept_ranges": [
+[
+0,
+146
+],
+[
+161,
+558
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030122435",
+"kept_ranges": [
+[
+0,
+456
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030122452",
+"kept_ranges": [
+[
+0,
+518
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030122510",
+"kept_ranges": [
+[
+0,
+490
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030122528",
+"kept_ranges": [
+[
+0,
+523
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030122612",
+"kept_ranges": [
+[
+0,
+578
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030122633",
+"kept_ranges": [
+[
+0,
+523
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030122652",
+"kept_ranges": [
+[
+0,
+493
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030122720",
+"kept_ranges": [
+[
+0,
+518
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030122747",
+"kept_ranges": [
+[
+0,
+500
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030122806",
+"kept_ranges": [
+[
+0,
+394
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030122821",
+"kept_ranges": [
+[
+0,
+408
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030122836",
+"kept_ranges": [
+[
+0,
+424
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030122852",
+"kept_ranges": [
+[
+0,
+453
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030122908",
+"kept_ranges": [
+[
+0,
+345
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030122958",
+"kept_ranges": [
+[
+0,
+314
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030123010",
+"kept_ranges": [
+[
+0,
+375
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030123043",
+"kept_ranges": [
+[
+0,
+432
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030123058",
+"kept_ranges": [
+[
+0,
+379
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030123114",
+"kept_ranges": [
+[
+0,
+447
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030123130",
+"kept_ranges": [
+[
+0,
+352
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030123143",
+"kept_ranges": [
+[
+0,
+367
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030123236",
+"kept_ranges": [
+[
+0,
+387
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030123250",
+"kept_ranges": [
+[
+0,
+436
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030123319",
+"kept_ranges": [
+[
+0,
+488
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030123338",
+"kept_ranges": [
+[
+0,
+407
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030123353",
+"kept_ranges": [
+[
+0,
+464
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030123410",
+"kept_ranges": [
+[
+0,
+361
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030123514",
+"kept_ranges": [
+[
+0,
+441
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030123530",
+"kept_ranges": [
+[
+0,
+470
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030123611",
+"kept_ranges": [
+[
+0,
+397
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030123628",
+"kept_ranges": [
+[
+0,
+470
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030123733",
+"kept_ranges": [
+[
+0,
+525
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030123752",
+"kept_ranges": [
+[
+0,
+544
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030123812",
+"kept_ranges": [
+[
+0,
+480
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030123831",
+"kept_ranges": [
+[
+0,
+489
+],
+[
+493,
+582
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030123852",
+"kept_ranges": [
+[
+0,
+561
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030123913",
+"kept_ranges": [
+[
+0,
+151
+],
+[
+156,
+533
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030123951",
+"kept_ranges": [
+[
+0,
+390
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030124005",
+"kept_ranges": [
+[
+0,
+426
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030124021",
+"kept_ranges": [
+[
+0,
+607
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030124043",
+"kept_ranges": [
+[
+0,
+464
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030124100",
+"kept_ranges": [
+[
+0,
+400
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030124114",
+"kept_ranges": [
+[
+0,
+374
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030124129",
+"kept_ranges": [
+[
+0,
+502
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030124147",
+"kept_ranges": [
+[
+0,
+495
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030124217",
+"kept_ranges": [
+[
+0,
+426
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030124233",
+"kept_ranges": [
+[
+0,
+424
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030124248",
+"kept_ranges": [
+[
+0,
+479
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030124305",
+"kept_ranges": [
+[
+0,
+371
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030124319",
+"kept_ranges": [
+[
+0,
+420
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030124334",
+"kept_ranges": [
+[
+0,
+468
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030124351",
+"kept_ranges": [
+[
+0,
+486
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030124408",
+"kept_ranges": [
+[
+0,
+440
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030124605",
+"kept_ranges": [
+[
+0,
+449
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030124624",
+"kept_ranges": [
+[
+0,
+501
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030124644",
+"kept_ranges": [
+[
+0,
+495
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030124704",
+"kept_ranges": [
+[
+0,
+558
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030124735",
+"kept_ranges": [
+[
+0,
+624
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030124758",
+"kept_ranges": [
+[
+0,
+571
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030130419",
+"kept_ranges": [
+[
+0,
+554
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030130443",
+"kept_ranges": [
+[
+0,
+216
+],
+[
+224,
+237
+],
+[
+251,
+759
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030130523",
+"kept_ranges": [
+[
+0,
+454
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030130539",
+"kept_ranges": [
+[
+0,
+422
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030130555",
+"kept_ranges": [
+[
+0,
+475
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030130613",
+"kept_ranges": [
+[
+0,
+426
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030130629",
+"kept_ranges": [
+[
+0,
+503
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030130650",
+"kept_ranges": [
+[
+0,
+442
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030130707",
+"kept_ranges": [
+[
+0,
+420
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030130724",
+"kept_ranges": [
+[
+0,
+536
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030130753",
+"kept_ranges": [
+[
+0,
+480
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030130811",
+"kept_ranges": [
+[
+0,
+440
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030130827",
+"kept_ranges": [
+[
+0,
+511
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030131043",
+"kept_ranges": [
+[
+0,
+462
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030145739",
+"kept_ranges": [
+[
+0,
+514
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030145758",
+"kept_ranges": [
+[
+0,
+374
+],
+[
+377,
+484
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030145816",
+"kept_ranges": [
+[
+0,
+498
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030145834",
+"kept_ranges": [
+[
+0,
+530
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030145853",
+"kept_ranges": [
+[
+0,
+554
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030145913",
+"kept_ranges": [
+[
+0,
+422
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030145929",
+"kept_ranges": [
+[
+0,
+502
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030145947",
+"kept_ranges": [
+[
+0,
+638
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030150026",
+"kept_ranges": [
+[
+0,
+554
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030150048",
+"kept_ranges": [
+[
+0,
+480
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030150107",
+"kept_ranges": [
+[
+0,
+568
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030150128",
+"kept_ranges": [
+[
+0,
+529
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030150147",
+"kept_ranges": [
+[
+0,
+637
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030150210",
+"kept_ranges": [
+[
+0,
+522
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030150230",
+"kept_ranges": [
+[
+0,
+606
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030150252",
+"kept_ranges": [
+[
+0,
+580
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030150330",
+"kept_ranges": [
+[
+0,
+437
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030150346",
+"kept_ranges": [
+[
+0,
+138
+],
+[
+169,
+511
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030150425",
+"kept_ranges": [
+[
+0,
+502
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030150444",
+"kept_ranges": [
+[
+0,
+532
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030150504",
+"kept_ranges": [
+[
+0,
+615
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030150526",
+"kept_ranges": [
+[
+0,
+530
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030150546",
+"kept_ranges": [
+[
+0,
+553
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030150640",
+"kept_ranges": [
+[
+0,
+291
+],
+[
+294,
+535
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030150720",
+"kept_ranges": [
+[
+0,
+393
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030150735",
+"kept_ranges": [
+[
+0,
+455
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030150754",
+"kept_ranges": [
+[
+0,
+518
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030150815",
+"kept_ranges": [
+[
+0,
+601
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030150839",
+"kept_ranges": [
+[
+0,
+668
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030150906",
+"kept_ranges": [
+[
+0,
+141
+],
+[
+146,
+577
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030150929",
+"kept_ranges": [
+[
+0,
+654
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030150957",
+"kept_ranges": [
+[
+0,
+246
+],
+[
+251,
+713
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030151118",
+"kept_ranges": [
+[
+0,
+454
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030151135",
+"kept_ranges": [
+[
+0,
+122
+],
+[
+160,
+306
+],
+[
+313,
+507
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030151157",
+"kept_ranges": [
+[
+0,
+475
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030151214",
+"kept_ranges": [
+[
+0,
+377
+],
+[
+382,
+459
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030151231",
+"kept_ranges": [
+[
+0,
+507
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030151250",
+"kept_ranges": [
+[
+0,
+457
+],
+[
+463,
+555
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030151311",
+"kept_ranges": [
+[
+0,
+528
+],
+[
+541,
+641
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030151336",
+"kept_ranges": [
+[
+0,
+554
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030151411",
+"kept_ranges": [
+[
+0,
+420
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030151427",
+"kept_ranges": [
+[
+0,
+538
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030151448",
+"kept_ranges": [
+[
+0,
+602
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030151511",
+"kept_ranges": [
+[
+0,
+512
+],
+[
+523,
+595
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030151535",
+"kept_ranges": [
+[
+0,
+548
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030151557",
+"kept_ranges": [
+[
+0,
+493
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030151614",
+"kept_ranges": [
+[
+0,
+514
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261030151633",
+"kept_ranges": [
+[
+0,
+531
+]
+],
+"repeats": 1
+},
+{
+"recording": "intervention_20261030153926",
+"kept_ranges": [
+[
+25,
+248
+],
+[
+364,
+461
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030154251",
+"kept_ranges": [
+[
+15,
+270
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030154538",
+"kept_ranges": [
+[
+10,
+101
+],
+[
+112,
+229
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030155300",
+"kept_ranges": [
+[
+10,
+279
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030155444",
+"kept_ranges": [
+[
+0,
+213
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030155531",
+"kept_ranges": [
+[
+0,
+204
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030155821",
+"kept_ranges": [
+[
+0,
+162
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030155838",
+"kept_ranges": [
+[
+11,
+223
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030155917",
+"kept_ranges": [
+[
+9,
+253
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030155951",
+"kept_ranges": [
+[
+0,
+292
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030160025",
+"kept_ranges": [
+[
+0,
+635
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030160059",
+"kept_ranges": [
+[
+0,
+147
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030160152",
+"kept_ranges": [
+[
+10,
+691
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030160250",
+"kept_ranges": [
+[
+0,
+208
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030160326",
+"kept_ranges": [
+[
+0,
+517
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030160447",
+"kept_ranges": [
+[
+0,
+173
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030160509",
+"kept_ranges": [
+[
+0,
+346
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030160618",
+"kept_ranges": [
+[
+0,
+298
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030160641",
+"kept_ranges": [
+[
+0,
+236
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030160707",
+"kept_ranges": [
+[
+13,
+214
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030160734",
+"kept_ranges": [
+[
+0,
+408
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030160829",
+"kept_ranges": [
+[
+0,
+302
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030160855",
+"kept_ranges": [
+[
+10,
+349
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030160929",
+"kept_ranges": [
+[
+0,
+160
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030161015",
+"kept_ranges": [
+[
+0,
+128
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030161031",
+"kept_ranges": [
+[
+4,
+902
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030161116",
+"kept_ranges": [
+[
+0,
+277
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030163520",
+"kept_ranges": [
+[
+11,
+210
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030163541",
+"kept_ranges": [
+[
+11,
+243
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030163606",
+"kept_ranges": [
+[
+14,
+310
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030163641",
+"kept_ranges": [
+[
+0,
+200
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030163707",
+"kept_ranges": [
+[
+0,
+251
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030163733",
+"kept_ranges": [
+[
+0,
+233
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030163815",
+"kept_ranges": [
+[
+0,
+200
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030164038",
+"kept_ranges": [
+[
+0,
+248
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030164104",
+"kept_ranges": [
+[
+20,
+371
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030164134",
+"kept_ranges": [
+[
+12,
+139
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030164206",
+"kept_ranges": [
+[
+12,
+196
+],
+[
+250,
+295
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030164237",
+"kept_ranges": [
+[
+0,
+208
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030164300",
+"kept_ranges": [
+[
+0,
+164
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030164330",
+"kept_ranges": [
+[
+0,
+271
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030164350",
+"kept_ranges": [
+[
+0,
+265
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030164413",
+"kept_ranges": [
+[
+0,
+270
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030165119",
+"kept_ranges": [
+[
+0,
+216
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030165158",
+"kept_ranges": [
+[
+0,
+183
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030165226",
+"kept_ranges": [
+[
+0,
+246
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030165245",
+"kept_ranges": [
+[
+0,
+178
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030165311",
+"kept_ranges": [
+[
+0,
+139
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030165333",
+"kept_ranges": [
+[
+0,
+319
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030165354",
+"kept_ranges": [
+[
+0,
+139
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030165415",
+"kept_ranges": [
+[
+0,
+161
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030165447",
+"kept_ranges": [
+[
+0,
+187
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030170345",
+"kept_ranges": [
+[
+0,
+114
+],
+[
+121,
+188
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030170409",
+"kept_ranges": [
+[
+0,
+263
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030170429",
+"kept_ranges": [
+[
+0,
+183
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030170457",
+"kept_ranges": [
+[
+11,
+136
+],
+[
+174,
+238
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030170621",
+"kept_ranges": [
+[
+0,
+124
+],
+[
+144,
+233
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030170647",
+"kept_ranges": [
+[
+0,
+195
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030170707",
+"kept_ranges": [
+[
+0,
+186
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030170731",
+"kept_ranges": [
+[
+9,
+79
+],
+[
+83,
+147
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030170754",
+"kept_ranges": [
+[
+0,
+233
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030170817",
+"kept_ranges": [
+[
+0,
+228
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030170848",
+"kept_ranges": [
+[
+0,
+90
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030170910",
+"kept_ranges": [
+[
+0,
+203
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030170943",
+"kept_ranges": [
+[
+0,
+283
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030171020",
+"kept_ranges": [
+[
+0,
+178
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030171052",
+"kept_ranges": [
+[
+0,
+169
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030171119",
+"kept_ranges": [
+[
+0,
+255
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030171153",
+"kept_ranges": [
+[
+0,
+223
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030171315",
+"kept_ranges": [
+[
+0,
+240
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030171341",
+"kept_ranges": [
+[
+13,
+243
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030171414",
+"kept_ranges": [
+[
+0,
+198
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030171437",
+"kept_ranges": [
+[
+0,
+268
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030171502",
+"kept_ranges": [
+[
+0,
+307
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030171613",
+"kept_ranges": [
+[
+0,
+127
+],
+[
+135,
+293
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030171654",
+"kept_ranges": [
+[
+0,
+277
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030171719",
+"kept_ranges": [
+[
+0,
+222
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030171739",
+"kept_ranges": [
+[
+0,
+343
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030171759",
+"kept_ranges": [
+[
+0,
+159
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030171834",
+"kept_ranges": [
+[
+0,
+352
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030171919",
+"kept_ranges": [
+[
+10,
+151
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030171938",
+"kept_ranges": [
+[
+0,
+269
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030172000",
+"kept_ranges": [
+[
+21,
+104
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030172038",
+"kept_ranges": [
+[
+0,
+105
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030172103",
+"kept_ranges": [
+[
+0,
+77
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030172116",
+"kept_ranges": [
+[
+0,
+205
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030172233",
+"kept_ranges": [
+[
+0,
+194
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030172339",
+"kept_ranges": [
+[
+0,
+92
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030172355",
+"kept_ranges": [
+[
+0,
+244
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030172424",
+"kept_ranges": [
+[
+0,
+259
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030172506",
+"kept_ranges": [
+[
+0,
+250
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030180126",
+"kept_ranges": [
+[
+0,
+208
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030180146",
+"kept_ranges": [
+[
+0,
+266
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030180212",
+"kept_ranges": [
+[
+0,
+195
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030180235",
+"kept_ranges": [
+[
+0,
+145
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030180530",
+"kept_ranges": [
+[
+0,
+200
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030180550",
+"kept_ranges": [
+[
+0,
+226
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030180610",
+"kept_ranges": [
+[
+0,
+142
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030180634",
+"kept_ranges": [
+[
+0,
+199
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030180658",
+"kept_ranges": [
+[
+0,
+276
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030180718",
+"kept_ranges": [
+[
+0,
+173
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030180749",
+"kept_ranges": [
+[
+0,
+242
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030180808",
+"kept_ranges": [
+[
+0,
+294
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030180830",
+"kept_ranges": [
+[
+0,
+187
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030180858",
+"kept_ranges": [
+[
+0,
+169
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030180913",
+"kept_ranges": [
+[
+0,
+289
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030180937",
+"kept_ranges": [
+[
+0,
+197
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030181007",
+"kept_ranges": [
+[
+0,
+254
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030181023",
+"kept_ranges": [
+[
+0,
+311
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030181116",
+"kept_ranges": [
+[
+0,
+292
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030181154",
+"kept_ranges": [
+[
+0,
+150
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030181218",
+"kept_ranges": [
+[
+0,
+210
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030181236",
+"kept_ranges": [
+[
+0,
+235
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030181308",
+"kept_ranges": [
+[
+0,
+168
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030181331",
+"kept_ranges": [
+[
+0,
+178
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030181347",
+"kept_ranges": [
+[
+0,
+200
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030181409",
+"kept_ranges": [
+[
+0,
+220
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030181435",
+"kept_ranges": [
+[
+0,
+146
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030181452",
+"kept_ranges": [
+[
+0,
+224
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030181514",
+"kept_ranges": [
+[
+0,
+209
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030181542",
+"kept_ranges": [
+[
+0,
+186
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030181602",
+"kept_ranges": [
+[
+0,
+267
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030181622",
+"kept_ranges": [
+[
+0,
+138
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030181707",
+"kept_ranges": [
+[
+0,
+198
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030181736",
+"kept_ranges": [
+[
+0,
+234
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030183256",
+"kept_ranges": [
+[
+0,
+251
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030183705",
+"kept_ranges": [
+[
+0,
+124
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030183721",
+"kept_ranges": [
+[
+0,
+250
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030183739",
+"kept_ranges": [
+[
+0,
+165
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030183801",
+"kept_ranges": [
+[
+0,
+168
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030183839",
+"kept_ranges": [
+[
+0,
+206
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030183926",
+"kept_ranges": [
+[
+0,
+171
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030183941",
+"kept_ranges": [
+[
+0,
+221
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030183959",
+"kept_ranges": [
+[
+0,
+195
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030184018",
+"kept_ranges": [
+[
+0,
+156
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030184033",
+"kept_ranges": [
+[
+0,
+249
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030184052",
+"kept_ranges": [
+[
+0,
+217
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030184109",
+"kept_ranges": [
+[
+0,
+177
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030184125",
+"kept_ranges": [
+[
+0,
+321
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030184145",
+"kept_ranges": [
+[
+0,
+173
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030184210",
+"kept_ranges": [
+[
+0,
+150
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030184222",
+"kept_ranges": [
+[
+0,
+298
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030184303",
+"kept_ranges": [
+[
+0,
+157
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030184316",
+"kept_ranges": [
+[
+0,
+215
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030184341",
+"kept_ranges": [
+[
+0,
+231
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030184458",
+"kept_ranges": [
+[
+0,
+258
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030184533",
+"kept_ranges": [
+[
+0,
+196
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030184548",
+"kept_ranges": [
+[
+0,
+193
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030184609",
+"kept_ranges": [
+[
+0,
+170
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030184624",
+"kept_ranges": [
+[
+0,
+218
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030184646",
+"kept_ranges": [
+[
+0,
+204
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030184705",
+"kept_ranges": [
+[
+0,
+198
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030184720",
+"kept_ranges": [
+[
+0,
+196
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030184739",
+"kept_ranges": [
+[
+0,
+146
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030184802",
+"kept_ranges": [
+[
+0,
+251
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030184832",
+"kept_ranges": [
+[
+0,
+209
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030184847",
+"kept_ranges": [
+[
+0,
+225
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030184912",
+"kept_ranges": [
+[
+0,
+270
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261030184959",
+"kept_ranges": [
+[
+0,
+242
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030185730",
+"kept_ranges": [
+[
+0,
+129
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261030185956",
+"kept_ranges": [
+[
+0,
+234
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031124853",
+"kept_ranges": [
+[
+10,
+88
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031125008",
+"kept_ranges": [
+[
+0,
+82
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031125027",
+"kept_ranges": [
+[
+0,
+86
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031125133",
+"kept_ranges": [
+[
+0,
+153
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031130354",
+"kept_ranges": [
+[
+0,
+149
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031130854",
+"kept_ranges": [
+[
+0,
+56
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031131114",
+"kept_ranges": [
+[
+0,
+140
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031131624",
+"kept_ranges": [
+[
+0,
+108
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031131922",
+"kept_ranges": [
+[
+0,
+128
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031132043",
+"kept_ranges": [
+[
+0,
+82
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031133212",
+"kept_ranges": [
+[
+0,
+136
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031144018",
+"kept_ranges": [
+[
+0,
+69
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031144218",
+"kept_ranges": [
+[
+0,
+105
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031152101",
+"kept_ranges": [
+[
+0,
+82
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031152132",
+"kept_ranges": [
+[
+0,
+118
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031152155",
+"kept_ranges": [
+[
+0,
+126
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031152346",
+"kept_ranges": [
+[
+0,
+71
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031152404",
+"kept_ranges": [
+[
+0,
+178
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031154113",
+"kept_ranges": [
+[
+0,
+83
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031154210",
+"kept_ranges": [
+[
+0,
+111
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031154436",
+"kept_ranges": [
+[
+0,
+111
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031154456",
+"kept_ranges": [
+[
+0,
+149
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031154515",
+"kept_ranges": [
+[
+0,
+294
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031154555",
+"kept_ranges": [
+[
+0,
+75
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031154613",
+"kept_ranges": [
+[
+0,
+524
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031154648",
+"kept_ranges": [
+[
+0,
+119
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031154702",
+"kept_ranges": [
+[
+0,
+302
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031154721",
+"kept_ranges": [
+[
+0,
+166
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031154747",
+"kept_ranges": [
+[
+0,
+174
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031154802",
+"kept_ranges": [
+[
+12,
+101
+],
+[
+120,
+172
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031154832",
+"kept_ranges": [
+[
+0,
+667
+]
+],
+"repeats": 2
+},
+{
+"recording": "20261031164507",
+"kept_ranges": [
+[
+2059,
+2504
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261031164910",
+"kept_ranges": [
+[
+0,
+1563
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261031165018",
+"kept_ranges": [
+[
+0,
+1086
+],
+[
+1612,
+3556
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261031165231",
+"kept_ranges": [
+[
+0,
+3598
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261031165448",
+"kept_ranges": [
+[
+1793,
+3684
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261031165700",
+"kept_ranges": [
+[
+0,
+3767
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261031165916",
+"kept_ranges": [
+[
+0,
+3810
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261031170140",
+"kept_ranges": [
+[
+0,
+4120
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261031170411",
+"kept_ranges": [
+[
+0,
+3789
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261031170628",
+"kept_ranges": [
+[
+0,
+1479
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261031170949",
+"kept_ranges": [
+[
+0,
+2258
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261031171116",
+"kept_ranges": [
+[
+1752,
+3853
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261031171341",
+"kept_ranges": [
+[
+0,
+4231
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261031171613",
+"kept_ranges": [
+[
+0,
+4122
+]
+],
+"repeats": 1
+},
+{
+"recording": "intervention_20261031172122",
+"kept_ranges": [
+[
+0,
+67
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031172824",
+"kept_ranges": [
+[
+0,
+62
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031172847",
+"kept_ranges": [
+[
+0,
+84
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031172913",
+"kept_ranges": [
+[
+0,
+258
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031172958",
+"kept_ranges": [
+[
+0,
+195
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031173024",
+"kept_ranges": [
+[
+0,
+82
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031173042",
+"kept_ranges": [
+[
+0,
+211
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031173111",
+"kept_ranges": [
+[
+0,
+130
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031173125",
+"kept_ranges": [
+[
+0,
+161
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031173208",
+"kept_ranges": [
+[
+0,
+141
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031173225",
+"kept_ranges": [
+[
+0,
+338
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031173650",
+"kept_ranges": [
+[
+0,
+187
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031173749",
+"kept_ranges": [
+[
+0,
+590
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031173834",
+"kept_ranges": [
+[
+0,
+124
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031173925",
+"kept_ranges": [
+[
+0,
+55
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031173941",
+"kept_ranges": [
+[
+0,
+131
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031174115",
+"kept_ranges": [
+[
+0,
+138
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031174216",
+"kept_ranges": [
+[
+0,
+100
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031174307",
+"kept_ranges": [
+[
+0,
+125
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031174325",
+"kept_ranges": [
+[
+0,
+238
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031174432",
+"kept_ranges": [
+[
+300,
+449
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031174550",
+"kept_ranges": [
+[
+0,
+102
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031174634",
+"kept_ranges": [
+[
+0,
+531
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031174700",
+"kept_ranges": [
+[
+0,
+115
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031174739",
+"kept_ranges": [
+[
+0,
+425
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031174824",
+"kept_ranges": [
+[
+0,
+85
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031174848",
+"kept_ranges": [
+[
+0,
+166
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031174910",
+"kept_ranges": [
+[
+0,
+315
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031174933",
+"kept_ranges": [
+[
+0,
+166
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031174950",
+"kept_ranges": [
+[
+0,
+102
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031175014",
+"kept_ranges": [
+[
+0,
+144
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031175033",
+"kept_ranges": [
+[
+0,
+186
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031175211",
+"kept_ranges": [
+[
+0,
+62
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031175221",
+"kept_ranges": [
+[
+0,
+215
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031175412",
+"kept_ranges": [
+[
+0,
+61
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031175420",
+"kept_ranges": [
+[
+0,
+109
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031175459",
+"kept_ranges": [
+[
+0,
+100
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031175515",
+"kept_ranges": [
+[
+0,
+128
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031175528",
+"kept_ranges": [
+[
+0,
+538
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031175633",
+"kept_ranges": [
+[
+0,
+92
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031175642",
+"kept_ranges": [
+[
+0,
+132
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031175943",
+"kept_ranges": [
+[
+0,
+153
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031175955",
+"kept_ranges": [
+[
+0,
+67
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031180029",
+"kept_ranges": [
+[
+0,
+78
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031180038",
+"kept_ranges": [
+[
+0,
+96
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031180056",
+"kept_ranges": [
+[
+0,
+244
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031180155",
+"kept_ranges": [
+[
+0,
+456
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031180227",
+"kept_ranges": [
+[
+0,
+153
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031180240",
+"kept_ranges": [
+[
+0,
+215
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031180313",
+"kept_ranges": [
+[
+0,
+200
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031180333",
+"kept_ranges": [
+[
+0,
+292
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031180356",
+"kept_ranges": [
+[
+0,
+183
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031180411",
+"kept_ranges": [
+[
+0,
+159
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031180432",
+"kept_ranges": [
+[
+0,
+273
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031180452",
+"kept_ranges": [
+[
+0,
+91
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031180506",
+"kept_ranges": [
+[
+0,
+106
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031180524",
+"kept_ranges": [
+[
+0,
+34
+],
+[
+73,
+254
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031180542",
+"kept_ranges": [
+[
+0,
+56
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031180616",
+"kept_ranges": [
+[
+0,
+84
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031180648",
+"kept_ranges": [
+[
+0,
+83
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031180704",
+"kept_ranges": [
+[
+0,
+426
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031180731",
+"kept_ranges": [
+[
+0,
+82
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261031180743",
+"kept_ranges": [
+[
+0,
+60
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261031180754",
+"kept_ranges": [
+[
+0,
+232
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261102132235",
+"kept_ranges": [
+[
+0,
+490
+],
+[
+548,
+658
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261102132431",
+"kept_ranges": [
+[
+0,
+683
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261102132621",
+"kept_ranges": [
+[
+0,
+789
+],
+[
+825,
+939
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261102132704",
+"kept_ranges": [
+[
+0,
+684
+]
+],
+"repeats": 3
+},
+{
+"recording": "20261102133331",
+"kept_ranges": [
+[
+0,
+973
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261102133454",
+"kept_ranges": [
+[
+0,
+905
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261102133557",
+"kept_ranges": [
+[
+0,
+850
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261102133657",
+"kept_ranges": [
+[
+0,
+868
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261102133754",
+"kept_ranges": [
+[
+0,
+930
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261102133845",
+"kept_ranges": [
+[
+0,
+892
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261102134038",
+"kept_ranges": [
+[
+0,
+64
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261102134631",
+"kept_ranges": [
+[
+0,
+83
+]
+],
+"repeats": 1
+},
+{
+"recording": "intervention_20261102142406",
+"kept_ranges": [
+[
+0,
+738
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261102143307",
+"kept_ranges": [
+[
+0,
+875
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261102143439",
+"kept_ranges": [
+[
+0,
+173
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261102143611",
+"kept_ranges": [
+[
+0,
+692
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261102143738",
+"kept_ranges": [
+[
+0,
+171
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261102143852",
+"kept_ranges": [
+[
+0,
+41
+],
+[
+77,
+810
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261102144417",
+"kept_ranges": [
+[
+0,
+467
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261102144526",
+"kept_ranges": [
+[
+0,
+136
+],
+[
+175,
+287
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261102144637",
+"kept_ranges": [
+[
+0,
+109
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261102144705",
+"kept_ranges": [
+[
+0,
+216
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261102145105",
+"kept_ranges": [
+[
+0,
+59
+],
+[
+92,
+510
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261102145148",
+"kept_ranges": [
+[
+0,
+160
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261102145356",
+"kept_ranges": [
+[
+0,
+203
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261102145559",
+"kept_ranges": [
+[
+0,
+359
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261102145653",
+"kept_ranges": [
+[
+0,
+670
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261102145856",
+"kept_ranges": [
+[
+0,
+100
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261102145958",
+"kept_ranges": [
+[
+0,
+169
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261102150103",
+"kept_ranges": [
+[
+0,
+170
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261102150217",
+"kept_ranges": [
+[
+0,
+154
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261102150317",
+"kept_ranges": [
+[
+0,
+165
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261102150500",
+"kept_ranges": [
+[
+0,
+168
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261102153119",
+"kept_ranges": [
+[
+0,
+240
+]
+],
+"repeats": 3
+},
+{
+"recording": "20261102170440",
+"kept_ranges": [
+[
+0,
+531
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261102170513",
+"kept_ranges": [
+[
+0,
+81
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261102170534",
+"kept_ranges": [
+[
+0,
+731
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261102170627",
+"kept_ranges": [
+[
+0,
+815
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261102170933",
+"kept_ranges": [
+[
+0,
+1630
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103160856",
+"kept_ranges": [
+[
+0,
+3618
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103161710",
+"kept_ranges": [
+[
+0,
+4382
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103161949",
+"kept_ranges": [
+[
+0,
+30
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103162008",
+"kept_ranges": [
+[
+0,
+3460
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103162245",
+"kept_ranges": [
+[
+0,
+672
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103162407",
+"kept_ranges": [
+[
+0,
+4258
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103162642",
+"kept_ranges": [
+[
+0,
+4393
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103162928",
+"kept_ranges": [
+[
+0,
+2398
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103163103",
+"kept_ranges": [
+[
+0,
+2672
+],
+[
+2707,
+2823
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103163331",
+"kept_ranges": [
+[
+0,
+117
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103163348",
+"kept_ranges": [
+[
+0,
+4442
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103163618",
+"kept_ranges": [
+[
+118,
+4933
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103163953",
+"kept_ranges": [
+[
+0,
+266
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103164150",
+"kept_ranges": [
+[
+0,
+4508
+],
+[
+4593,
+8838
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103164726",
+"kept_ranges": [
+[
+0,
+805
+],
+[
+860,
+4659
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103165024",
+"kept_ranges": [
+[
+0,
+4469
+]
+],
+"repeats": 1
+},
+{
+"recording": "intervention_20261103165711",
+"kept_ranges": [
+[
+0,
+222
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261103165819",
+"kept_ranges": [
+[
+0,
+47
+],
+[
+88,
+165
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261103170000",
+"kept_ranges": [
+[
+0,
+138
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261103170027",
+"kept_ranges": [
+[
+0,
+115
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261103170135",
+"kept_ranges": [
+[
+0,
+56
+],
+[
+142,
+219
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261103170205",
+"kept_ranges": [
+[
+0,
+305
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261103170253",
+"kept_ranges": [
+[
+0,
+144
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261103170430",
+"kept_ranges": [
+[
+0,
+369
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261103170503",
+"kept_ranges": [
+[
+0,
+148
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261103170541",
+"kept_ranges": [
+[
+0,
+114
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261103170632",
+"kept_ranges": [
+[
+0,
+158
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261103170719",
+"kept_ranges": [
+[
+0,
+652
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261103170822",
+"kept_ranges": [
+[
+0,
+177
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261103170908",
+"kept_ranges": [
+[
+0,
+244
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261103170930",
+"kept_ranges": [
+[
+0,
+173
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261103170945",
+"kept_ranges": [
+[
+0,
+122
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261103171011",
+"kept_ranges": [
+[
+0,
+370
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261103171050",
+"kept_ranges": [
+[
+0,
+278
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261103171122",
+"kept_ranges": [
+[
+0,
+141
+],
+[
+185,
+258
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261103171208",
+"kept_ranges": [
+[
+0,
+180
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261103171233",
+"kept_ranges": [
+[
+0,
+120
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261103171320",
+"kept_ranges": [
+[
+0,
+154
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261103171630",
+"kept_ranges": [
+[
+0,
+89
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261103171747",
+"kept_ranges": [
+[
+0,
+150
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261103171948",
+"kept_ranges": [
+[
+0,
+376
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261103172254",
+"kept_ranges": [
+[
+0,
+250
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261103172355",
+"kept_ranges": [
+[
+0,
+274
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261103172429",
+"kept_ranges": [
+[
+0,
+312
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261103172516",
+"kept_ranges": [
+[
+0,
+269
+]
+],
+"repeats": 2
+},
+{
+"recording": "intervention_20261103172638",
+"kept_ranges": [
+[
+0,
+365
+]
+],
+"repeats": 3
+},
+{
+"recording": "intervention_20261103172721",
+"kept_ranges": [
+[
+0,
+184
+]
+],
+"repeats": 2
+},
+{
+"recording": "20261103173051",
+"kept_ranges": [
+[
+0,
+100
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103173103",
+"kept_ranges": [
+[
+0,
+137
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103173118",
+"kept_ranges": [
+[
+0,
+79
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103173132",
+"kept_ranges": [
+[
+0,
+106
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103173154",
+"kept_ranges": [
+[
+0,
+107
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103173207",
+"kept_ranges": [
+[
+0,
+134
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103173219",
+"kept_ranges": [
+[
+0,
+105
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103173635",
+"kept_ranges": [
+[
+0,
+101
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103173648",
+"kept_ranges": [
+[
+0,
+128
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103173657",
+"kept_ranges": [
+[
+0,
+150
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103173712",
+"kept_ranges": [
+[
+0,
+159
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103173734",
+"kept_ranges": [
+[
+0,
+89
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103173801",
+"kept_ranges": [
+[
+0,
+85
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103173812",
+"kept_ranges": [
+[
+0,
+107
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103173852",
+"kept_ranges": [
+[
+0,
+67
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103173907",
+"kept_ranges": [
+[
+0,
+70
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103173935",
+"kept_ranges": [
+[
+0,
+100
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103173951",
+"kept_ranges": [
+[
+0,
+96
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103174022",
+"kept_ranges": [
+[
+0,
+90
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103174042",
+"kept_ranges": [
+[
+0,
+188
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103174107",
+"kept_ranges": [
+[
+0,
+386
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103174326",
+"kept_ranges": [
+[
+0,
+142
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103174342",
+"kept_ranges": [
+[
+0,
+119
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103174400",
+"kept_ranges": [
+[
+0,
+128
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103174417",
+"kept_ranges": [
+[
+0,
+113
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103174440",
+"kept_ranges": [
+[
+0,
+96
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103174513",
+"kept_ranges": [
+[
+0,
+111
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103174538",
+"kept_ranges": [
+[
+0,
+117
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103174554",
+"kept_ranges": [
+[
+0,
+84
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103174634",
+"kept_ranges": [
+[
+0,
+255
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103174651",
+"kept_ranges": [
+[
+0,
+109
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103174702",
+"kept_ranges": [
+[
+0,
+403
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103174725",
+"kept_ranges": [
+[
+0,
+1779
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103174852",
+"kept_ranges": [
+[
+0,
+99
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103174858",
+"kept_ranges": [
+[
+0,
+88
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103174905",
+"kept_ranges": [
+[
+0,
+136
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103174938",
+"kept_ranges": [
+[
+0,
+157
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103175000",
+"kept_ranges": [
+[
+0,
+227
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103175028",
+"kept_ranges": [
+[
+0,
+135
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103175105",
+"kept_ranges": [
+[
+0,
+4445
+]
+],
+"repeats": 1
+},
+{
+"recording": "20261103175337",
+"kept_ranges": [
+[
+166,
+658
+]
+],
+"repeats": 1
+}
+]
+}
