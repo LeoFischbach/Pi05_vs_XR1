@@ -20,21 +20,45 @@ def read_json(path):
     return json.loads(path.read_text())
 
 
-def check_video(path, expected_frames, fps):
+def video_command_output(command, path):
     result = subprocess.run(
-        ["ffprobe", "-v", "error", "-select_streams", "v:0", "-count_frames",
-         "-show_entries", "stream=width,height,r_frame_rate,nb_read_frames", "-of", "json", str(path)],
-        check=True, capture_output=True, text=True,
+        command, capture_output=True, text=True,
     )
-    stream = json.loads(result.stdout)["streams"][0]
+    if result.returncode:
+        tool = shutil.which(command[0]) or command[0]
+        raise SystemExit(
+            f"Video check failed: {path}\nTool: {tool}\n"
+            f"{result.stderr.strip() or 'The video could not be read.'}\n"
+            "Check that the file is fully downloaded and FFmpeg supports its codec "
+            "(AV1 for pi0.5, H.264 for XR-1)."
+        )
+    return result.stdout
+
+
+def check_video(path, expected_frames, fps):
+    metadata = video_command_output(
+        ["ffprobe", "-v", "error", "-select_streams", "v:0",
+         "-show_entries", "stream=width,height,r_frame_rate", "-of", "json", str(path)], path,
+    )
+    streams = json.loads(metadata).get("streams", [])
+    if not streams:
+        raise SystemExit(f"No readable video stream: {path}")
+    stream = streams[0]
     numerator, denominator = map(int, stream["r_frame_rate"].split("/"))
     assert (stream["width"], stream["height"]) == (480, 480), path
-    assert int(stream["nb_read_frames"]) == expected_frames, path
     assert numerator / denominator == fps, path
-    subprocess.run(
-        ["ffmpeg", "-v", "error", "-xerror", "-i", str(path), "-f", "null", "-"],
-        check=True, capture_output=True,
+
+    # Count decoded frames directly: ffprobe may omit nb_read_frames on some installations.
+    # -vsync 0 preserves each decoded frame without adding or dropping frames.
+    progress = video_command_output(
+        ["ffmpeg", "-v", "error", "-xerror", "-nostdin", "-i", str(path),
+         "-map", "0:v:0", "-an", "-vsync", "0", "-progress", "pipe:1", "-nostats", "-f", "null", "-"], path,
     )
+    counts = [int(line.split("=", 1)[1]) for line in progress.splitlines() if line.startswith("frame=")]
+    if not counts:
+        raise SystemExit(f"FFmpeg returned no decoded frame count: {path}")
+    if counts[-1] != expected_frames:
+        raise SystemExit(f"Frame count mismatch: {path}\nExpected {expected_frames}, decoded {counts[-1]}.")
 
 
 def main():

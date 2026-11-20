@@ -9,7 +9,10 @@ python3 _validation/smoke_test.py
 ```
 
 This read-only check validates source syntax, the supplied episode metadata, XR-1 annotations,
-and sample video decoding. XR-1's workstation video paths are resolved against the downloaded
+and sample video decoding. Frames are counted during FFmpeg decoding, without relying on
+ffprobe's optional `nb_read_frames` field. Decoder failures include the tool path and its error
+message; the FFmpeg installation needs AV1 (pi0.5) and H.264 (XR-1) support.
+XR-1's workstation video paths are resolved against the downloaded
 sample folder for this check only. It does not load a model, use the model data loaders,
 rebuild raw recordings, or execute an optimisation step.
 
