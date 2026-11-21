@@ -79,7 +79,7 @@ SMOKE_TEST=1 NUM_GPUS=4 PI05_DATALOADER_WORKERS=1 \
   "$PWD/outputs/sample_pi05_$(date +%Y%m%d_%H%M%S)"
 ```
 
-`SMOKE_TEST=1` sets four training steps and a batch size of 1 per GPU. The script saves the checkpoint in a new run folder under `outputs/`. Each run needs a new name; the timestamp provides one here.
+`SMOKE_TEST=1` sets four training steps and a batch size of 1 per GPU. It writes logs under `outputs/` but skips the full checkpoint to keep the smoke test within HPC storage quotas. Each run needs a new name; the timestamp provides one here.
 
 ### 4. Train XR-1 on the three sample episodes
 

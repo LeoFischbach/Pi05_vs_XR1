@@ -11,6 +11,7 @@ See train_pi05.sh for the training command and NOTICE.md for code attribution.
 
 import json
 import logging
+import os
 import sys
 from pathlib import Path
 
@@ -134,7 +135,10 @@ def main() -> None:
     keep_trainable_weights_in_float32(lerobot_train)
     if episodes_file:
         repeat_episodes_in_sampler(lerobot_train, episodes_file)
-    if save_steps:
+    if os.environ.get("SMOKE_TEST") == "1":
+        # A full checkpoint is much larger than the sample data and can exceed HPC home quotas.
+        lerobot_train.should_save_checkpoint = lambda step, save_freq, total_steps: False
+    elif save_steps:
         save_at_steps(lerobot_train, {int(s) for s in save_steps.split(",")})
     if degrees > 0 or translate > 0:
         jitter_fixed_cameras(lerobot_train, degrees, translate)
