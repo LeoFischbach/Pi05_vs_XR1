@@ -32,12 +32,12 @@ The commands in this section use the **included three episodes** and train each 
 ssh BOCCONI_ID@slogin.hpc.unibocconi.it
 git clone https://github.com/LeoFischbach/Pi05_vs_XR1.git "$HOME/Pi05_vs_XR1"
 cd "$HOME/Pi05_vs_XR1/model_training"
-srun --partition=stud --gres=gpu:4 --cpus-per-task=8 --mem=128G --time=04:00:00 --pty bash
+srun --partition=stud --gres=gpu:7g.80gb:1 --cpus-per-task=6 --mem=96G --time=04:00:00 --pty bash
 cd "$HOME/Pi05_vs_XR1/model_training"
 nvidia-smi
 ```
 
-`srun` requests a compute node with four GPUs; run training there, not on the login node. Skip `git clone` if you already have the repository. The Slurm resource request must fit the available Bocconi partition and your time limit.
+`srun` requests a compute node with one 80 GB MIG GPU for both smoke tests, matching the Pi05 run that completed on the Bocconi HPC. XR-1 ran out of memory when an untyped `gpu:1` request assigned a 40 GB MIG GPU. The GPU memory is selected by the Slurm request (`--gres=gpu:7g.80gb:1`), not by `NUM_GPUS=1` in the training commands. Run training on the compute node, not on the login node. Skip `git clone` if you already have the repository. The Slurm resource request must fit the available Bocconi partition and your time limit.
 
 ### 2. Install required programs and packages
 
@@ -73,7 +73,7 @@ python3 _validation/smoke_test.py
 
 ```bash
 mkdir -p outputs
-SMOKE_TEST=1 NUM_GPUS=4 PI05_DATALOADER_WORKERS=1 \
+SMOKE_TEST=1 NUM_GPUS=1 PI05_DATALOADER_WORKERS=1 \
   bash pi05/train_pi05.sh \
   "$PWD/_validation/pi05_dataset_3ep_rel" \
   "$PWD/outputs/sample_pi05_$(date +%Y%m%d_%H%M%S)"
@@ -107,13 +107,31 @@ PYTHONPATH="$HOME/Xiaomi-Robotics-1/xr1" \
   "$XR1_ENV/bin/python" xr1/compute_xr1_stats.py \
   --json-dir "$SAMPLE_DIR/json" \
   --out "$PWD/outputs/xr1/configs/data/sample_xr1.yaml"
-SMOKE_TEST=1 NUM_GPUS=4 XR1_ENV="$XR1_ENV" \
+SMOKE_TEST=1 NUM_GPUS=1 XR1_ENV="$XR1_ENV" \
   bash xr1/train_xr1.sh \
   "$PWD/outputs/xr1/configs" sample_xr1 \
   "$PWD/outputs/sample_xr1_$(date +%Y%m%d_%H%M%S)"
 ```
 
 The statistics file `sample_xr1.yaml` describes this specific copy of the dataset. XR-1 uses it during training; the checkpoint goes into the new run folder under `outputs/`. If you repeat these steps, give the statistics file a new name or reuse the existing file with the same dataset copy.
+
+### Submit the smoke tests to the Slurm queue
+
+After installing the environments and preparing the sample data above, you can submit either training command from the **login node** instead of running it in an interactive `srun` session. From `model_training/`:
+
+```bash
+SMOKE_TEST=1 PI05_DATALOADER_WORKERS=1 \
+  sbatch pi05/train_pi05.sbatch \
+  "$PWD/_validation/pi05_dataset_3ep_rel" \
+  "$PWD/outputs/sample_pi05_$(date +%Y%m%d_%H%M%S)"
+
+SMOKE_TEST=1 XR1_ENV="$HOME/xr1_env" \
+  sbatch xr1/train_xr1.sbatch \
+  "$PWD/outputs/xr1/configs" sample_xr1 \
+  "$PWD/outputs/sample_xr1_$(date +%Y%m%d_%H%M%S)"
+```
+
+Both `.sbatch` scripts request `--gres=gpu:7g.80gb:1`, so Slurm must allocate an 80 GB MIG GPU. They set `NUM_GPUS=1` for the training process. Slurm logs are written as `slurm-<job ID>.out` in `model_training/`. Submit XR-1 only after creating `outputs/xr1/configs/data/sample_xr1.yaml` and the matching sample dataset in the commands above.
 
 ### Full pipeline with raw recordings
 
