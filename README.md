@@ -24,7 +24,7 @@ The full **raw recordings and model weights are not in the Git repository**. The
 
 ## Pi05 and XR-1 sample training on the Bocconi HPC
 
-The commands in this section use the **included three episodes** and train each model for **four steps**. This checks that the training pipeline runs; it does not reproduce the models in the report. Unless stated otherwise, run commands from `model_training/`. Replace `BOCCONI_ID` in the first command with your HPC username. Downloads and training require access to Hugging Face.
+The commands in this section use the **included three episodes** for four-step smoke tests; they do not reproduce the models in the report. The Pi05 smoke test completed on Bocconi. The XR-1 smoke test has not completed there: the latest one-GPU attempt failed at the first optimizer step. Unless stated otherwise, run commands from `model_training/`. Replace `BOCCONI_ID` in the first command with your HPC username. Downloads and training require access to Hugging Face.
 
 ### 1. Log in and open a GPU session
 
@@ -37,7 +37,7 @@ cd "$HOME/Pi05_vs_XR1/model_training"
 nvidia-smi
 ```
 
-`srun` requests a compute node with one 80 GB MIG GPU for both smoke tests, matching the Pi05 run that completed on the Bocconi HPC. XR-1 ran out of memory when an untyped `gpu:1` request assigned a 40 GB MIG GPU. The GPU memory is selected by the Slurm request (`--gres=gpu:7g.80gb:1`), not by `NUM_GPUS=1` in the training commands. Run training on the compute node, not on the login node. Skip `git clone` if you already have the repository. The Slurm resource request must fit the available Bocconi partition and your time limit.
+`srun` requests a compute node with one 80 GB MIG GPU for the Pi05 smoke test. The XR-1 full fine-tune also ran out of memory on one 80 GB MIG GPU with batch size 1 and no optimizer offload (Bocconi job 787898, 23 November 2026). Its first Adam step tried to allocate another 17.60 GiB with only 6.74 GiB free. The successful GCP run used four A100 80 GB GPUs with DeepSpeed ZeRO-2, which shards optimizer state and gradients across GPUs. Four GPUs are the validated configuration for that run; the minimum GPU count on Bocconi has not been tested. The GPU allocation comes from Slurm's `--gres` request, not `NUM_GPUS`. Run training on a compute node, not the login node. Skip `git clone` if you already have the repository. The Slurm request must fit the available partition and your time limit.
 
 ### 2. Install required programs and packages
 
@@ -107,31 +107,31 @@ PYTHONPATH="$HOME/Xiaomi-Robotics-1/xr1" \
   "$XR1_ENV/bin/python" xr1/compute_xr1_stats.py \
   --json-dir "$SAMPLE_DIR/json" \
   --out "$PWD/outputs/xr1/configs/data/sample_xr1.yaml"
-SMOKE_TEST=1 NUM_GPUS=1 XR1_ENV="$XR1_ENV" \
+```
+
+The statistics file `sample_xr1.yaml` describes this specific copy of the dataset. If you repeat these steps, give the statistics file a new name or reuse the existing file with the same dataset copy. To run XR-1 without optimizer offload, first obtain a compute-node allocation with four 80 GB GPUs, then run the following from `model_training/`. This matches the GPU count of the successful GCP run but has not yet been validated on Bocconi:
+
+```bash
+SMOKE_TEST=1 NUM_GPUS=4 XR1_ENV="$XR1_ENV" \
   bash xr1/train_xr1.sh \
   "$PWD/outputs/xr1/configs" sample_xr1 \
   "$PWD/outputs/sample_xr1_$(date +%Y%m%d_%H%M%S)"
 ```
 
-The statistics file `sample_xr1.yaml` describes this specific copy of the dataset. XR-1 uses it during training; the checkpoint goes into the new run folder under `outputs/`. If you repeat these steps, give the statistics file a new name or reuse the existing file with the same dataset copy.
+An alternative for a one-GPU smoke test is DeepSpeed optimizer offload to CPU RAM (`+trainer.strategy.params.offload_optimizer=true`), but that path has not been tested on Bocconi.
 
-### Submit the smoke tests to the Slurm queue
+### Submit the Pi05 smoke test to the Slurm queue
 
-After installing the environments and preparing the sample data above, you can submit either training command from the **login node** instead of running it in an interactive `srun` session. From `model_training/`:
+After installing the Pi05 environment, you can submit its smoke test from the **login node** instead of running it in an interactive `srun` session. From `model_training/`:
 
 ```bash
 SMOKE_TEST=1 PI05_DATALOADER_WORKERS=1 \
   sbatch pi05/train_pi05.sbatch \
   "$PWD/_validation/pi05_dataset_3ep_rel" \
   "$PWD/outputs/sample_pi05_$(date +%Y%m%d_%H%M%S)"
-
-SMOKE_TEST=1 XR1_ENV="$HOME/xr1_env" \
-  sbatch xr1/train_xr1.sbatch \
-  "$PWD/outputs/xr1/configs" sample_xr1 \
-  "$PWD/outputs/sample_xr1_$(date +%Y%m%d_%H%M%S)"
 ```
 
-Both `.sbatch` scripts request `--gres=gpu:7g.80gb:1`, so Slurm must allocate an 80 GB MIG GPU. They set `NUM_GPUS=1` for the training process. Slurm logs are written as `slurm-<job ID>.out` in `model_training/`. Submit XR-1 only after creating `outputs/xr1/configs/data/sample_xr1.yaml` and the matching sample dataset in the commands above.
+The Pi05 `.sbatch` script requests one 80 GB MIG GPU and sets `NUM_GPUS=1`. Its Slurm log is written as `slurm-<job ID>.out` in `model_training/`. The included `xr1/train_xr1.sbatch` also requests only one GPU and does not enable optimizer offload, so it is not suitable for the full XR-1 fine-tune described above.
 
 ### Full pipeline with raw recordings
 
@@ -144,3 +144,5 @@ bash run_overnight.sh xr1
 ```
 
 `run_overnight.sh` selects episodes, builds the dataset for each model, computes statistics, and trains. `bash run_overnight.sh both` runs both models one after the other; `--prepare-only` stops before training. Logs go to `outputs/logs/`. The pipeline reuses existing datasets and statistics files based on their paths. After changing data rules or raw recordings, choose a new `OUTPUT_DIR`.
+
+For XR-1, allocate multiple GPUs before starting the full pipeline. The GCP run used four A100 80 GB GPUs without optimizer offload; the one-GPU Bocconi smoke test did not fit in GPU memory.
